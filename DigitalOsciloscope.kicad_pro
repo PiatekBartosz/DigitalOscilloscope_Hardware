@@ -447,9 +447,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "+2v5"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "DigitalOsciloscope.kicad_pro",
