@@ -1099,12 +1099,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Relay_SPDT"
+		(symbol "Relay:G2RL-2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 11.43 3.81 0)
+				(at 16.51 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1112,8 +1112,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Relay_SPDT"
-				(at 11.43 1.27 0)
+			(property "Value" "G2RL-2"
+				(at 16.51 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1121,8 +1121,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 11.43 -1.27 0)
+			(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G2RL-2"
+				(at 16.51 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1131,7 +1131,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1140,7 +1140,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Relay SPDT, monostable, EN50005"
+			(property "Description" "General Purpose Low Profile Relay DPDT Through Hole, Omron G2RL series, 8A 250VAC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1149,7 +1149,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
+			(property "ki_keywords" "Dual Pole Relay Omron DPDT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1158,7 +1158,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPDT*"
+			(property "ki_fp_filters" "Relay?DPDT?Omron?G2RL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1167,24 +1167,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Relay_SPDT_0_0"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Relay_SPDT_0_1"
+			(symbol "G2RL-2_0_1"
 				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
+					(start -15.24 5.08)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1194,8 +1180,8 @@
 					)
 				)
 				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
+					(start -13.335 1.905)
+					(end -6.985 -1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1206,7 +1192,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
+						(xy -12.7 -1.905) (xy -7.62 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1218,7 +1204,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
+						(xy -10.16 5.08) (xy -10.16 1.905)
 					)
 					(stroke
 						(width 0)
@@ -1230,7 +1216,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
+						(xy -10.16 -5.08) (xy -10.16 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -1238,6 +1224,66 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -1258,6 +1304,30 @@
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1290,14 +1360,14 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -1314,7 +1384,67 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
+						(xy 4.445 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 8.255 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.255 3.81)
 					)
 					(stroke
 						(width 0.508)
@@ -1326,7 +1456,19 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
+						(xy 10.16 -2.54) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
 					)
 					(stroke
 						(width 0)
@@ -1337,9 +1479,9 @@
 					)
 				)
 			)
-			(symbol "Relay_SPDT_1_1"
+			(symbol "G2RL-2_1_1"
 				(pin passive line
-					(at -5.08 7.62 270)
+					(at -10.16 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1357,7 +1499,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 90)
+					(at -10.16 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1375,7 +1517,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 7.62 270)
+					(at -2.54 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1393,7 +1535,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 90)
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1411,7 +1553,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 270)
+					(at 2.54 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1421,6 +1563,60 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1829,16 +2025,6 @@
 		)
 		(uuid "7a7e500c-76cf-4535-bc90-2a7a78933178")
 	)
-	(text "AC / DC"
-		(exclude_from_sim no)
-		(at 162.814 130.048 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "800174a4-84af-4c76-b5ee-4c4683213cf2")
-	)
 	(text "FET buffer"
 		(exclude_from_sim no)
 		(at 193.802 137.668 0)
@@ -1901,13 +2087,23 @@
 	)
 	(text "AC / DC"
 		(exclude_from_sim no)
-		(at 161.544 62.738 0)
+		(at 160.782 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "fb913f60-52c0-423a-af49-2911d3c0aaae")
+	)
+	(text "EXT_TRIG"
+		(exclude_from_sim no)
+		(at 22.86 181.61 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "ff476889-3ad4-4f0d-90bc-294b553a50ef")
 	)
 	(junction
 		(at 242.57 25.4)
@@ -1922,16 +2118,16 @@
 		(uuid "046bbeaa-4217-4791-b2fb-35920954d8db")
 	)
 	(junction
+		(at 170.18 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0525c2ba-b72a-4d7d-8253-95aab23e3fb9")
+	)
+	(junction
 		(at 52.07 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17c518a0-6766-4f1a-85f1-72ba9524e8f8")
-	)
-	(junction
-		(at 151.13 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23c72d0b-eefc-48e4-bd6d-826e14b136e9")
 	)
 	(junction
 		(at 100.33 142.24)
@@ -1962,12 +2158,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "440f96be-5938-43d6-b5db-03a5b4b62037")
-	)
-	(junction
-		(at 170.18 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "479a1215-26ed-457c-b977-050858c62d8a")
 	)
 	(junction
 		(at 64.77 64.77)
@@ -2004,6 +2194,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6852a7cf-015b-4f39-a00c-8e4210cf802f")
+	)
+	(junction
+		(at 149.86 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ec12c0-4fde-4ce5-80ed-60beba120ea3")
 	)
 	(junction
 		(at 208.28 118.11)
@@ -2060,18 +2256,6 @@
 		(uuid "c61aaaa0-81c7-41b7-a3b9-abf5ed96873a")
 	)
 	(junction
-		(at 168.91 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc6f8eed-001d-449a-955f-9611737800a3")
-	)
-	(junction
-		(at 170.18 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d598c373-e048-4f79-a30b-49689fd15049")
-	)
-	(junction
 		(at 273.05 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2108,12 +2292,6 @@
 		(uuid "e49171eb-4d9f-421e-8c84-d85bb015844a")
 	)
 	(junction
-		(at 152.4 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e742fc25-2163-4b6e-9966-459b39717d9f")
-	)
-	(junction
 		(at 237.49 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2132,6 +2310,18 @@
 		(uuid "f436b655-2043-45ae-8b50-daa9b77043b5")
 	)
 	(junction
+		(at 170.18 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f555ae9e-2b1b-42bd-9c68-b47e5e8c1b41")
+	)
+	(junction
+		(at 149.86 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbb5e890-62d5-4336-aff0-8d4ca2d96b85")
+	)
+	(junction
 		(at 87.63 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2144,22 +2334,12 @@
 		(uuid "fd06f209-1a2d-4222-9d0c-2c171b491239")
 	)
 	(no_connect
-		(at 154.94 109.22)
-		(uuid "975c327f-ad40-4aae-bc3d-865998e216fa")
+		(at 152.4 80.01)
+		(uuid "1fa66897-526b-4dc2-9c27-d6e91a0ce96a")
 	)
 	(no_connect
-		(at 153.67 41.91)
-		(uuid "9df99ef2-8ee1-41e0-a6b3-be0ec39aa71b")
-	)
-	(wire
-		(pts
-			(xy 119.38 105.41) (xy 119.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01553f0e-ec45-4db4-8bb1-ea4e2590fbe6")
+		(at 152.4 90.17)
+		(uuid "90f87a3e-2c3c-44d0-bb62-33b4df395ed1")
 	)
 	(wire
 		(pts
@@ -2183,13 +2363,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 104.14) (xy 152.4 104.14)
+			(xy 149.86 121.92) (xy 156.21 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "041c8e05-2146-40c3-8256-df764cf549f5")
+		(uuid "04dbbfc0-0ee9-4744-af3d-51dd98a246ce")
+	)
+	(wire
+		(pts
+			(xy 71.12 97.79) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04dbd79d-97e9-4b8b-abb5-9f199609a1a9")
 	)
 	(wire
 		(pts
@@ -2203,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 43.18) (xy 72.39 48.26)
+			(xy 86.36 36.83) (xy 86.36 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2220,16 +2410,6 @@
 			(type default)
 		)
 		(uuid "0a681822-f547-4d4c-95b4-500a81d8e5d7")
-	)
-	(wire
-		(pts
-			(xy 119.38 101.6) (xy 137.16 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b957426-9a20-4e2e-a6b6-71438800dc36")
 	)
 	(wire
 		(pts
@@ -2303,6 +2483,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 97.79) (xy 85.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1406244c-c72f-41b0-97f6-8bd6b63387db")
+	)
+	(wire
+		(pts
 			(xy 252.73 71.12) (xy 248.92 71.12)
 		)
 		(stroke
@@ -2310,6 +2500,16 @@
 			(type default)
 		)
 		(uuid "14d283e0-0e9b-42ac-9060-a7f2e1cf135c")
+	)
+	(wire
+		(pts
+			(xy 83.82 20.32) (xy 83.82 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b11d06-dac7-44de-888b-3368983925f1")
 	)
 	(wire
 		(pts
@@ -2323,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 39.37) (xy 176.53 39.37)
+			(xy 170.18 39.37) (xy 176.53 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2353,6 +2553,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 87.63) (xy 170.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b914d89-3d5c-42e9-9895-e9e21ddf1d13")
+	)
+	(wire
+		(pts
 			(xy 53.34 152.4) (xy 53.34 156.21)
 		)
 		(stroke
@@ -2360,16 +2570,6 @@
 			(type default)
 		)
 		(uuid "1c00c398-0c2e-482b-8e6f-bc62fd500da3")
-	)
-	(wire
-		(pts
-			(xy 120.65 90.17) (xy 120.65 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c34bfb0-d67c-4cda-8458-efdaa1a7ccc6")
 	)
 	(wire
 		(pts
@@ -2400,16 +2600,6 @@
 			(type default)
 		)
 		(uuid "1da64da1-b0d0-4bac-ab0f-b398324e065d")
-	)
-	(wire
-		(pts
-			(xy 152.4 121.92) (xy 137.16 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219b19f0-59a4-4373-8412-2f85cfdc051b")
 	)
 	(wire
 		(pts
@@ -2453,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 54.61) (xy 157.48 54.61)
+			(xy 135.89 54.61) (xy 149.86 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 137.16 107.95)
+			(xy 137.16 97.79) (xy 137.16 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 111.76) (xy 170.18 111.76)
+			(xy 170.18 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2500,16 +2690,6 @@
 			(type default)
 		)
 		(uuid "27f89bea-c464-4513-9dc3-bd6c4dd0f576")
-	)
-	(wire
-		(pts
-			(xy 71.12 101.6) (xy 71.12 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3d0c98-92f8-4129-8cdb-19c6d1a343ac")
 	)
 	(wire
 		(pts
@@ -2530,16 +2710,6 @@
 			(type default)
 		)
 		(uuid "2e3c97f1-9de4-4d92-ba13-c21d318c3150")
-	)
-	(wire
-		(pts
-			(xy 69.85 24.13) (xy 69.85 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3eb0fb-a418-4e92-996f-2708ef649d8a")
 	)
 	(wire
 		(pts
@@ -2573,16 +2743,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 170.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37863cd5-24a0-40ed-9cf7-7f3ebe0937af")
-	)
-	(wire
-		(pts
 			(xy 237.49 62.23) (xy 237.49 71.12)
 		)
 		(stroke
@@ -2613,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 39.37) (xy 168.91 54.61)
+			(xy 170.18 39.37) (xy 170.18 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 121.92) (xy 170.18 121.92)
+			(xy 163.83 121.92) (xy 170.18 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2663,13 +2823,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 113.03) (xy 179.07 113.03)
+			(xy 93.98 20.32) (xy 135.89 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "412cc647-c63c-43b9-a56c-5f9ce3e66e87")
+		(uuid "424a6c91-4249-4ac2-9135-2abc883f997b")
 	)
 	(wire
 		(pts
@@ -2683,6 +2843,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 85.09) (xy 149.86 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e76757-a333-4b2b-b9b3-8f52a994c845")
+	)
+	(wire
+		(pts
 			(xy 234.95 44.45) (xy 245.11 44.45)
 		)
 		(stroke
@@ -2690,6 +2860,16 @@
 			(type default)
 		)
 		(uuid "448cf4f1-09cc-4e00-9009-6b5e4987b4a0")
+	)
+	(wire
+		(pts
+			(xy 91.44 43.18) (xy 115.57 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e025c0-291a-4511-9cbd-9953fd284118")
 	)
 	(wire
 		(pts
@@ -2703,6 +2883,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 36.83) (xy 91.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5a6caa-0e31-47ee-bf13-79a089e62258")
+	)
+	(wire
+		(pts
+			(xy 92.71 120.65) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd0c57a-8e1b-4625-8578-605a79a2ed86")
+	)
+	(wire
+		(pts
 			(xy 254 25.4) (xy 265.43 25.4)
 		)
 		(stroke
@@ -2710,16 +2910,6 @@
 			(type default)
 		)
 		(uuid "4fc346ba-bb29-4b94-8782-f14eaeeb5696")
-	)
-	(wire
-		(pts
-			(xy 163.83 39.37) (xy 168.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5126b255-2b58-440f-b412-ef5fcd094798")
 	)
 	(wire
 		(pts
@@ -2773,26 +2963,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 125.73) (xy 68.58 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57b2e25e-f3ed-4b1d-9ca8-7e7620d1bc86")
-	)
-	(wire
-		(pts
-			(xy 73.66 125.73) (xy 87.63 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e77d12-9416-41c1-90c1-27544fbbada3")
-	)
-	(wire
-		(pts
 			(xy 252.73 144.78) (xy 248.92 144.78)
 		)
 		(stroke
@@ -2810,16 +2980,6 @@
 			(type default)
 		)
 		(uuid "5921dad4-ff34-4771-ab78-8dabe28a7c51")
-	)
-	(wire
-		(pts
-			(xy 165.1 106.68) (xy 170.18 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598e11b4-62fe-4835-b88a-5a6bd168decd")
 	)
 	(wire
 		(pts
@@ -2843,13 +3003,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 106.68) (xy 170.18 111.76)
+			(xy 66.04 116.84) (xy 66.04 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6417a99f-7b57-48b5-b516-57742245c7ef")
+		(uuid "63686886-ec4a-4ed7-b5f8-073de34778ba")
 	)
 	(wire
 		(pts
@@ -2860,6 +3020,16 @@
 			(type default)
 		)
 		(uuid "64f3d732-99f0-417a-a5dc-0e18feb6e519")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf2803d-3d3a-4561-9e91-16de8103e0e3")
 	)
 	(wire
 		(pts
@@ -2883,6 +3053,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 116.84) (xy 66.04 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70db6839-8bb6-4cfd-a4c6-1c6c15428668")
+	)
+	(wire
+		(pts
+			(xy 97.79 118.11) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7141608a-a66a-4ee8-86d1-29e97e5555b6")
+	)
+	(wire
+		(pts
 			(xy 99.06 64.77) (xy 99.06 66.04)
 		)
 		(stroke
@@ -2900,6 +3090,16 @@
 			(type default)
 		)
 		(uuid "7221350e-4cbc-4ffb-88b7-71641d022a61")
+	)
+	(wire
+		(pts
+			(xy 87.63 115.57) (xy 87.63 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730ab8f5-2983-46c5-b8fd-2391be2c2bea")
 	)
 	(wire
 		(pts
@@ -2923,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 24.13) (xy 135.89 35.56)
+			(xy 135.89 20.32) (xy 135.89 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2940,16 +3140,6 @@
 			(type default)
 		)
 		(uuid "77f5ad70-51ce-4c4a-abdc-0ab8bebc5f56")
-	)
-	(wire
-		(pts
-			(xy 152.4 104.14) (xy 152.4 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78671de9-e1d5-4941-b65a-5917ba1461db")
 	)
 	(wire
 		(pts
@@ -2983,16 +3173,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 36.83) (xy 151.13 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9788e5-593c-4fad-a5bc-d4bd7d85c2f3")
-	)
-	(wire
-		(pts
 			(xy 267.97 115.57) (xy 265.43 115.57)
 		)
 		(stroke
@@ -3023,16 +3203,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 48.26) (xy 67.31 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f3efb23-3326-4889-b811-c3ec7d6dbcd0")
-	)
-	(wire
-		(pts
 			(xy 52.07 64.77) (xy 64.77 64.77)
 		)
 		(stroke
@@ -3053,6 +3223,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 101.6) (xy 71.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82277748-c677-4323-a175-ba152fb99573")
+	)
+	(wire
+		(pts
 			(xy 99.06 54.61) (xy 99.06 48.26)
 		)
 		(stroke
@@ -3060,6 +3240,16 @@
 			(type default)
 		)
 		(uuid "82c4de21-0639-42e0-b028-cdacf4b32c02")
+	)
+	(wire
+		(pts
+			(xy 93.98 21.59) (xy 93.98 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884a9114-d227-4dd5-837b-8ed8f3de8e96")
 	)
 	(wire
 		(pts
@@ -3083,6 +3273,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 74.93) (xy 149.86 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b65a4f2-ba6a-45d4-b15e-102c08b5cf22")
+	)
+	(wire
+		(pts
 			(xy 99.06 64.77) (xy 115.57 64.77)
 		)
 		(stroke
@@ -3090,16 +3290,6 @@
 			(type default)
 		)
 		(uuid "8c52621b-f153-4759-969b-e07580d01282")
-	)
-	(wire
-		(pts
-			(xy 66.04 125.73) (xy 68.58 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cda58f8-c440-479f-9cf9-7044891fce68")
 	)
 	(wire
 		(pts
@@ -3133,23 +3323,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 27.94) (xy 118.11 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b0b766-4dda-40e4-8fe9-320b8d36f792")
-	)
-	(wire
-		(pts
-			(xy 64.77 48.26) (xy 67.31 48.26)
+			(xy 64.77 48.26) (xy 81.28 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94067f7b-60d5-4eb7-96ff-e08eab2b528b")
+	)
+	(wire
+		(pts
+			(xy 120.65 40.64) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945234bb-039a-4ba8-822f-8eda54df4d9b")
+	)
+	(wire
+		(pts
+			(xy 96.52 36.83) (xy 96.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c53400-813b-4911-9136-91fb846fca48")
 	)
 	(wire
 		(pts
@@ -3203,6 +3403,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 180.34) (xy 58.42 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7a2cc0-33f9-41ba-8129-987379f261e6")
+	)
+	(wire
+		(pts
 			(xy 273.05 52.07) (xy 245.11 52.07)
 		)
 		(stroke
@@ -3233,13 +3443,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 24.13) (xy 135.89 24.13)
+			(xy 59.69 24.13) (xy 57.15 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a268607c-f578-496d-9b2a-5ccf96b46680")
+		(uuid "a2167ae6-f296-4f36-969f-7992e661bc34")
 	)
 	(wire
 		(pts
@@ -3270,6 +3480,36 @@
 			(type default)
 		)
 		(uuid "a9175c2a-894e-46fe-922d-05318059b224")
+	)
+	(wire
+		(pts
+			(xy 170.18 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaad2477-4ccd-4256-a5bc-c74765657530")
+	)
+	(wire
+		(pts
+			(xy 82.55 115.57) (xy 82.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2df16e-9bf1-4d05-841c-c9a12c00e8fd")
+	)
+	(wire
+		(pts
+			(xy 149.86 54.61) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4b4d31-5170-43b4-9b6d-d4dce70af642")
 	)
 	(wire
 		(pts
@@ -3323,17 +3563,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 36.83) (xy 151.13 36.83)
+			(xy 149.86 74.93) (xy 149.86 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b27547c5-5afb-4f56-997d-2a5f50317541")
+		(uuid "b54896c1-ff7b-4452-ac35-ce52e85de692")
 	)
 	(wire
 		(pts
-			(xy 121.92 167.64) (xy 121.92 120.65)
+			(xy 121.92 118.11) (xy 121.92 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3523,6 +3763,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 100.33) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbeba75c-e4d6-4a1a-bb64-bc0e0f6159ac")
+	)
+	(wire
+		(pts
 			(xy 100.33 151.13) (xy 100.33 154.94)
 		)
 		(stroke
@@ -3540,6 +3790,16 @@
 			(type default)
 		)
 		(uuid "cc7f503d-bbf4-481d-a281-b26990ca630d")
+	)
+	(wire
+		(pts
+			(xy 59.69 20.32) (xy 59.69 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2631fd-9413-4129-8691-a0ec791b0de2")
 	)
 	(wire
 		(pts
@@ -3603,16 +3863,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 113.03) (xy 171.45 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a45d50-8308-4165-8913-8a175ab6e83d")
-	)
-	(wire
-		(pts
 			(xy 208.28 118.11) (xy 227.33 118.11)
 		)
 		(stroke
@@ -3623,6 +3873,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 87.63) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9f7056-ac98-49f5-bf59-b91da06a4601")
+	)
+	(wire
+		(pts
 			(xy 265.43 41.91) (xy 260.35 41.91)
 		)
 		(stroke
@@ -3630,6 +3890,16 @@
 			(type default)
 		)
 		(uuid "dbd5165d-03a4-4b23-9d64-5937ab322601")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 170.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7ddf02-1ed1-4c2f-b60e-461097bd6e8b")
 	)
 	(wire
 		(pts
@@ -3653,13 +3923,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 120.65) (xy 73.66 125.73)
+			(xy 92.71 115.57) (xy 92.71 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dffa5410-141e-4894-9cdf-cf903a1c67bb")
+		(uuid "e0489421-7de8-46cb-815b-25f3effe0927")
 	)
 	(wire
 		(pts
@@ -3673,17 +3943,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 54.61) (xy 135.89 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e48f5b7f-266e-4fc6-9aca-df4c6afe3385")
-	)
-	(wire
-		(pts
-			(xy 152.4 121.92) (xy 158.75 121.92)
+			(xy 137.16 121.92) (xy 149.86 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3700,6 +3960,16 @@
 			(type default)
 		)
 		(uuid "e90e3b01-949f-4cc0-a2fa-ba444f35f44a")
+	)
+	(wire
+		(pts
+			(xy 170.18 54.61) (xy 170.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92074f0-0cc9-47ab-98fa-d9dcdad72220")
 	)
 	(wire
 		(pts
@@ -3773,6 +4043,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 48.26) (xy 81.28 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2ca982-f218-48c5-9c27-20ad4eab90b6")
+	)
+	(wire
+		(pts
 			(xy 273.05 73.66) (xy 273.05 76.2)
 		)
 		(stroke
@@ -3780,6 +4060,26 @@
 			(type default)
 		)
 		(uuid "efa3321a-e176-4d35-91af-32c4e96a1e7d")
+	)
+	(wire
+		(pts
+			(xy 52.07 185.42) (xy 52.07 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd5234f-ea4f-4d50-b11e-d308e93c752e")
+	)
+	(wire
+		(pts
+			(xy 97.79 115.57) (xy 97.79 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02846e4-f933-4459-ad9f-d3ee899cf252")
 	)
 	(wire
 		(pts
@@ -3843,7 +4143,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 168.91 54.61)
+			(xy 163.83 54.61) (xy 170.18 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3853,13 +4153,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 86.36 48.26)
+			(xy 96.52 40.64) (xy 120.65 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6d7726d-bdc0-4c7c-b8c6-db38c833319a")
+		(uuid "f74bdc7f-71e2-47c5-ae4a-24f0ce0d162c")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fbc6b8-d572-46a6-8bc5-564319008510")
 	)
 	(wire
 		(pts
@@ -3883,7 +4193,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 24.13) (xy 69.85 24.13)
+			(xy 59.69 20.32) (xy 83.82 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4276,7 +4586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal"
 			(at 44.45 101.6 0)
 			(effects
 				(font
@@ -4592,6 +4902,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 52.07 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ca8c0da-254f-4d28-a098-093dd99aa4ec")
+		(property "Reference" "J7"
+			(at 48.26 179.3631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 48.26 181.9031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb6c330-562b-497b-925a-8bcf4d51c312")
+		)
+		(pin "2"
+			(uuid "004e4a34-6d40-43e3-82eb-c214d302eeeb")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 99.06 58.42 0)
 		(unit 1)
@@ -4731,84 +5111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Relay_SPDT")
-		(at 162.56 101.6 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24fc5a9d-e730-4348-aaf7-fe39831f0365")
-		(property "Reference" "K6"
-			(at 162.56 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Relay_SPDT"
-			(at 162.56 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPDT, monostable, EN50005"
-			(at 162.56 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "02f1e81d-115c-4585-b7d2-b8d6096d795a")
-		)
-		(pin "12"
-			(uuid "1e948ac7-a4a5-42a7-ae2f-af0f16675d79")
-		)
-		(pin "14"
-			(uuid "ee9d0bab-251f-4e42-a9a0-b4bf65e70afb")
-		)
-		(pin "11"
-			(uuid "893a082d-9c15-4352-b24c-c72b99437d47")
-		)
-		(pin "A2"
-			(uuid "e442ace9-3331-4726-8d8a-cee78748bb68")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 87.63 135.89 0)
 		(unit 1)
@@ -4872,86 +5174,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPDT")
-		(at 76.2 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e0d6887-b68a-4676-b0ca-d1a9afadca8b")
-		(property "Reference" "K4"
-			(at 87.63 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Relay_SPDT"
-			(at 87.63 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPDT, monostable, EN50005"
-			(at 76.2 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "c3379c14-9a96-473c-adc7-ed45f4cc2e44")
-		)
-		(pin "12"
-			(uuid "d6cfdcc1-f970-4f21-9100-bc409f4ebee2")
-		)
-		(pin "14"
-			(uuid "403bf62e-0caa-4068-ba41-addd2d995eef")
-		)
-		(pin "11"
-			(uuid "b78f2055-1425-4ced-bfb7-1dbbe3ec37bc")
-		)
-		(pin "A2"
-			(uuid "b44bfb5d-0bc6-4589-a910-462bc16d17e1")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -5105,84 +5327,6 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "U15")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPDT")
-		(at 114.3 113.03 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f1122d1-6541-4dd8-b456-2d67f4801694")
-		(property "Reference" "K5"
-			(at 99.06 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Relay_SPDT"
-			(at 101.6 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPDT, monostable, EN50005"
-			(at 114.3 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "780da9f9-2d86-49c2-a4af-462828ef4d86")
-		)
-		(pin "12"
-			(uuid "fae672ee-fabe-4ccd-8d12-0bc80405dc6a")
-		)
-		(pin "14"
-			(uuid "da541c4d-a38c-4b51-9848-59d15c0e31cc")
-		)
-		(pin "11"
-			(uuid "c7b39804-07d5-4579-a2aa-4b912e4eebbf")
-		)
-		(pin "A2"
-			(uuid "71501508-1457-4ecd-bcb4-e06c18cf8888")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K5")
-					(unit 1)
 				)
 			)
 		)
@@ -6209,7 +6353,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 161.29 54.61 90)
+		(at 160.02 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6218,7 +6362,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ff94a10-3078-49b6-adcb-effbfe1773b2")
 		(property "Reference" "C1"
-			(at 161.29 46.99 90)
+			(at 160.02 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6370,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 161.29 49.53 90)
+			(at 160.02 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 53.6448 0)
+			(at 163.83 53.6448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6243,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 54.61 0)
+			(at 160.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6396,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 161.29 54.61 0)
+			(at 160.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,45 +6420,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Relay_SPDT")
-		(at 74.93 35.56 180)
+		(lib_id "power:GND")
+		(at 52.07 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d6c0dbd-51b2-482f-b42a-24beacbcb95b")
-		(property "Reference" "K1"
-			(at 86.36 34.2899 0)
+		(uuid "623a2b86-f1a7-425f-ba23-043b038fc914")
+		(property "Reference" "#PWR0117"
+			(at 52.07 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "Relay_SPDT"
-			(at 86.36 36.8299 0)
+		(property "Value" "GND"
+			(at 52.07 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 35.56 0)
+			(at 52.07 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,8 +6455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Relay SPDT, monostable, EN50005"
-			(at 74.93 35.56 0)
+		(property "Datasheet" ""
+			(at 52.07 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,25 +6464,22 @@
 				(hide yes)
 			)
 		)
-		(pin "A1"
-			(uuid "8edc3048-45ae-444e-b61a-d2cd9f138bb9")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "12"
-			(uuid "3562feae-3b63-46ff-b7f4-dd82a4d618a6")
-		)
-		(pin "14"
-			(uuid "4c5abccf-4524-47df-a2dc-9dec0112f99e")
-		)
-		(pin "11"
-			(uuid "330db65a-e55c-4e5e-92ce-605af10a9baa")
-		)
-		(pin "A2"
-			(uuid "02627b77-2190-41e0-a0d2-2501f14b0d8b")
+		(pin "1"
+			(uuid "53bd462f-91c0-4692-8193-2411a05328a5")
 		)
 		(instances
-			(project ""
+			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K1")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6860,7 +6990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal"
 			(at 43.18 24.13 0)
 			(effects
 				(font
@@ -7032,6 +7162,92 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G2RL-2")
+		(at 93.98 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d9866f1-4bb7-4758-bf12-7c6bbac4fd38")
+		(property "Reference" "K8"
+			(at 76.962 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G2RL-2"
+			(at 77.47 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G2RL-2"
+			(at 77.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+			(at 93.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Low Profile Relay DPDT Through Hole, Omron G2RL series, 8A 250VAC"
+			(at 93.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "3e8b2a6e-d04c-4a85-847b-f8223a38fdd7")
+		)
+		(pin "A2"
+			(uuid "91075104-8b91-4cb4-9683-c65e2e88eaab")
+		)
+		(pin "12"
+			(uuid "5408bc47-21cd-442a-9cac-8ea4a8ac4ebc")
+		)
+		(pin "21"
+			(uuid "1d979f0b-56f7-4c85-b953-b6d20ebf08b1")
+		)
+		(pin "11"
+			(uuid "d403c10c-845f-4b23-bc7c-90a54ddc2757")
+		)
+		(pin "22"
+			(uuid "68357e13-3d84-42b7-abf9-cfcb4abfc63e")
+		)
+		(pin "14"
+			(uuid "567ac008-709d-49f8-8570-acff6e0d8cfc")
+		)
+		(pin "A1"
+			(uuid "de75dec1-efcd-4e97-843d-3357b0237a73")
+		)
+		(instances
+			(project ""
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K8")
 					(unit 1)
 				)
 			)
@@ -7444,6 +7660,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G2RL-2")
+		(at 95.25 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9bd3642-aada-45a6-8ac9-d8d0986497db")
+		(property "Reference" "K9"
+			(at 74.422 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "G2RL-2"
+			(at 74.422 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G2RL-2"
+			(at 78.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Low Profile Relay DPDT Through Hole, Omron G2RL series, 8A 250VAC"
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "cb4a9a04-14ef-45fe-91c5-f92cc5765373")
+		)
+		(pin "A2"
+			(uuid "ea25e9c9-1952-4f10-8dd4-0d4c8e50a7ea")
+		)
+		(pin "12"
+			(uuid "918670eb-45af-4026-ba69-7f1c1a83a70e")
+		)
+		(pin "11"
+			(uuid "4aaf9edf-c5c6-4960-859a-fcbdc27cb39e")
+		)
+		(pin "14"
+			(uuid "5ced6b81-d12b-4596-a99c-363a79bf7030")
+		)
+		(pin "22"
+			(uuid "55130786-3a0e-4e45-8378-e4ee58f4eae1")
+		)
+		(pin "21"
+			(uuid "97271595-12ea-4e74-8080-6f92411e4578")
+		)
+		(pin "24"
+			(uuid "31edff42-0168-425c-8bd4-350cea18c16c")
+		)
+		(instances
+			(project ""
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA2277")
 		(at 158.75 168.91 0)
 		(unit 3)
@@ -7533,7 +7837,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 121.92 90)
+		(at 160.02 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7542,7 +7846,7 @@
 		(fields_autoplaced yes)
 		(uuid "b44e1240-2e23-4021-8ad4-9fadc27393f9")
 		(property "Reference" "C10"
-			(at 162.56 114.3 90)
+			(at 160.02 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +7854,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 162.56 116.84 90)
+			(at 160.02 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +7862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 120.9548 0)
+			(at 163.83 120.9548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 121.92 0)
+			(at 160.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7880,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 121.92 0)
+			(at 160.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,84 +7898,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPDT")
-		(at 161.29 34.29 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9615cbc-ce83-4875-a0af-6c92d334561c")
-		(property "Reference" "K3"
-			(at 161.29 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Relay_SPDT"
-			(at 161.29 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPDT, monostable, EN50005"
-			(at 161.29 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "ff787927-0395-4bbc-84f0-f6e9f23cf152")
-		)
-		(pin "12"
-			(uuid "77efb0dd-b231-48fd-b007-e3d93176eab3")
-		)
-		(pin "14"
-			(uuid "4d5ca4a5-643b-4501-88b7-3f59dda2dd37")
-		)
-		(pin "11"
-			(uuid "65569636-754e-472c-8c19-e6e38e857ebf")
-		)
-		(pin "A2"
-			(uuid "698b32d3-06ea-42e5-9d74-9a87b16c1874")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -7810,6 +8036,74 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4db1a67-c518-4e7f-a10f-ee36095e1b36")
+		(property "Reference" "R94"
+			(at 62.23 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 62.23 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b586cffa-46c5-410f-afcf-52f06c5a9a30")
+		)
+		(pin "1"
+			(uuid "dd73914a-1b7f-4bb1-a781-de4e4fe6fa45")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -8511,6 +8805,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G2RL-2")
+		(at 160.02 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6347d71-e1cc-44ac-b13f-23aa0a4176bc")
+		(property "Reference" "K10"
+			(at 160.02 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G2RL-2"
+			(at 160.02 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G2RL-2"
+			(at 161.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+			(at 160.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Low Profile Relay DPDT Through Hole, Omron G2RL series, 8A 250VAC"
+			(at 160.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "be8c2888-6d00-43d0-95ae-a2a8367d3b8a")
+		)
+		(pin "11"
+			(uuid "3463cc6c-99a1-44f2-8384-082d31156a23")
+		)
+		(pin "22"
+			(uuid "ecbc902b-bc4f-4bd8-91e2-278ce1922953")
+		)
+		(pin "A1"
+			(uuid "2e6a7055-214c-4841-8d58-0f4c7d8c0a06")
+		)
+		(pin "12"
+			(uuid "e75a56f6-65b8-4d19-a145-9488dc792732")
+		)
+		(pin "14"
+			(uuid "3e4928ec-6cf1-4d79-9eee-33c4d1af70a6")
+		)
+		(pin "21"
+			(uuid "71155c59-22c7-4968-9308-04226cf4e814")
+		)
+		(pin "24"
+			(uuid "61f14ae4-46a4-4910-9e25-041fef47d967")
+		)
+		(instances
+			(project ""
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Variable")
 		(at 64.77 58.42 0)
 		(unit 1)
@@ -8795,84 +9175,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPDT")
-		(at 113.03 35.56 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df5146b1-11d5-4b65-9ae4-b1d728652c76")
-		(property "Reference" "K2"
-			(at 97.79 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Relay_SPDT"
-			(at 100.33 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPDT, monostable, EN50005"
-			(at 113.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "f50f829f-1e80-47bf-a85b-e010c2dbcb1e")
-		)
-		(pin "12"
-			(uuid "06bebba9-8507-4ea4-b464-5717ec3d5b1c")
-		)
-		(pin "14"
-			(uuid "7bc43799-ca40-4448-8f6b-132c92d67b5b")
-		)
-		(pin "11"
-			(uuid "fcdbfc42-ef49-422e-ab13-1dd6a132614d")
-		)
-		(pin "A2"
-			(uuid "398c9539-737e-4660-a284-ba8e9b1b9731")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K2")
 					(unit 1)
 				)
 			)
