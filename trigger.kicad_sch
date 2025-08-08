@@ -366,7 +366,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Monostable Relay SPDT, EN50005"
+			(property "Description" "Relay SPDT, monostable, EN50005"
 				(at 0 0 0)
 				(effects
 					(font
@@ -375,7 +375,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Pole Relay SPDT"
+			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -659,8 +659,12 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -760,8 +764,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3V3"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1570,7 +1573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 90.17 106.68 0)
 			(effects
 				(font

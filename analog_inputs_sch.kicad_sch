@@ -1140,7 +1140,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Monostable Relay SPDT, EN50005"
+			(property "Description" "Relay SPDT, monostable, EN50005"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1149,7 +1149,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Pole Relay SPDT"
+			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1433,8 +1433,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1534,8 +1538,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1555,14 +1558,18 @@
 		)
 		(symbol "power:-5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1571,7 +1578,7 @@
 				)
 			)
 			(property "Value" "-5V"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1618,8 +1625,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "-5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1653,8 +1659,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1730,8 +1740,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4766,7 +4775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -4915,7 +4924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 76.2 113.03 0)
 			(effects
 				(font
@@ -5145,7 +5154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 114.3 113.03 0)
 			(effects
 				(font
@@ -5597,28 +5606,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "eafeaede-8e7b-4a9f-aa1b-34b8f60a1832")
+			(uuid "eafeaede-8e7b-4a9f-aa1b-34b8f60a1833")
 		)
 		(pin "8"
-			(uuid "32937a88-21cb-48c0-a0ab-e976b0a41c60")
+			(uuid "32937a88-21cb-48c0-a0ab-e976b0a41c61")
 		)
 		(pin "6"
-			(uuid "57f4c916-c02b-4dfb-b4b3-071aaea7f9be")
+			(uuid "57f4c916-c02b-4dfb-b4b3-071aaea7f9bf")
 		)
 		(pin "5"
-			(uuid "52792af7-781e-47e0-8065-eed9f479fb5c")
+			(uuid "52792af7-781e-47e0-8065-eed9f479fb5d")
 		)
 		(pin "2"
-			(uuid "462bccb0-c0c8-425f-ad11-8c0540171782")
+			(uuid "462bccb0-c0c8-425f-ad11-8c0540171783")
 		)
 		(pin "1"
-			(uuid "5984b134-5779-4d8b-9519-7030647e93e6")
+			(uuid "5984b134-5779-4d8b-9519-7030647e93e7")
 		)
 		(pin "3"
-			(uuid "0fa62456-1b25-40e0-9a98-e36a3e757d54")
+			(uuid "0fa62456-1b25-40e0-9a98-e36a3e757d55")
 		)
 		(pin "7"
-			(uuid "7f1ca596-8b62-43e1-b8fb-425868dfbdfe")
+			(uuid "7f1ca596-8b62-43e1-b8fb-425868dfbdff")
 		)
 		(instances
 			(project ""
@@ -5683,28 +5692,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "eafeaede-8e7b-4a9f-aa1b-34b8f60a1832")
+			(uuid "eafeaede-8e7b-4a9f-aa1b-34b8f60a1834")
 		)
 		(pin "8"
-			(uuid "32937a88-21cb-48c0-a0ab-e976b0a41c60")
+			(uuid "32937a88-21cb-48c0-a0ab-e976b0a41c62")
 		)
 		(pin "6"
-			(uuid "57f4c916-c02b-4dfb-b4b3-071aaea7f9be")
+			(uuid "57f4c916-c02b-4dfb-b4b3-071aaea7f9c0")
 		)
 		(pin "5"
-			(uuid "52792af7-781e-47e0-8065-eed9f479fb5c")
+			(uuid "52792af7-781e-47e0-8065-eed9f479fb5e")
 		)
 		(pin "2"
-			(uuid "462bccb0-c0c8-425f-ad11-8c0540171782")
+			(uuid "462bccb0-c0c8-425f-ad11-8c0540171784")
 		)
 		(pin "1"
-			(uuid "5984b134-5779-4d8b-9519-7030647e93e6")
+			(uuid "5984b134-5779-4d8b-9519-7030647e93e8")
 		)
 		(pin "3"
-			(uuid "0fa62456-1b25-40e0-9a98-e36a3e757d54")
+			(uuid "0fa62456-1b25-40e0-9a98-e36a3e757d56")
 		)
 		(pin "7"
-			(uuid "7f1ca596-8b62-43e1-b8fb-425868dfbdfe")
+			(uuid "7f1ca596-8b62-43e1-b8fb-425868dfbe00")
 		)
 		(instances
 			(project ""
@@ -6313,7 +6322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 74.93 35.56 0)
 			(effects
 				(font
@@ -7635,7 +7644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 161.29 34.29 0)
 			(effects
 				(font
@@ -8690,28 +8699,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "a52bd568-009c-46e5-a24b-65b4d372597b")
+			(uuid "a52bd568-009c-46e5-a24b-65b4d372597c")
 		)
 		(pin "7"
-			(uuid "73c7296d-5251-4d24-914f-463788566424")
+			(uuid "73c7296d-5251-4d24-914f-463788566425")
 		)
 		(pin "6"
-			(uuid "08ffc319-ae0f-4bc4-b002-e478cb74b2a7")
+			(uuid "08ffc319-ae0f-4bc4-b002-e478cb74b2a8")
 		)
 		(pin "1"
-			(uuid "74f734db-47a4-47a1-8206-9a040888a8e7")
+			(uuid "74f734db-47a4-47a1-8206-9a040888a8e8")
 		)
 		(pin "3"
-			(uuid "9077ee76-b875-4e6e-b903-839e20cce152")
+			(uuid "9077ee76-b875-4e6e-b903-839e20cce153")
 		)
 		(pin "5"
-			(uuid "8e3d905e-3226-4dc8-be94-15234cac5776")
+			(uuid "8e3d905e-3226-4dc8-be94-15234cac5777")
 		)
 		(pin "8"
-			(uuid "0d23fae3-cdd6-4768-a329-cd9487ebb2d9")
+			(uuid "0d23fae3-cdd6-4768-a329-cd9487ebb2da")
 		)
 		(pin "2"
-			(uuid "58e44fdd-873f-4ee1-b53f-023f9382dea1")
+			(uuid "58e44fdd-873f-4ee1-b53f-023f9382dea2")
 		)
 		(instances
 			(project ""
@@ -8836,7 +8845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Monostable Relay SPDT, EN50005"
+		(property "Description" "Relay SPDT, monostable, EN50005"
 			(at 113.03 35.56 0)
 			(effects
 				(font
@@ -8989,28 +8998,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "a52bd568-009c-46e5-a24b-65b4d372597b")
+			(uuid "a52bd568-009c-46e5-a24b-65b4d372597d")
 		)
 		(pin "7"
-			(uuid "73c7296d-5251-4d24-914f-463788566424")
+			(uuid "73c7296d-5251-4d24-914f-463788566426")
 		)
 		(pin "6"
-			(uuid "08ffc319-ae0f-4bc4-b002-e478cb74b2a7")
+			(uuid "08ffc319-ae0f-4bc4-b002-e478cb74b2a9")
 		)
 		(pin "1"
-			(uuid "74f734db-47a4-47a1-8206-9a040888a8e7")
+			(uuid "74f734db-47a4-47a1-8206-9a040888a8e9")
 		)
 		(pin "3"
-			(uuid "9077ee76-b875-4e6e-b903-839e20cce152")
+			(uuid "9077ee76-b875-4e6e-b903-839e20cce154")
 		)
 		(pin "5"
-			(uuid "8e3d905e-3226-4dc8-be94-15234cac5776")
+			(uuid "8e3d905e-3226-4dc8-be94-15234cac5778")
 		)
 		(pin "8"
-			(uuid "0d23fae3-cdd6-4768-a329-cd9487ebb2d9")
+			(uuid "0d23fae3-cdd6-4768-a329-cd9487ebb2db")
 		)
 		(pin "2"
-			(uuid "58e44fdd-873f-4ee1-b53f-023f9382dea1")
+			(uuid "58e44fdd-873f-4ee1-b53f-023f9382dea3")
 		)
 		(instances
 			(project ""

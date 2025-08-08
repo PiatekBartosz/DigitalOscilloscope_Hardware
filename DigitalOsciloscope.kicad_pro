@@ -650,8 +650,12 @@
       "psu"
     ],
     [
-      "dfbf7a1f-1a33-443d-923c-a2a6d51b4d4c",
-      "ui DAC"
+      "66517978-a105-4b23-aef3-4d07ec663cee",
+      "power_conversion"
+    ],
+    [
+      "63f109b5-e3fc-444f-b815-14a9a2dd1ea3",
+      "dac"
     ]
   ],
   "text_variables": {}
