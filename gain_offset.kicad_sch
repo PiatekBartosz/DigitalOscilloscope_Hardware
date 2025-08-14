@@ -2959,7 +2959,7 @@
 			)
 		)
 	)
-	(global_label "CH1_CH-"
+	(global_label "CH2_CH-"
 		(shape output)
 		(at 254 110.49 0)
 		(fields_autoplaced yes)
@@ -2981,7 +2981,7 @@
 			)
 		)
 	)
-	(global_label "CH1_CH+"
+	(global_label "CH2_CH+"
 		(shape output)
 		(at 254 120.65 0)
 		(fields_autoplaced yes)
@@ -3428,6 +3428,74 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/8a4d3ccc-9040-4eb2-98b7-763cffb44d2b"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 55.88 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "229856f1-4c4e-4e52-aa91-07718844fefd")
+		(property "Reference" "R5"
+			(at 223.52 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "25R"
+			(at 223.52 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 223.52 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7b0367-458f-4f23-904d-44c762f6d347")
+		)
+		(pin "2"
+			(uuid "a6d2b740-0ea0-4c1c-beaa-eebd9c783299")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/8a4d3ccc-9040-4eb2-98b7-763cffb44d2b"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3931,7 +3999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 239.7252 64.77 0)
 			(effects
 				(font
@@ -3968,75 +4036,6 @@
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/8a4d3ccc-9040-4eb2-98b7-763cffb44d2b"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 223.52 55.88 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "631a0667-583b-4099-bfb2-85afb7bed69f")
-		(property "Reference" "R5"
-			(at 223.52 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "25R"
-			(at 223.52 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 223.52 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f2448c7-6da2-4995-a6ec-3ca08620a7e2")
-		)
-		(pin "2"
-			(uuid "16cf15b2-b9d6-489c-ab17-e1fc7d36ae66")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/8a4d3ccc-9040-4eb2-98b7-763cffb44d2b"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 223.52 67.818 90)
 			(effects
 				(font
@@ -4987,7 +4986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 223.52 122.428 90)
 			(effects
 				(font
@@ -5247,75 +5246,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/8a4d3ccc-9040-4eb2-98b7-763cffb44d2b"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 223.52 110.49 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c38592bf-8d3a-4b9d-be5d-7358d5e55f53")
-		(property "Reference" "R21"
-			(at 223.52 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "25R"
-			(at 223.52 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 112.268 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed60785f-0323-4ebf-995c-5a8bda6d147f")
-		)
-		(pin "2"
-			(uuid "b2d2da9f-84f5-4305-9a97-d00acc583bc4")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/8a4d3ccc-9040-4eb2-98b7-763cffb44d2b"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5619,7 +5549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 239.7252 119.38 0)
 			(effects
 				(font
@@ -5722,6 +5652,74 @@
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/8a4d3ccc-9040-4eb2-98b7-763cffb44d2b"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 110.49 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df8a2449-0ac7-4a85-b30e-1b5e5065c7e4")
+		(property "Reference" "R21"
+			(at 223.52 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "25R"
+			(at 223.52 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 223.52 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "393cda4d-db9a-4ba6-92f8-3c24801c211d")
+		)
+		(pin "2"
+			(uuid "d82ae89d-691e-4bac-993d-905eeeb76547")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/8a4d3ccc-9040-4eb2-98b7-763cffb44d2b"
+					(reference "R21")
 					(unit 1)
 				)
 			)

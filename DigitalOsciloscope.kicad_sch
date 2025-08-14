@@ -27,6 +27,26 @@
 		)
 		(uuid "44d6f294-71d6-4ef5-b53e-b5fb05e5808b")
 	)
+	(bus
+		(pts
+			(xy 152.4 31.75) (xy 177.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bf6603-9031-415f-8426-b7ca73805764")
+	)
+	(bus
+		(pts
+			(xy 152.4 27.94) (xy 177.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a50d70-31a6-4847-b903-3c4449a093ac")
+	)
 	(sheet
 		(at 78.74 152.4)
 		(size 33.02 22.86)
@@ -101,6 +121,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "D_ADC_A[0..11]" input
+			(at 177.8 27.94 180)
+			(uuid "930f8a3f-7563-4783-88a2-b9df13f03230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_ADC_B[0..11]" input
+			(at 177.8 31.75 180)
+			(uuid "aac4e3bf-1cf2-4f4a-b84e-8bbe70f7885d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -311,6 +351,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "D_ADC_A[0..11]" input
+			(at 152.4 27.94 0)
+			(uuid "e222d80f-59c8-4a0e-9b3d-2d2ee80662ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D_ADC_B[0..11]" input
+			(at 152.4 31.75 0)
+			(uuid "0bf1498b-7fc6-4e67-9435-db318c13a6f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
