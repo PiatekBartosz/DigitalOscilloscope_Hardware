@@ -630,14 +630,6 @@
       "trigger"
     ],
     [
-      "8359c73f-6619-4176-81f6-880a4a9377b3",
-      "external_ram"
-    ],
-    [
-      "14372e79-7be0-4c9e-8c3b-7036d1ae571c",
-      "external_flash"
-    ],
-    [
       "621a6474-ab24-4092-baf1-9c2ce5cff138",
       "mcu"
     ],

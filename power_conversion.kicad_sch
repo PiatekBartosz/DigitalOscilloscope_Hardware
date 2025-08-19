@@ -858,6 +858,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO < 0 voltage\n\n"
+		(exclude_from_sim no)
+		(at 34.036 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7860529b-794b-49f2-b57c-a06e98b36c56")
+	)
 	(text "TODO: recommended to change for AZ1117C/E"
 		(exclude_from_sim no)
 		(at 43.942 22.098 0)

@@ -5,28 +5,6 @@
 	(uuid "553deb7b-4100-40fe-99d2-0c7b4b56aad2")
 	(paper "A4")
 	(lib_symbols)
-	(rectangle
-		(start 22.86 137.16)
-		(end 124.46 187.96)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4e9d6462-23a6-4fe8-91f5-99339759fbea)
-	)
-	(text "Optional"
-		(exclude_from_sim no)
-		(at 28.702 134.366 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "44d6f294-71d6-4ef5-b53e-b5fb05e5808b")
-	)
 	(bus
 		(pts
 			(xy 152.4 31.75) (xy 177.8 31.75)
@@ -46,48 +24,6 @@
 			(type default)
 		)
 		(uuid "b1a50d70-31a6-4847-b903-3c4449a093ac")
-	)
-	(sheet
-		(at 78.74 152.4)
-		(size 33.02 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "14372e79-7be0-4c9e-8c3b-7036d1ae571c")
-		(property "Sheetname" "external_flash"
-			(at 78.74 151.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "external_flash.kicad_sch"
-			(at 78.74 175.8446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
-					(page "7")
-				)
-			)
-		)
 	)
 	(sheet
 		(at 177.8 25.4)
@@ -377,48 +313,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 35.56 151.13)
-		(size 31.75 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8359c73f-6619-4176-81f6-880a4a9377b3")
-		(property "Sheetname" "external_ram"
-			(at 35.56 150.4184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "external_ram.kicad_sch"
-			(at 35.56 177.1146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
-					(page "6")
 				)
 			)
 		)
