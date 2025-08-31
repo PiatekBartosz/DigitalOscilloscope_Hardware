@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 152.4 31.75) (xy 177.8 31.75)
+			(xy 184.15 60.96) (xy 209.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 27.94) (xy 177.8 27.94)
+			(xy 184.15 57.15) (xy 209.55 57.15)
 		)
 		(stroke
 			(width 0)
@@ -26,7 +26,7 @@
 		(uuid "b1a50d70-31a6-4847-b903-3c4449a093ac")
 	)
 	(sheet
-		(at 177.8 25.4)
+		(at 209.55 54.61)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42,7 +42,7 @@
 		)
 		(uuid "3a7288c4-cf21-495b-9b8e-7b87b52ff1d8")
 		(property "Sheetname" "fpga"
-			(at 177.8 24.6884 0)
+			(at 209.55 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +51,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 177.8 51.3846 0)
+			(at 209.55 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,8 +59,8 @@
 				(justify left top)
 			)
 		)
-		(pin "D_ADC_A[0..11]" input
-			(at 177.8 27.94 180)
+		(pin "D_ADC_A[0..13]" input
+			(at 209.55 57.15 180)
 			(uuid "930f8a3f-7563-4783-88a2-b9df13f03230")
 			(effects
 				(font
@@ -69,8 +69,8 @@
 				(justify left)
 			)
 		)
-		(pin "D_ADC_B[0..11]" input
-			(at 177.8 31.75 180)
+		(pin "D_ADC_B[0..13]" input
+			(at 209.55 60.96 180)
 			(uuid "aac4e3bf-1cf2-4f4a-b84e-8bbe70f7885d")
 			(effects
 				(font
@@ -82,13 +82,13 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
-					(page "9")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 76.2 76.2)
+		(at 107.95 105.41)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -104,7 +104,7 @@
 		)
 		(uuid "4a7a4e83-7308-4a9e-8083-bc047537525b")
 		(property "Sheetname" "psu"
-			(at 76.2 75.4884 0)
+			(at 107.95 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,7 +113,7 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 76.2 102.1846 0)
+			(at 107.95 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 76.2)
+		(at 55.88 105.41)
 		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -146,7 +146,7 @@
 		)
 		(uuid "621a6474-ab24-4092-baf1-9c2ce5cff138")
 		(property "Sheetname" "mcu"
-			(at 24.13 75.4884 0)
+			(at 55.88 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,7 +155,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 24.13 102.1846 0)
+			(at 55.88 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,7 +172,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 74.93)
+		(at 209.55 104.14)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -188,7 +188,7 @@
 		)
 		(uuid "63f109b5-e3fc-444f-b815-14a9a2dd1ea3")
 		(property "Sheetname" "dac"
-			(at 177.8 74.2184 0)
+			(at 209.55 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,7 +197,7 @@
 			)
 		)
 		(property "Sheetfile" "dac.kicad_sch"
-			(at 177.8 100.9146 0)
+			(at 209.55 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -214,7 +214,7 @@
 		)
 	)
 	(sheet
-		(at 127 76.2)
+		(at 158.75 105.41)
 		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -230,7 +230,7 @@
 		)
 		(uuid "66517978-a105-4b23-aef3-4d07ec663cee")
 		(property "Sheetname" "power_conversion"
-			(at 127 75.4884 0)
+			(at 158.75 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,7 +239,7 @@
 			)
 		)
 		(property "Sheetfile" "power_conversion.kicad_sch"
-			(at 127 102.1846 0)
+			(at 158.75 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,7 +256,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 25.4)
+		(at 157.48 54.61)
 		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -272,7 +272,7 @@
 		)
 		(uuid "800cc051-5da0-4b0f-90b7-cfba3f489ea8")
 		(property "Sheetname" "adc"
-			(at 125.73 24.6884 0)
+			(at 157.48 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,7 +281,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 125.73 51.3846 0)
+			(at 157.48 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -289,8 +289,8 @@
 				(justify left top)
 			)
 		)
-		(pin "D_ADC_A[0..11]" input
-			(at 152.4 27.94 0)
+		(pin "D_ADC_A[0..13]" input
+			(at 184.15 57.15 0)
 			(uuid "e222d80f-59c8-4a0e-9b3d-2d2ee80662ea")
 			(effects
 				(font
@@ -299,8 +299,8 @@
 				(justify right)
 			)
 		)
-		(pin "D_ADC_B[0..11]" input
-			(at 152.4 31.75 0)
+		(pin "D_ADC_B[0..13]" input
+			(at 184.15 60.96 0)
 			(uuid "0bf1498b-7fc6-4e67-9435-db318c13a6f0")
 			(effects
 				(font
@@ -318,49 +318,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 25.4)
-		(size 25.4 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "899793e6-750a-4772-94db-057d79dabc46")
-		(property "Sheetname" "trigger"
-			(at 228.6 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "trigger.kicad_sch"
-			(at 228.6 51.3846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 76.2 25.4)
+		(at 107.95 54.61)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -376,7 +334,7 @@
 		)
 		(uuid "8a4d3ccc-9040-4eb2-98b7-763cffb44d2b")
 		(property "Sheetname" "gain_offset"
-			(at 76.2 24.6884 0)
+			(at 107.95 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +343,7 @@
 			)
 		)
 		(property "Sheetfile" "gain_offset.kicad_sch"
-			(at 76.2 51.3846 0)
+			(at 107.95 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,7 +360,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
+		(at 57.15 54.61)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -418,7 +376,7 @@
 		)
 		(uuid "c6e88111-c18e-4095-b1d8-9b944099aec3")
 		(property "Sheetname" "analog_inputs"
-			(at 25.4 24.6884 0)
+			(at 57.15 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,7 +385,7 @@
 			)
 		)
 		(property "Sheetfile" "analog_inputs_sch.kicad_sch"
-			(at 25.4 51.3846 0)
+			(at 57.15 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
