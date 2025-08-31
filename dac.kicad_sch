@@ -399,7 +399,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 74.93) (xy 160.02 74.93)
+			(xy 158.75 71.12) (xy 152.4 71.12)
 		)
 		(stroke
 			(width 0)
@@ -409,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 134.62 92.71)
+			(xy 123.19 88.9) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -419,7 +419,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 80.01) (xy 160.02 80.01)
+			(xy 158.75 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -429,7 +429,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 90.17) (xy 160.02 90.17)
+			(xy 158.75 86.36) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
@@ -439,7 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 85.09) (xy 160.02 85.09)
+			(xy 158.75 81.28) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
@@ -449,7 +449,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 90.17) (xy 134.62 90.17)
+			(xy 123.19 86.36) (xy 127 86.36)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 134.62 95.25)
+			(xy 123.19 91.44) (xy 127 91.44)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 69.85) (xy 160.02 69.85)
+			(xy 158.75 66.04) (xy 152.4 66.04)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +479,7 @@
 	)
 	(global_label "CH2_GAIN_DAC"
 		(shape input)
-		(at 166.37 74.93 0)
+		(at 158.75 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -489,7 +489,7 @@
 		)
 		(uuid "0010c20a-9f52-49ff-83f9-03d7c67afeff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0229 74.93 0)
+			(at 175.4029 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -501,7 +501,7 @@
 	)
 	(global_label "CH2_OFFSET_DAC"
 		(shape input)
-		(at 166.37 85.09 0)
+		(at 158.75 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -511,7 +511,7 @@
 		)
 		(uuid "0b41ab84-87aa-4e8d-b1bd-73aae8f2f493")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5628 85.09 0)
+			(at 177.9428 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +523,7 @@
 	)
 	(global_label "SPI_1_MISO"
 		(shape input)
-		(at 166.37 90.17 0)
+		(at 158.75 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -533,7 +533,7 @@
 		)
 		(uuid "11392415-5dc1-451e-a6ec-5e4db52362fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.1804 90.17 0)
+			(at 172.5604 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +545,7 @@
 	)
 	(global_label "SPI_1_CS"
 		(shape input)
-		(at 130.81 92.71 180)
+		(at 123.19 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -555,7 +555,7 @@
 		)
 		(uuid "3906eef4-e736-421a-9629-ad76cbcf7362")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.1163 92.71 0)
+			(at 111.4963 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,7 +567,7 @@
 	)
 	(global_label "SPI_1_MOSI"
 		(shape input)
-		(at 130.81 90.17 180)
+		(at 123.19 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -577,7 +577,7 @@
 		)
 		(uuid "5feec11c-f638-40e3-b3a9-6cfdf9d830b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.9996 90.17 0)
+			(at 109.3796 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +589,7 @@
 	)
 	(global_label "CH1_OFFSET_DAC"
 		(shape input)
-		(at 166.37 80.01 0)
+		(at 158.75 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -599,7 +599,7 @@
 		)
 		(uuid "75ec466c-c79f-4a27-806e-5c7617854220")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.5628 80.01 0)
+			(at 177.9428 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +611,7 @@
 	)
 	(global_label "SPI_1_SCK"
 		(shape input)
-		(at 130.81 95.25 180)
+		(at 123.19 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -621,7 +621,7 @@
 		)
 		(uuid "ae8980da-3771-496d-9bc6-aaf6f3a869c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.8463 95.25 0)
+			(at 110.2263 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +633,7 @@
 	)
 	(global_label "CH1_GAIN_DAC"
 		(shape input)
-		(at 166.37 69.85 0)
+		(at 158.75 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -643,7 +643,7 @@
 		)
 		(uuid "c92711c7-893d-4287-a630-7a4669740af8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0229 69.85 0)
+			(at 175.4029 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +655,7 @@
 	)
 	(global_label "DAR_REF"
 		(shape input)
-		(at 110.49 120.65 0)
+		(at 166.37 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -665,7 +665,7 @@
 		)
 		(uuid "dcdaecf5-67f2-4700-85f7-120a807bac05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.579 120.65 0)
+			(at 177.459 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,7 +677,7 @@
 	)
 	(symbol
 		(lib_id "Analog_DAC:DAC80504")
-		(at 147.32 82.55 0)
+		(at 139.7 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -686,7 +686,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7823f1b-686e-4b64-a21a-1ed233d43f57")
 		(property "Reference" "U16"
-			(at 152.0033 62.23 0)
+			(at 144.3833 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +695,7 @@
 			)
 		)
 		(property "Value" "DAC80504"
-			(at 152.0033 64.77 0)
+			(at 144.3833 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +704,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Texas_RTE0016D_WQFN-16-1EP_3x3mm_P0.5mm_EP0.8x0.8mm_ThermalVias"
-			(at 147.32 82.55 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +714,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac80504.pdf"
-			(at 147.32 82.55 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +723,7 @@
 			)
 		)
 		(property "Description" "16-bit quad-channel voltage output DAC, 2.5V 2ppm/°C internal reference, WQFN-16"
-			(at 147.32 82.55 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

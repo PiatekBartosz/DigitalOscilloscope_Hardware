@@ -2190,12 +2190,6 @@
 		(uuid "665ba49b-ece0-4dbf-8cf9-5d0e76b7cd4c")
 	)
 	(junction
-		(at 245.11 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6852a7cf-015b-4f39-a00c-8e4210cf802f")
-	)
-	(junction
 		(at 149.86 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2278,12 +2272,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e21d3076-8f85-4769-be65-ad2918d095a6")
-	)
-	(junction
-		(at 245.11 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3ca1e10-7f82-4a99-97ed-57bcaa4c3449")
 	)
 	(junction
 		(at 86.36 64.77)
@@ -5783,92 +5771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2277")
-		(at 252.73 41.91 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4770dd23-b968-4bdb-9549-8d23fb167bec")
-		(property "Reference" "U15"
-			(at 254.762 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2277"
-			(at 255.524 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2277.pdf"
-			(at 252.73 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Precision Operational Amplifiers, DIP-8/SOIC-8"
-			(at 252.73 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "eafeaede-8e7b-4a9f-aa1b-34b8f60a1834")
-		)
-		(pin "8"
-			(uuid "32937a88-21cb-48c0-a0ab-e976b0a41c62")
-		)
-		(pin "6"
-			(uuid "57f4c916-c02b-4dfb-b4b3-071aaea7f9c0")
-		)
-		(pin "5"
-			(uuid "52792af7-781e-47e0-8065-eed9f479fb5e")
-		)
-		(pin "2"
-			(uuid "462bccb0-c0c8-425f-ad11-8c0540171784")
-		)
-		(pin "1"
-			(uuid "5984b134-5779-4d8b-9519-7030647e93e8")
-		)
-		(pin "3"
-			(uuid "0fa62456-1b25-40e0-9a98-e36a3e757d56")
-		)
-		(pin "7"
-			(uuid "7f1ca596-8b62-43e1-b8fb-425868dfbe00")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 231.14 44.45 90)
 		(unit 1)
@@ -9241,92 +9143,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2277")
-		(at 252.73 115.57 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec06cbd8-245f-4f0e-aec0-3ccf3fa322d1")
-		(property "Reference" "U18"
-			(at 254.762 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2277"
-			(at 255.27 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2277.pdf"
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual High Precision Operational Amplifiers, DIP-8/SOIC-8"
-			(at 252.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a52bd568-009c-46e5-a24b-65b4d372597d")
-		)
-		(pin "7"
-			(uuid "73c7296d-5251-4d24-914f-463788566426")
-		)
-		(pin "6"
-			(uuid "08ffc319-ae0f-4bc4-b002-e478cb74b2a9")
-		)
-		(pin "1"
-			(uuid "74f734db-47a4-47a1-8206-9a040888a8e9")
-		)
-		(pin "3"
-			(uuid "9077ee76-b875-4e6e-b903-839e20cce154")
-		)
-		(pin "5"
-			(uuid "8e3d905e-3226-4dc8-be94-15234cac5778")
-		)
-		(pin "8"
-			(uuid "0d23fae3-cdd6-4768-a329-cd9487ebb2db")
-		)
-		(pin "2"
-			(uuid "58e44fdd-873f-4ee1-b53f-023f9382dea3")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "U18")
 					(unit 1)
 				)
 			)
