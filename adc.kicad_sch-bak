@@ -5857,7 +5857,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2b05e90-39a7-4826-9cdc-b3d95aea5fc7")
 		(property "Reference" "U21"
-			(at 148.1933 144.78 0)
+			(at 147.32 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5866,7 @@
 			)
 		)
 		(property "Value" "LTC2299xUP"
-			(at 148.1933 147.32 0)
+			(at 147.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

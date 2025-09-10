@@ -4213,6 +4213,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 87.63) (xy 80.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df96de6-ee93-4dfc-bf51-53139e010911")
+	)
+	(wire
+		(pts
 			(xy 234.95 54.61) (xy 246.38 54.61)
 		)
 		(stroke
@@ -4260,16 +4270,6 @@
 			(type default)
 		)
 		(uuid "17c98876-1ebd-4f34-8ca7-4635d189dd52")
-	)
-	(wire
-		(pts
-			(xy 68.58 46.99) (xy 80.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "182dcb3e-73f5-418e-a3e9-28fc3384a71f")
 	)
 	(bus
 		(pts
@@ -4430,16 +4430,6 @@
 			(type default)
 		)
 		(uuid "442081d6-1dca-4698-b313-bd0e88606c48")
-	)
-	(wire
-		(pts
-			(xy 60.96 46.99) (xy 57.15 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44903451-44da-4e18-8bfd-41cd1198a821")
 	)
 	(wire
 		(pts
@@ -4720,16 +4710,6 @@
 			(type default)
 		)
 		(uuid "6fe4d66d-5309-4720-b921-285c499e5c49")
-	)
-	(wire
-		(pts
-			(xy 60.96 49.53) (xy 57.15 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f7e320-a860-4c9f-9b0c-03e215b84bb3")
 	)
 	(bus
 		(pts
@@ -5293,16 +5273,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 49.53) (xy 80.01 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a141f9-7798-4f02-b8d1-97773806bcc9")
-	)
-	(wire
-		(pts
 			(xy 68.58 140.97) (xy 80.01 140.97)
 		)
 		(stroke
@@ -5523,6 +5493,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 85.09) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2033bac-8cdf-41d0-9eb3-6794c77a969c")
+	)
+	(wire
+		(pts
+			(xy 60.96 87.63) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db417a66-1036-4954-a28f-a1cbf56a1fc2")
+	)
+	(wire
+		(pts
 			(xy 130.81 161.29) (xy 125.73 161.29)
 		)
 		(stroke
@@ -5540,6 +5530,16 @@
 			(type default)
 		)
 		(uuid "ded536b8-bdb7-4fb1-bbe8-005609dab441")
+	)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 80.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b71606-de43-4514-9c64-21fff3c8569d")
 	)
 	(bus
 		(pts
@@ -6143,28 +6143,6 @@
 			)
 		)
 	)
-	(global_label "CLK_FPGA_PLL_50MHz"
-		(shape input)
-		(at 57.15 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1003115f-afac-475f-96f3-83f07ceeb55c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.4215 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OE_B"
 		(shape input)
 		(at 57.15 64.77 180)
@@ -6227,6 +6205,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_FPGA_PLL_50MHz"
+		(shape input)
+		(at 57.15 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24245714-c5d3-420d-b94a-3be0d29b4c3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4215 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7441,28 +7441,6 @@
 			)
 		)
 	)
-	(global_label "CLK_FPGA_PLL_50MHz"
-		(shape input)
-		(at 57.15 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd974f74-9a53-4816-a781-7ebb8372f15c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.4215 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "QSPI_IO3{slash}GPIO_5"
 		(shape input)
 		(at 129.54 80.01 0)
@@ -7547,6 +7525,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK_FPGA_PLL_50MHz"
+		(shape input)
+		(at 57.15 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfc602c9-4bf7-4f50-84da-0ca8802ac9f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4215 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7840,7 +7840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 49.53 90)
+		(at 64.77 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7848,7 +7848,7 @@
 		(dnp no)
 		(uuid "08f9cd3d-bf33-46dc-bf32-9f9c05d3a14b")
 		(property "Reference" "R181"
-			(at 70.866 48.26 90)
+			(at 70.866 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +7856,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 75.692 48.26 90)
+			(at 75.692 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7864,7 +7864,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 64.77 51.308 90)
+			(at 64.77 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7873,7 +7873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 49.53 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7882,7 +7882,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 49.53 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8686,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 46.99 90)
+		(at 64.77 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8694,7 +8694,7 @@
 		(dnp no)
 		(uuid "261c3c53-8f69-4810-a2fc-a4c60d20c207")
 		(property "Reference" "R180"
-			(at 70.866 45.72 90)
+			(at 70.866 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +8702,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 75.692 45.72 90)
+			(at 75.692 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +8710,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 64.77 48.768 90)
+			(at 64.77 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +8719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 46.99 0)
+			(at 64.77 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +8728,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 46.99 0)
+			(at 64.77 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
