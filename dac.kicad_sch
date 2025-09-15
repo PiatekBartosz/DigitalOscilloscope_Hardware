@@ -888,10 +888,22 @@
 		)
 	)
 	(junction
+		(at 139.7 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b259adc-a5df-466b-b33f-1a9f1b0b6393")
+	)
+	(junction
 		(at 139.7 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54d31cd1-fb3d-4aa7-a8b4-df3ebc09f85c")
+	)
+	(junction
+		(at 144.78 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63c065e-fca6-4fba-bb50-ceddb34baf62")
 	)
 	(wire
 		(pts
@@ -925,13 +937,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 57.15) (xy 144.78 64.77)
+			(xy 144.78 45.72) (xy 144.78 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2db0ff04-894e-4c07-a3e6-8e910e692bdc")
+	)
+	(wire
+		(pts
+			(xy 139.7 45.72) (xy 139.7 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324c3b1a-aa5f-447c-84fc-6ccf92082b21")
+	)
+	(wire
+		(pts
+			(xy 156.21 45.72) (xy 144.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397c6741-081f-4d30-9bdd-0443161bf1be")
 	)
 	(wire
 		(pts
@@ -985,16 +1017,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 57.15) (xy 139.7 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c552134-4961-4eaf-ba57-5b9722a829ca")
-	)
-	(wire
-		(pts
 			(xy 161.29 80.01) (xy 154.94 80.01)
 		)
 		(stroke
@@ -1035,6 +1057,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 48.26) (xy 128.27 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3c5fa7-8aff-42d6-ae22-b68d13b857af")
+	)
+	(wire
+		(pts
+			(xy 128.27 45.72) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f59522-74aa-4fe2-88db-1d658c142e5e")
+	)
+	(wire
+		(pts
 			(xy 161.29 85.09) (xy 154.94 85.09)
 		)
 		(stroke
@@ -1055,6 +1097,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 44.45) (xy 144.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23b2a13-d62c-4458-9b35-45c1a2f13075")
+	)
+	(wire
+		(pts
 			(xy 125.73 90.17) (xy 129.54 90.17)
 		)
 		(stroke
@@ -1062,6 +1114,26 @@
 			(type default)
 		)
 		(uuid "cd46d384-45f2-4cfc-8743-3dafc80ad3a9")
+	)
+	(wire
+		(pts
+			(xy 139.7 44.45) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d3eb96-1fc2-4c55-9623-8b222a9d87d7")
+	)
+	(wire
+		(pts
+			(xy 156.21 48.26) (xy 156.21 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5e43ad-71ac-4d22-9224-be3c1497eefc")
 	)
 	(wire
 		(pts
@@ -1281,6 +1353,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 156.21 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c1701fd-82fd-41d1-a8c6-97e71bda57a5")
+		(property "Reference" "#PWR0165"
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1793f35-6ac3-4e1f-a314-4c72d0ba950b")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33bd3763-fdf8-4c00-b304-39bbbe3ceec1")
+		(property "Reference" "#PWR0166"
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "617b170b-0a0f-4c12-b91e-454c88fb6ffd")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 139.7 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1347,7 +1551,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 139.7 57.15 0)
+		(at 139.7 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1356,7 +1560,7 @@
 		(fields_autoplaced yes)
 		(uuid "53c8a840-d0d9-4a1a-a433-46c4f9a78d37")
 		(property "Reference" "#PWR064"
-			(at 139.7 60.96 0)
+			(at 139.7 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1569,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 139.7 52.07 0)
+			(at 139.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 57.15 0)
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 57.15 0)
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 139.7 57.15 0)
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,6 +1684,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 128.27 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a68a58c-c86a-421c-968b-9ba125b35f64")
+		(property "Reference" "C61"
+			(at 132.08 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.2352 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f05542f6-8924-4e19-953f-7638dfd925e9")
+		)
+		(pin "2"
+			(uuid "d26de64e-d367-4da0-a333-fa5ed648e6cb")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 158.75 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1497,7 +1771,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 162.56 102.8699 0)
 			(effects
 				(font
@@ -1749,6 +2023,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 156.21 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9ab3f32-c76e-459e-9ae6-a81dbcf5cb5d")
+		(property "Reference" "C60"
+			(at 160.02 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 160.02 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.1752 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d37a47b-8b2e-49c2-b0ce-acafd774a26e")
+		)
+		(pin "2"
+			(uuid "ba0bcc2d-5fb8-488d-a363-eac590beb71e")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 72.39 270)
 		(unit 1)
@@ -1817,7 +2161,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 144.78 57.15 0)
+		(at 144.78 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1826,7 +2170,7 @@
 		(fields_autoplaced yes)
 		(uuid "d61cb9b6-f087-4b4b-8802-000cb08c21e9")
 		(property "Reference" "#PWR065"
-			(at 144.78 60.96 0)
+			(at 144.78 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +2179,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 144.78 52.07 0)
+			(at 144.78 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +2187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 57.15 0)
+			(at 144.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +2196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 57.15 0)
+			(at 144.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +2205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 144.78 57.15 0)
+			(at 144.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
