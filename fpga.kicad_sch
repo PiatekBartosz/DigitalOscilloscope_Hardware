@@ -3923,6 +3923,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: ledy FPGA"
+		(exclude_from_sim no)
+		(at 50.0772 22.4014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51d0419b-7854-4931-99e9-9dc2b8adf242")
+	)
 	(junction
 		(at 127 175.26)
 		(diameter 0)
@@ -11018,7 +11028,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 143.002 40.64 90)
 			(effects
 				(font
@@ -11152,7 +11162,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 143.002 114.3 90)
 			(effects
 				(font

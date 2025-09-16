@@ -172,7 +172,7 @@
 		)
 	)
 	(sheet
-		(at 209.55 104.14)
+		(at 158.75 105.41)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -188,48 +188,6 @@
 		)
 		(uuid "63f109b5-e3fc-444f-b815-14a9a2dd1ea3")
 		(property "Sheetname" "dac"
-			(at 209.55 103.4284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "dac.kicad_sch"
-			(at 209.55 130.1246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 158.75 105.41)
-		(size 26.67 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "66517978-a105-4b23-aef3-4d07ec663cee")
-		(property "Sheetname" "power_conversion"
 			(at 158.75 104.6984 0)
 			(effects
 				(font
@@ -238,7 +196,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power_conversion.kicad_sch"
+		(property "Sheetfile" "dac.kicad_sch"
 			(at 158.75 131.3946 0)
 			(effects
 				(font
@@ -250,7 +208,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
-					(page "11")
+					(page "12")
 				)
 			)
 		)
