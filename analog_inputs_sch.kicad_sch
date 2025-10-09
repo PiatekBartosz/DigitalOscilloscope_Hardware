@@ -3417,16 +3417,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "V < 500 mV / div"
-		(exclude_from_sim no)
-		(at 99.06 155.956 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "062f7ef3-501f-4e58-b2c6-b512ad7d15ed")
-	)
 	(text "CH2"
 		(exclude_from_sim no)
 		(at 41.402 167.132 0)
@@ -3457,25 +3447,15 @@
 		)
 		(uuid "298ad9d9-b987-4cb8-8127-8e63c50d9c1c")
 	)
-	(text "1:1"
-		(exclude_from_sim no)
-		(at 156.464 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "34570094-aebe-4889-a589-38cabe901fb4")
-	)
 	(text "V < 500 mV / div"
 		(exclude_from_sim no)
-		(at 155.194 165.608 0)
+		(at 156.21 157.988 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "41736500-108f-4a39-adfd-c3024655582f")
+		(uuid "5f471040-7d62-4b75-8e34-4fc1659cd3e4")
 	)
 	(text "V < 500 mV / div"
 		(exclude_from_sim no)
@@ -3499,13 +3479,13 @@
 	)
 	(text "V > 500mV / div"
 		(exclude_from_sim no)
-		(at 52.07 151.384 0)
+		(at 97.282 147.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7a7e500c-76cf-4535-bc90-2a7a78933178")
+		(uuid "8b440bca-6c2f-402d-ad85-53addd965a02")
 	)
 	(text "sbaa343a"
 		(exclude_from_sim no)
@@ -3517,6 +3497,16 @@
 		)
 		(uuid "8e6947e2-5c58-4faf-930f-ae0e743c9a1c")
 	)
+	(text "1:1"
+		(exclude_from_sim no)
+		(at 157.48 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4354a9e-fa84-4b3d-8c9c-1e8e87b2c652")
+	)
 	(text "V > 500mV / div"
 		(exclude_from_sim no)
 		(at 96.266 76.708 0)
@@ -3527,16 +3517,6 @@
 		)
 		(uuid "cbb3f12c-eb88-4a86-be6f-59e0a99349fd")
 	)
-	(text "1 : 21.27"
-		(exclude_from_sim no)
-		(at 55.88 154.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d0582a8b-3d6e-4030-a15b-6740f448b359")
-	)
 	(text "~ 1 : 44\n"
 		(exclude_from_sim no)
 		(at 100.076 79.502 0)
@@ -3546,6 +3526,16 @@
 			)
 		)
 		(uuid "f6d42239-e6dd-4df1-a358-89f3a6224bb3")
+	)
+	(text "~ 1 : 44\n"
+		(exclude_from_sim no)
+		(at 101.092 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8f44b68-b3ed-44b5-acf2-71b104a676b5")
 	)
 	(text "AC / DC"
 		(exclude_from_sim no)
@@ -4953,7 +4943,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 111.76) (xy 500.38 111.76)
+			(xy 481.33 111.76) (xy 500.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5673,7 +5663,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 111.76) (xy 464.82 111.76)
+			(xy 450.85 111.76) (xy 473.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -16596,7 +16586,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 468.63 111.76 90)
+		(at 477.52 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16604,7 +16594,7 @@
 		(dnp no)
 		(uuid "9ca76ef1-4076-4a79-97ce-f1d682f00a45")
 		(property "Reference" "R46"
-			(at 470.916 106.426 90)
+			(at 479.806 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16613,7 +16603,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 468.122 108.966 90)
+			(at 477.012 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16622,7 +16612,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 468.63 113.538 90)
+			(at 477.52 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16631,7 +16621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 468.63 111.76 0)
+			(at 477.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16640,7 +16630,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 468.63 111.76 0)
+			(at 477.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
