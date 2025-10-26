@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XLL735080.000000I
+D Standard Clock Oscillators 80 MHz, LVDS 3.3V, 50 ppm
+K
+F https://www.renesas.com/us/en/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet
+$ENDCMP
+#
+#End Doc Library

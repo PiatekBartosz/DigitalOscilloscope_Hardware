@@ -715,10 +715,6 @@
       "analog_inputs"
     ],
     [
-      "8a4d3ccc-9040-4eb2-98b7-763cffb44d2b",
-      "gain_offset"
-    ],
-    [
       "800cc051-5da0-4b0f-90b7-cfba3f489ea8",
       "adc"
     ],

@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(bus
 		(pts
-			(xy 184.15 60.96) (xy 209.55 60.96)
+			(xy 134.62 62.23) (xy 160.02 62.23)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(bus
 		(pts
-			(xy 184.15 57.15) (xy 209.55 57.15)
+			(xy 134.62 58.42) (xy 160.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -26,7 +26,7 @@
 		(uuid "b1a50d70-31a6-4847-b903-3c4449a093ac")
 	)
 	(sheet
-		(at 209.55 54.61)
+		(at 160.02 55.88)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42,7 +42,7 @@
 		)
 		(uuid "3a7288c4-cf21-495b-9b8e-7b87b52ff1d8")
 		(property "Sheetname" "fpga"
-			(at 209.55 53.8984 0)
+			(at 160.02 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +51,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 209.55 80.5946 0)
+			(at 160.02 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			)
 		)
 		(pin "D_ADC_A[0..13]" input
-			(at 209.55 57.15 180)
+			(at 160.02 58.42 180)
 			(uuid "930f8a3f-7563-4783-88a2-b9df13f03230")
 			(effects
 				(font
@@ -70,7 +70,7 @@
 			)
 		)
 		(pin "D_ADC_B[0..13]" input
-			(at 209.55 60.96 180)
+			(at 160.02 62.23 180)
 			(uuid "aac4e3bf-1cf2-4f4a-b84e-8bbe70f7885d")
 			(effects
 				(font
@@ -214,7 +214,7 @@
 		)
 	)
 	(sheet
-		(at 157.48 54.61)
+		(at 107.95 55.88)
 		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -230,7 +230,7 @@
 		)
 		(uuid "800cc051-5da0-4b0f-90b7-cfba3f489ea8")
 		(property "Sheetname" "adc"
-			(at 157.48 53.8984 0)
+			(at 107.95 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,7 +239,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 157.48 80.5946 0)
+			(at 107.95 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -248,7 +248,7 @@
 			)
 		)
 		(pin "D_ADC_A[0..13]" input
-			(at 184.15 57.15 0)
+			(at 134.62 58.42 0)
 			(uuid "e222d80f-59c8-4a0e-9b3d-2d2ee80662ea")
 			(effects
 				(font
@@ -258,7 +258,7 @@
 			)
 		)
 		(pin "D_ADC_B[0..13]" input
-			(at 184.15 60.96 0)
+			(at 134.62 62.23 0)
 			(uuid "0bf1498b-7fc6-4e67-9435-db318c13a6f0")
 			(effects
 				(font
@@ -271,48 +271,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 107.95 54.61)
-		(size 25.4 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8a4d3ccc-9040-4eb2-98b7-763cffb44d2b")
-		(property "Sheetname" "gain_offset"
-			(at 107.95 53.8984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "gain_offset.kicad_sch"
-			(at 107.95 80.5946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2"
-					(page "3")
 				)
 			)
 		)
