@@ -2356,26 +2356,6 @@
 		)
 		(uuid "dd6bf8b4-ab82-460d-b29f-4ca87fac37f5")
 	)
-	(text_box "Nie mam pewności, czy LMH6550 / LMH6551 / LMH6552, Sygnał we z zakresu -0.5V do +0.5V. Sygnał wyjściowy . Common mode na 1.5 V. Do LTC idzie +-0.5V, czyli +-1V różnicowo"
-		(exclude_from_sim no)
-		(at 372.11 24.13 0)
-		(size 25.4 25.4)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "5c423e1c-bf56-4c00-af1d-5bbf964cb8f3")
-	)
 	(junction
 		(at 176.53 173.99)
 		(diameter 0)

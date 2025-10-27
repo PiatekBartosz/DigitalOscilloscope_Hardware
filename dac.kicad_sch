@@ -1858,6 +1858,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: change to one with T suffix"
+		(exclude_from_sim no)
+		(at 188.722 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3623a3fd-e6b6-4c0a-b42b-87d3e852b889")
+	)
 	(junction
 		(at 292.1 78.74)
 		(diameter 0)

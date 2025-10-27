@@ -1573,7 +1573,184 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AP1117-ADJ"
+		(symbol "Regulator_Linear:ADP7182AUJZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Value" "ADP7182AUJZ"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200mA, Low Noise, CMOS Low Dropout Regulator, Negative, Adjustable, TSOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo adjustable negative"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADP7182AUJZ_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ADP7182AUJZ_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:AZ1117-ADJ"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1585,7 +1762,7 @@
 					)
 				)
 			)
-			(property "Value" "AP1117-ADJ"
+			(property "Value" "AZ1117-ADJ"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1594,25 +1771,17 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
+			(property "Footprint" ""
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1621,7 +1790,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo adjustable positive obsolete"
+			(property "Description" "1A 20V Adjustable LDO Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1630,7 +1799,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive LDO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1639,10 +1808,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP1117-ADJ_0_1"
+			(property "ki_fp_filters" "SOT?223* SOT?89* TO?220* TO?252* TO?263*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AZ1117-ADJ_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1652,7 +1830,7 @@
 					)
 				)
 			)
-			(symbol "AP1117-ADJ_1_1"
+			(symbol "AZ1117-ADJ_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1700,147 +1878,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:LM337_SOT223"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM337_SOT223"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm337-n.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Negative 1A 35V Adjustable Linear Regulator, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Adjustable Voltage Regulator 1A Negative"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM337_SOT223_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM337_SOT223_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2314,6 +2351,16 @@
 		)
 		(uuid "26053464-3dea-4542-a105-d653a8c22e9d")
 	)
+	(text "TODO: change negative LDO"
+		(exclude_from_sim no)
+		(at 101.346 137.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32ed38f7-0ada-47b1-becc-91f1c46178a1")
+	)
 	(text "External power"
 		(exclude_from_sim no)
 		(at 27.686 23.622 0)
@@ -2350,12 +2397,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03f3175f-1d5f-40b5-a5e8-2bb1d292eec2")
-	)
-	(junction
-		(at 78.74 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04733d58-3669-4146-94fc-088f0114ea20")
 	)
 	(junction
 		(at 219.71 80.01)
@@ -2410,6 +2451,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34e05b45-30f2-494e-b4b9-f6ece07b4d4b")
+	)
+	(junction
+		(at 78.74 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37926204-2039-4bce-beff-8ccba2df1e63")
 	)
 	(junction
 		(at 196.85 80.01)
@@ -3117,6 +3164,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 182.88) (xy 90.17 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3bd5a0-e1fa-400d-8ddf-5026fa018756")
+	)
+	(wire
+		(pts
 			(xy 275.59 80.01) (xy 264.16 80.01)
 		)
 		(stroke
@@ -3124,16 +3181,6 @@
 			(type default)
 		)
 		(uuid "5f7bf663-dbfe-4529-a56f-f01e4b7389c9")
-	)
-	(wire
-		(pts
-			(xy 102.87 175.26) (xy 102.87 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "631ebb2a-dd30-4ee9-bd7b-830e32b560c5")
 	)
 	(wire
 		(pts
@@ -3294,16 +3341,6 @@
 			(type default)
 		)
 		(uuid "7b281af6-679a-4443-a207-3152bc4657a4")
-	)
-	(wire
-		(pts
-			(xy 78.74 182.88) (xy 95.25 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d782af1-563f-46fd-b74d-61c157b49b6c")
 	)
 	(wire
 		(pts
@@ -6329,6 +6366,150 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AZ1117-ADJ")
+		(at 102.87 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed960d6-cbbc-4ff1-ae3c-ae2a7681648a")
+		(property "Reference" "U16"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ1117-ADJ"
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 20V Adjustable LDO Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc0e6d25-d939-446f-977b-a949c5a79c2f")
+		)
+		(pin "1"
+			(uuid "2eb22a99-33e9-490f-bfe5-b25751cb1baa")
+		)
+		(pin "3"
+			(uuid "fa3437ca-a5cb-4e02-9add-ae8707471248")
+		)
+		(instances
+			(project ""
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AZ1117-ADJ")
+		(at 237.49 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ee3408b-629b-42f5-91b0-7a939492d95c")
+		(property "Reference" "U2"
+			(at 237.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ1117-ADJ"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 20V Adjustable LDO Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263"
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "daa14075-cb56-4453-9337-f7ad8c2b6231")
+		)
+		(pin "1"
+			(uuid "2bfe8fbf-ea5d-454e-97e6-1f6802e2d087")
+		)
+		(pin "3"
+			(uuid "2c01d103-b95f-4c7f-a255-3e35ebe4e51f")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 154.94 39.37 0)
 		(unit 1)
@@ -9147,6 +9328,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AZ1117-ADJ")
+		(at 237.49 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bc333a3-ec25-4ec0-bf76-1b2d2a3b91d8")
+		(property "Reference" "U15"
+			(at 237.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ1117-ADJ"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A 20V Adjustable LDO Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263"
+			(at 237.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25afe5fa-3fa5-4279-a5ea-fed6d30da3b7")
+		)
+		(pin "1"
+			(uuid "18ddd645-7d44-4624-98b0-3d2342945f23")
+		)
+		(pin "3"
+			(uuid "55fa2fbf-f0ea-4c40-8383-6a4232092247")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 46.99 182.88 90)
 		(unit 1)
@@ -11258,33 +11511,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM337_SOT223")
-		(at 102.87 182.88 0)
+		(lib_id "Regulator_Linear:ADP7182AUJZ")
+		(at 100.33 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9f2f8ed-266c-4139-bfd8-ee49cb775e8d")
-		(property "Reference" "U11"
-			(at 102.87 186.69 0)
+		(uuid "cacf0a57-9682-45ae-a39d-27afcf71929a")
+		(property "Reference" "U19"
+			(at 100.33 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM337_SOT223"
-			(at 102.87 189.23 0)
+		(property "Value" "ADP7182AUJZ"
+			(at 100.33 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 102.87 187.96 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 100.33 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11293,8 +11546,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm337-n.pdf"
-			(at 102.87 182.88 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf"
+			(at 100.33 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,8 +11555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Negative 1A 35V Adjustable Linear Regulator, SOT-223"
-			(at 102.87 182.88 0)
+		(property "Description" "200mA, Low Noise, CMOS Low Dropout Regulator, Negative, Adjustable, TSOT-23-5"
+			(at 100.33 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11311,19 +11564,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "cb2fe81f-226e-4f9c-94e9-83738b342064")
+		(pin "5"
+			(uuid "bba6da0a-aa51-4385-b4d4-6b30b7340da7")
 		)
 		(pin "3"
-			(uuid "b1622a81-39ac-4a22-b9d1-fe99af024c8c")
+			(uuid "0efae694-72d0-404f-aa7b-3b9a353d4910")
+		)
+		(pin "4"
+			(uuid "8244c3fa-0688-46ef-b40b-637f0eaefa04")
 		)
 		(pin "2"
-			(uuid "14c2bebe-321b-4184-901f-e44f0ca043f9")
+			(uuid "71726a11-317c-45e3-8e27-393197eff9db")
+		)
+		(pin "1"
+			(uuid "2bbac271-098e-48da-9f4e-b774349d15fb")
 		)
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
-					(reference "U11")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -11938,77 +12197,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AP1117-ADJ")
-		(at 237.49 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e031ddeb-cdd8-4dc4-8abe-b1518eba1e18")
-		(property "Reference" "U18"
-			(at 237.49 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP1117-ADJ"
-			(at 237.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 237.49 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf"
-			(at 240.03 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
-			(at 237.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1f04f7d-a1b5-491c-9a9a-ea473d6a567a")
-		)
-		(pin "3"
-			(uuid "46a6eeb8-ba81-4ada-8b61-6e8d7cdba539")
-		)
-		(pin "2"
-			(uuid "b9a1e7da-95c4-4a8b-b8b9-b640b507274e")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
-					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "+2v5:+5V_EXT")
 		(at 163.83 118.11 0)
 		(unit 1)
@@ -12069,149 +12257,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM337_SOT223")
-		(at 101.6 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1f44389-b034-4f60-bdab-831356b81065")
-		(property "Reference" "U14"
-			(at 101.6 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM337_SOT223"
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 101.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm337-n.pdf"
-			(at 101.6 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Negative 1A 35V Adjustable Linear Regulator, SOT-223"
-			(at 101.6 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "495f10ec-1e62-4325-a14a-2d313d424cf7")
-		)
-		(pin "3"
-			(uuid "e37f702b-3c44-4575-bf76-92f7c30966cf")
-		)
-		(pin "2"
-			(uuid "a463bb1b-4c9c-4caa-8792-8f95635c89e3")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP1117-ADJ")
-		(at 237.49 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6413301-28d2-4a80-acaa-1a7758491c0e")
-		(property "Reference" "U2"
-			(at 237.49 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP1117-ADJ"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 237.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
-			(at 237.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fe86166-eee3-4980-a406-141f4866fd2e")
-		)
-		(pin "3"
-			(uuid "41d4bafe-9519-4604-b4e9-21a670e7f81f")
-		)
-		(pin "2"
-			(uuid "b362eeeb-83bb-4cf8-8796-1d426abe09f2")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12344,77 +12389,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
 					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP1117-ADJ")
-		(at 102.87 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec4a86d9-9d0d-4ba5-8550-2cd214525ee3")
-		(property "Reference" "U15"
-			(at 102.87 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP1117-ADJ"
-			(at 102.87 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 102.87 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf"
-			(at 105.41 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
-			(at 102.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0aeb57a0-4319-4714-8cb5-f09d71734ddb")
-		)
-		(pin "3"
-			(uuid "0ad3767f-0ffb-497c-a15f-a43e5be8aaa5")
-		)
-		(pin "2"
-			(uuid "146d2f95-d99e-44ed-acd5-a91e0cbd8fa7")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/4a7a4e83-7308-4a9e-8083-bc047537525b"
-					(reference "U15")
 					(unit 1)
 				)
 			)
