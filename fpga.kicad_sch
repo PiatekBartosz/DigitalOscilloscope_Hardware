@@ -8148,7 +8148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.77 89.408 90)
 			(effects
 				(font
@@ -8925,7 +8925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.77 86.868 90)
 			(effects
 				(font
@@ -9059,7 +9059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 185.42 58.928 90)
 			(effects
 				(font
@@ -9193,7 +9193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XLL735080000000I"
+		(property "Footprint" "KiCad:XLL735080000000I"
 			(at 213.36 152.07 0)
 			(effects
 				(font
@@ -9456,7 +9456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.08 41.148 90)
 			(effects
 				(font
@@ -9589,7 +9589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.08 114.808 90)
 			(effects
 				(font
@@ -10101,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.08 43.688 90)
 			(effects
 				(font
@@ -10168,7 +10168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.08 117.348 90)
 			(effects
 				(font
@@ -10238,7 +10238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 237.1852 66.04 0)
 			(effects
 				(font
