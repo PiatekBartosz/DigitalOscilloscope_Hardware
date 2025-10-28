@@ -9661,7 +9661,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 381) (xy 306.07 381)
+			(xy 250.19 381) (xy 306.07 381)
 		)
 		(stroke
 			(width 0)
@@ -12497,7 +12497,7 @@
 	)
 	(global_label "CH2_OFFSET_DAC"
 		(shape input)
-		(at 294.64 381 180)
+		(at 250.19 381 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12507,7 +12507,7 @@
 		)
 		(uuid "ea262dc6-4484-4105-ba23-796d9cb02571")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.4472 381 0)
+			(at 230.9972 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
