@@ -3916,6 +3916,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 83.82) (xy 312.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca46884-3c4a-417e-bde6-1f019e3c207d")
+	)
+	(wire
+		(pts
 			(xy 237.49 57.15) (xy 237.49 130.81)
 		)
 		(stroke
@@ -4013,16 +4023,6 @@
 			(type default)
 		)
 		(uuid "7a7a7cef-5833-4f44-9e27-d8c9dd316a1b")
-	)
-	(wire
-		(pts
-			(xy 312.42 83.82) (xy 312.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a84818e-8189-466f-a767-5b96dd17892c")
 	)
 	(wire
 		(pts
@@ -5749,72 +5749,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/800cc051-5da0-4b0f-90b7-cfba3f489ea8"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 312.42 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b6f6f32-18dc-462f-8b72-9dbb918e82a8")
-		(property "Reference" "#PWR0142"
-			(at 312.42 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V2"
-			(at 312.42 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 312.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "545be141-91d4-46d5-a10a-e8ed9271bc57")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/800cc051-5da0-4b0f-90b7-cfba3f489ea8"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -8073,72 +8007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 312.42 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "720ffcef-e024-499b-b992-769ad26f952f")
-		(property "Reference" "#PWR0106"
-			(at 312.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V2"
-			(at 312.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 312.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "260629f6-8597-4e8e-8feb-57cef5feaabe")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/800cc051-5da0-4b0f-90b7-cfba3f489ea8"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 143.51 57.15 90)
 		(unit 1)
@@ -8740,6 +8608,72 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/800cc051-5da0-4b0f-90b7-cfba3f489ea8"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 312.42 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "946ba500-5f8f-4433-b0a4-894265e9dd8c")
+		(property "Reference" "#PWR0272"
+			(at 312.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 312.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 312.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94fabe7d-0894-4358-8e98-47d888347f31")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/800cc051-5da0-4b0f-90b7-cfba3f489ea8"
+					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
@@ -10364,6 +10298,72 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/800cc051-5da0-4b0f-90b7-cfba3f489ea8"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 312.42 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec2f451d-e6a2-4d0d-be57-86ad6e934922")
+		(property "Reference" "#PWR0106"
+			(at 312.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 312.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 312.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aae3c65-0ee6-420e-8f2b-07c9dd09adc4")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/800cc051-5da0-4b0f-90b7-cfba3f489ea8"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)

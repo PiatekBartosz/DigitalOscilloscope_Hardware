@@ -53982,16 +53982,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 133.35) (xy 72.39 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe785036-86f1-4ccc-81e3-b07bc3c633e6")
-	)
-	(wire
-		(pts
 			(xy 231.14 146.05) (xy 242.57 146.05)
 		)
 		(stroke
@@ -54820,28 +54810,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NRST"
-		(shape input)
-		(at 49.53 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81024d01-d937-4b6d-bae5-9a5567206e7a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.7672 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
