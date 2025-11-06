@@ -1961,16 +1961,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: change to one with T suffix"
-		(exclude_from_sim no)
-		(at 194.818 112.522 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3623a3fd-e6b6-4c0a-b42b-87d3e852b889")
-	)
 	(junction
 		(at 317.5 78.74)
 		(diameter 0)
@@ -3231,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "012b16f0-379a-46b2-ad25-fa7c95c57e99")
-		(property "Reference" "#FLG038"
+		(property "Reference" "#FLG037"
 			(at 331.47 114.935 0)
 			(effects
 				(font
@@ -3281,7 +3271,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#FLG038")
+					(reference "#FLG037")
 					(unit 1)
 				)
 			)
@@ -3297,7 +3287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06c6e48a-2c78-498b-b3a9-8e2c7958d453")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0254"
 			(at 300.99 143.51 0)
 			(effects
 				(font
@@ -3347,7 +3337,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR044")
+					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157c59a0-08e1-4dab-a0b7-6525015222f8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0253"
 			(at 276.86 146.05 0)
 			(effects
 				(font
@@ -3480,7 +3470,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR043")
+					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
@@ -3497,7 +3487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "186fe405-6e23-4209-a747-38ec71bf33e9")
-		(property "Reference" "L37"
+		(property "Reference" "L58"
 			(at 373.38 128.27 90)
 			(effects
 				(font
@@ -3513,7 +3503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 373.38 133.35 0)
 			(effects
 				(font
@@ -3549,7 +3539,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "L37")
+					(reference "L58")
 					(unit 1)
 				)
 			)
@@ -3565,7 +3555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b186ac6-32c3-4495-9ad3-318893dc45ba")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0266"
 			(at 387.35 133.35 0)
 			(effects
 				(font
@@ -3615,7 +3605,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0164")
+					(reference "#PWR0266")
 					(unit 1)
 				)
 			)
@@ -3631,7 +3621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202a594d-ccc3-4894-95b0-4d3f55348939")
-		(property "Reference" "C100"
+		(property "Reference" "C127"
 			(at 128.27 151.1299 0)
 			(effects
 				(font
@@ -3685,7 +3675,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C100")
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -3701,7 +3691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26108b8a-f807-440c-ba25-85f50821e744")
-		(property "Reference" "C114"
+		(property "Reference" "C135"
 			(at 327.66 107.9501 0)
 			(effects
 				(font
@@ -3755,7 +3745,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C114")
+					(reference "C135")
 					(unit 1)
 				)
 			)
@@ -3771,7 +3761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc2b3e5-a94f-4194-938a-429fcdb2314d")
-		(property "Reference" "C97"
+		(property "Reference" "C130"
 			(at 292.1 140.9699 0)
 			(effects
 				(font
@@ -3825,7 +3815,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C97")
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -3842,7 +3832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30ea1bc0-0038-4833-9c4e-b626df00d54a")
-		(property "Reference" "C110"
+		(property "Reference" "C133"
 			(at 313.69 138.4299 0)
 			(effects
 				(font
@@ -3896,7 +3886,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C110")
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -3912,7 +3902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b99fb3-5265-41b0-a86d-dfe605f8460b")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0265"
 			(at 387.35 110.49 0)
 			(effects
 				(font
@@ -3962,7 +3952,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0209")
+					(reference "#PWR0265")
 					(unit 1)
 				)
 			)
@@ -3977,7 +3967,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3ba8fda2-27c9-4bbe-985d-3ea4c017b9e8")
-		(property "Reference" "R59"
+		(property "Reference" "R176"
 			(at 262.636 162.56 90)
 			(effects
 				(font
@@ -4029,7 +4019,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "R59")
+					(reference "R176")
 					(unit 1)
 				)
 			)
@@ -4044,7 +4034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "400129c2-cf31-4b16-8104-5b9e5c8c8df5")
-		(property "Reference" "C98"
+		(property "Reference" "C129"
 			(at 261.366 144.78 90)
 			(effects
 				(font
@@ -4096,7 +4086,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C98")
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47dd2b72-b40e-4b74-a370-921c361532d2")
-		(property "Reference" "C109"
+		(property "Reference" "C136"
 			(at 327.66 138.4299 0)
 			(effects
 				(font
@@ -4167,7 +4157,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C109")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -4184,7 +4174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d98d964-dcf0-4f99-82db-a092c0d0709a")
-		(property "Reference" "C112"
+		(property "Reference" "C137"
 			(at 341.63 83.8199 0)
 			(effects
 				(font
@@ -4238,7 +4228,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C112")
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -4255,7 +4245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50bf5f4a-0f9f-4ae0-ad33-39fab047f945")
-		(property "Reference" "L10"
+		(property "Reference" "L56"
 			(at 373.38 73.66 90)
 			(effects
 				(font
@@ -4271,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 373.38 78.74 0)
 			(effects
 				(font
@@ -4307,7 +4297,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "L10")
+					(reference "L56")
 					(unit 1)
 				)
 			)
@@ -4323,7 +4313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59aca9b9-ba8b-48ef-a9c9-b914ce0a73f5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0250"
 			(at 152.4 175.26 0)
 			(effects
 				(font
@@ -4373,7 +4363,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR018")
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59e35ef4-69db-4600-948a-c1a873dfeb45")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0256"
 			(at 317.5 96.52 0)
 			(effects
 				(font
@@ -4439,7 +4429,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0210")
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60ec4f04-bc31-4e9b-a16a-dc0776dfd9b3")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0264"
 			(at 387.35 78.74 0)
 			(effects
 				(font
@@ -4505,7 +4495,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0213")
+					(reference "#PWR0264")
 					(unit 1)
 				)
 			)
@@ -4521,7 +4511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c6f266-5fec-407f-813e-b75934c26026")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0246"
 			(at 110.49 162.56 0)
 			(effects
 				(font
@@ -4571,7 +4561,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR045")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -4587,7 +4577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a9c06d3-4803-44e3-8d9c-52ffe1bbd6a7")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0251"
 			(at 228.6 125.73 0)
 			(effects
 				(font
@@ -4638,7 +4628,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR038")
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -4654,7 +4644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d48d683-9432-41ef-af45-8d686b70f2cf")
-		(property "Reference" "#FLG037"
+		(property "Reference" "#FLG038"
 			(at 331.47 131.445 0)
 			(effects
 				(font
@@ -4704,7 +4694,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#FLG037")
+					(reference "#FLG038")
 					(unit 1)
 				)
 			)
@@ -4720,7 +4710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d6e962e-be12-471e-a1dc-9cc041acb0e2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0252"
 			(at 228.6 138.43 0)
 			(effects
 				(font
@@ -4771,7 +4761,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR040")
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -4787,7 +4777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7151b4f4-adb3-4357-8a0c-06152bdcf32f")
-		(property "Reference" "TP27"
+		(property "Reference" "TP23"
 			(at 226.06 157.9879 0)
 			(effects
 				(font
@@ -4838,7 +4828,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "TP27")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c0ab9a-bd56-48ad-8e4f-6022322662dd")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0257"
 			(at 317.5 149.86 0)
 			(effects
 				(font
@@ -4905,7 +4895,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0199")
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
@@ -4921,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7abd0ecc-c81f-412a-b94f-307f0b36eaa8")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0262"
 			(at 345.44 96.52 0)
 			(effects
 				(font
@@ -4971,7 +4961,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0212")
+					(reference "#PWR0262")
 					(unit 1)
 				)
 			)
@@ -4987,7 +4977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b7c7a24-741b-4842-9f09-920ca45acd8c")
-		(property "Reference" "C128"
+		(property "Reference" "C138"
 			(at 341.63 107.9501 0)
 			(effects
 				(font
@@ -5041,7 +5031,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C128")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -5058,7 +5048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fc9dd57-0546-49b5-aaa3-ed8ae5efcb27")
-		(property "Reference" "L38"
+		(property "Reference" "L55"
 			(at 358.14 128.27 90)
 			(effects
 				(font
@@ -5074,7 +5064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 358.14 133.35 0)
 			(effects
 				(font
@@ -5110,7 +5100,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "L38")
+					(reference "L55")
 					(unit 1)
 				)
 			)
@@ -5125,7 +5115,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "8262dbdd-1ed7-4634-9fd9-da1e9ec832a1")
-		(property "Reference" "R46"
+		(property "Reference" "R177"
 			(at 262.636 165.1 90)
 			(effects
 				(font
@@ -5177,7 +5167,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "R46")
+					(reference "R177")
 					(unit 1)
 				)
 			)
@@ -5193,7 +5183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84b66858-a348-4b10-a387-4bae15c44f4a")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0245"
 			(at 68.58 146.05 0)
 			(effects
 				(font
@@ -5243,7 +5233,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0163")
+					(reference "#PWR0245")
 					(unit 1)
 				)
 			)
@@ -5259,7 +5249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85336540-1be8-4318-a43a-a444d10eead6")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0249"
 			(at 152.4 157.48 0)
 			(effects
 				(font
@@ -5309,7 +5299,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR070")
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -5325,7 +5315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "855dc7a1-6188-497d-a77b-820eeb4274ae")
-		(property "Reference" "C99"
+		(property "Reference" "C126"
 			(at 114.3 151.1299 0)
 			(effects
 				(font
@@ -5379,7 +5369,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C99")
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -5395,7 +5385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "879bf4f1-69f7-4b71-9099-3401f3438f38")
-		(property "Reference" "L36"
+		(property "Reference" "L52"
 			(at 97.79 140.97 90)
 			(effects
 				(font
@@ -5411,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 97.79 146.05 0)
 			(effects
 				(font
@@ -5447,7 +5437,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "L36")
+					(reference "L52")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b579a4a-4962-4561-9331-6363d523450b")
-		(property "Reference" "L35"
+		(property "Reference" "L51"
 			(at 82.55 140.97 90)
 			(effects
 				(font
@@ -5479,7 +5469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 82.55 146.05 0)
 			(effects
 				(font
@@ -5515,7 +5505,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "L35")
+					(reference "L51")
 					(unit 1)
 				)
 			)
@@ -5532,7 +5522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9096d74a-c8d3-4cca-b034-89d5007aa107")
-		(property "Reference" "C111"
+		(property "Reference" "C134"
 			(at 327.66 83.8199 0)
 			(effects
 				(font
@@ -5586,7 +5576,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C111")
+					(reference "C134")
 					(unit 1)
 				)
 			)
@@ -5603,7 +5593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d1f47c-adab-4545-84d2-fcd679f4f29c")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0260"
 			(at 331.47 149.86 0)
 			(effects
 				(font
@@ -5653,7 +5643,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0198")
+					(reference "#PWR0260")
 					(unit 1)
 				)
 			)
@@ -5669,7 +5659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9618b985-9fb9-4559-8b85-565d444124ec")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0248"
 			(at 138.43 162.56 0)
 			(effects
 				(font
@@ -5719,7 +5709,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0162")
+					(reference "#PWR0248")
 					(unit 1)
 				)
 			)
@@ -5736,7 +5726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99172c9f-054a-4c6b-b861-f58c6559bb5f")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0263"
 			(at 345.44 149.86 0)
 			(effects
 				(font
@@ -5786,7 +5776,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0196")
+					(reference "#PWR0263")
 					(unit 1)
 				)
 			)
@@ -5803,7 +5793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad40f05-f85f-4eae-92fc-b39189ae39c7")
-		(property "Reference" "C102"
+		(property "Reference" "C139"
 			(at 341.63 138.4299 0)
 			(effects
 				(font
@@ -5857,7 +5847,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C102")
+					(reference "C139")
 					(unit 1)
 				)
 			)
@@ -5874,7 +5864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e52cb41-fde7-4704-90fe-68a358788cd6")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0261"
 			(at 345.44 95.25 0)
 			(effects
 				(font
@@ -5924,7 +5914,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0208")
+					(reference "#PWR0261")
 					(unit 1)
 				)
 			)
@@ -5941,7 +5931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0168b9d-be3a-4c42-936b-bc1b9711f38b")
-		(property "Reference" "L44"
+		(property "Reference" "L57"
 			(at 373.38 107.95 90)
 			(effects
 				(font
@@ -5957,7 +5947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 373.38 113.03 0)
 			(effects
 				(font
@@ -5993,7 +5983,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "L44")
+					(reference "L57")
 					(unit 1)
 				)
 			)
@@ -6010,7 +6000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a240b909-6cf1-4921-9b57-934287e61672")
-		(property "Reference" "L9"
+		(property "Reference" "L53"
 			(at 358.14 73.66 90)
 			(effects
 				(font
@@ -6026,7 +6016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 358.14 78.74 0)
 			(effects
 				(font
@@ -6062,7 +6052,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "L9")
+					(reference "L53")
 					(unit 1)
 				)
 			)
@@ -6078,7 +6068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a59826a5-adee-4722-bde7-997c22c6816d")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0247"
 			(at 124.46 162.56 0)
 			(effects
 				(font
@@ -6128,7 +6118,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR046")
+					(reference "#PWR0247")
 					(unit 1)
 				)
 			)
@@ -6144,7 +6134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7e1c553-387e-4bc4-ad40-a2517dac6ca2")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0259"
 			(at 331.47 96.52 0)
 			(effects
 				(font
@@ -6194,7 +6184,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0211")
+					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -6210,7 +6200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa638ffc-febd-4c31-8be7-df2772fa7c25")
-		(property "Reference" "TP14"
+		(property "Reference" "TP24"
 			(at 238.76 157.9879 0)
 			(effects
 				(font
@@ -6261,7 +6251,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "TP14")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -6277,7 +6267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad9a2dc9-5005-4336-92fd-e369176fa4ba")
-		(property "Reference" "C101"
+		(property "Reference" "C128"
 			(at 142.24 151.1299 0)
 			(effects
 				(font
@@ -6331,7 +6321,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C101")
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -6347,7 +6337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b508946e-07fb-4ba3-b7cd-8caaaa08430c")
-		(property "Reference" "U7"
+		(property "Reference" "U17"
 			(at 195.58 115.57 0)
 			(effects
 				(font
@@ -6363,14 +6353,13 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ul_DAC61408RHAR:QFN_08RHAT_TEX-L"
 			(at 170.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/dac61408"
@@ -6518,7 +6507,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "U7")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -6533,7 +6522,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d8613400-f957-4283-92df-db121222526a")
-		(property "Reference" "R54"
+		(property "Reference" "R178"
 			(at 262.636 167.64 90)
 			(effects
 				(font
@@ -6585,7 +6574,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "R54")
+					(reference "R178")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b730ca-6ea0-4a5e-a3b2-142503dba897")
-		(property "Reference" "L43"
+		(property "Reference" "L54"
 			(at 358.14 107.95 90)
 			(effects
 				(font
@@ -6618,7 +6607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 358.14 113.03 0)
 			(effects
 				(font
@@ -6654,7 +6643,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "L43")
+					(reference "L54")
 					(unit 1)
 				)
 			)
@@ -6670,7 +6659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15b31f5-b7fb-4cf8-bf07-9ef141597394")
-		(property "Reference" "C113"
+		(property "Reference" "C132"
 			(at 313.69 107.9501 0)
 			(effects
 				(font
@@ -6724,7 +6713,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C113")
+					(reference "C132")
 					(unit 1)
 				)
 			)
@@ -6741,7 +6730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2a8f79d-78f0-4ef2-97a9-140b0e9f476b")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0255"
 			(at 317.5 95.25 0)
 			(effects
 				(font
@@ -6791,7 +6780,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0200")
+					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
@@ -6808,7 +6797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f358fcd6-f7a5-4b7b-8671-5ea7263bfc8d")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0258"
 			(at 331.47 95.25 0)
 			(effects
 				(font
@@ -6858,7 +6847,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "#PWR0201")
+					(reference "#PWR0258")
 					(unit 1)
 				)
 			)
@@ -6875,7 +6864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76038d5-d2dc-4afd-9b41-3e26fd0701b8")
-		(property "Reference" "C78"
+		(property "Reference" "C131"
 			(at 313.69 83.8199 0)
 			(effects
 				(font
@@ -6929,7 +6918,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "C78")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -6945,7 +6934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f97e52be-3fbc-44e6-a6f2-b62a6dd9e963")
-		(property "Reference" "TP6"
+		(property "Reference" "TP25"
 			(at 251.46 157.9879 0)
 			(effects
 				(font
@@ -6996,7 +6985,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "TP6")
+					(reference "TP25")
 					(unit 1)
 				)
 			)

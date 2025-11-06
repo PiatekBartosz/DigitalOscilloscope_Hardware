@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ul_DAC61408RHAR")(type "KiCad")(uri "${KIPRJMOD}/Components/ul_DAC61408RHAR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "LTC2299")(type "KiCad")(uri "${KIPRJMOD}/Components/ul_LTC2299CUP/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "AD8337BCPZ")(type "KiCad")(uri "${KIPRJMOD}/Components/ul_AD8337BCPZ-REEL-ND/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TL072")(type "KiCad")(uri "${KIPRJMOD}/Components/ul_TL072QDREP/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

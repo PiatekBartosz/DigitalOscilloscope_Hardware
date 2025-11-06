@@ -49088,8 +49088,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IRL6283M"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -49104,7 +49105,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IRL6283M"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -49113,7 +49114,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DirectFET:DirectFET_MD"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -49124,7 +49125,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -49134,7 +49135,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -49143,7 +49144,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET IRFET"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -49152,7 +49153,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DirectFET*MD*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -49161,7 +49162,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IRL6283M_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -49305,7 +49306,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -49328,7 +49329,7 @@
 					)
 				)
 			)
-			(symbol "IRL6283M_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -49339,7 +49340,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -49357,7 +49358,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -49375,7 +49376,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -56503,7 +56504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "024b7530-dd95-4da8-8a0c-392845b520d4")
-		(property "Reference" "R174"
+		(property "Reference" "R71"
 			(at 67.31 167.894 90)
 			(effects
 				(font
@@ -56555,7 +56556,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R174")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -56571,7 +56572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "025ad092-4d2e-4267-bf85-d346f7cf5c2d")
-		(property "Reference" "R98"
+		(property "Reference" "R153"
 			(at 431.8 325.1199 0)
 			(effects
 				(font
@@ -56625,7 +56626,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R98")
+					(reference "R153")
 					(unit 1)
 				)
 			)
@@ -56641,7 +56642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "030cb98a-30fd-48ea-a1a2-eb7a1f132a8e")
-		(property "Reference" "R89"
+		(property "Reference" "R117"
 			(at 250.19 322.5799 0)
 			(effects
 				(font
@@ -56695,7 +56696,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R89")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -56711,7 +56712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03c07266-655c-495a-9d5d-3b335eb21467")
-		(property "Reference" "#PWR0275"
+		(property "Reference" "#PWR0158"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -56761,83 +56762,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0275")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 208.28 316.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04435eef-e2ac-4a58-b3f8-2658c589100b")
-		(property "Reference" "Q7"
-			(at 214.63 314.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 214.63 317.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 318.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 213.36 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 208.28 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14f85a19-7d30-449b-880c-5cebb849e035")
-		)
-		(pin "1"
-			(uuid "096c91b1-6154-4439-bf67-46a75f0b9134")
-		)
-		(pin "3"
-			(uuid "b0adf534-fb25-4a47-92c1-d4777974d381")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q7")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -56852,7 +56777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05507b42-b812-40d2-9fc0-f452cb771f5a")
-		(property "Reference" "R177"
+		(property "Reference" "R88"
 			(at 213.36 119.634 90)
 			(effects
 				(font
@@ -56904,7 +56829,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R177")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -56920,7 +56845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0830fb5c-4d7f-4096-80c9-ddfc32e450dd")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 171.45 300.9899 90)
 			(effects
 				(font
@@ -56938,7 +56863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 168.91 302.26 0)
 			(effects
 				(font
@@ -56992,7 +56917,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -57008,7 +56933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ced635-3aba-4ffc-ad38-de90ced7d0f1")
-		(property "Reference" "D13"
+		(property "Reference" "D10"
 			(at 448.31 304.7999 90)
 			(effects
 				(font
@@ -57080,7 +57005,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D13")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -57096,7 +57021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "099833f0-4a51-47a5-8719-e8e7f8ff6a27")
-		(property "Reference" "D14"
+		(property "Reference" "D11"
 			(at 496.57 306.0699 90)
 			(effects
 				(font
@@ -57168,83 +57093,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 160.02 316.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b9d9234-6d0a-4bbb-a07e-783b2b523f61")
-		(property "Reference" "Q6"
-			(at 166.37 314.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 166.37 317.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 318.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 165.1 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 160.02 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0aa83e9b-992e-41b3-89dc-3dd32ecd478e")
-		)
-		(pin "1"
-			(uuid "bdb1efff-0d2a-4021-b235-339bc5ffcf61")
-		)
-		(pin "3"
-			(uuid "1e6bad22-4a21-4c95-adee-10382166de0d")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q6")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -57260,7 +57109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0caac0b3-579e-430e-a831-f89901626dee")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0173"
 			(at 335.28 165.1 0)
 			(effects
 				(font
@@ -57310,7 +57159,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0118")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -57325,7 +57174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0da5b822-d4f7-46be-9767-13f6b1c332ec")
-		(property "Reference" "R134"
+		(property "Reference" "R123"
 			(at 318.77 232.664 90)
 			(effects
 				(font
@@ -57377,7 +57226,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R134")
+					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -57392,7 +57241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0db0ab20-f08f-46bb-8236-be990fe82681")
-		(property "Reference" "R90"
+		(property "Reference" "R118"
 			(at 287.02 321.564 90)
 			(effects
 				(font
@@ -57446,7 +57295,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R90")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -57461,7 +57310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10521d50-b0a0-4e62-879a-c0ed250169b0")
-		(property "Reference" "R164"
+		(property "Reference" "R95"
 			(at 220.98 119.634 90)
 			(effects
 				(font
@@ -57513,7 +57362,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R164")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -57530,7 +57379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "114487ae-c43e-4d58-a4b0-0272752ef568")
-		(property "Reference" "#PWR0262"
+		(property "Reference" "#PWR0178"
 			(at 439.42 344.17 0)
 			(effects
 				(font
@@ -57580,7 +57429,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0262")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -57595,7 +57444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "125bfd00-b2f0-446d-98d2-6a4d544c122f")
-		(property "Reference" "R169"
+		(property "Reference" "R102"
 			(at 233.426 144.78 90)
 			(effects
 				(font
@@ -57647,7 +57496,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R169")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -57663,7 +57512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13c965ed-794a-431d-a528-c31a6e7de5b0")
-		(property "Reference" "#FLG031"
+		(property "Reference" "#FLG026"
 			(at 146.05 121.285 0)
 			(effects
 				(font
@@ -57713,7 +57562,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#FLG031")
+					(reference "#FLG026")
 					(unit 1)
 				)
 			)
@@ -57729,7 +57578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "174b857f-7fcc-476f-bb50-3e602dbad52c")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 425.45 112.522 0)
 			(effects
 				(font
@@ -58650,7 +58499,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 7)
 				)
 			)
@@ -58666,7 +58515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e48d70-9bd2-47d4-9a03-9b7050c20e66")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0171"
 			(at 334.01 247.65 0)
 			(effects
 				(font
@@ -58716,7 +58565,83 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0119")
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 345.44 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "180f3e57-8b57-4358-a553-28c529f2c847")
+		(property "Reference" "Q6"
+			(at 351.79 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 351.79 320.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 350.52 320.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 350.52 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 345.44 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f3c8fee-c53d-49a4-b4ca-635f7de377a6")
+		)
+		(pin "1"
+			(uuid "e71e2324-8d34-4d81-b8e6-c19377e7d274")
+		)
+		(pin "3"
+			(uuid "54d1c7a9-18ae-430e-bdef-4dd5e76a6979")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -58731,7 +58656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1db3f67c-6682-4e3e-bd2b-caaf7e67d41f")
-		(property "Reference" "R144"
+		(property "Reference" "R146"
 			(at 341.376 218.44 90)
 			(effects
 				(font
@@ -58783,7 +58708,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R144")
+					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -58799,7 +58724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f6a02c7-7a44-4b6f-b9a0-805314350ea6")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0150"
 			(at 72.39 182.88 0)
 			(effects
 				(font
@@ -58849,7 +58774,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0138")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -58865,7 +58790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2106d18e-798b-4ef9-933b-b4775d0c58de")
-		(property "Reference" "R93"
+		(property "Reference" "R149"
 			(at 340.36 323.8499 0)
 			(effects
 				(font
@@ -58919,7 +58844,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R93")
+					(reference "R149")
 					(unit 1)
 				)
 			)
@@ -58934,7 +58859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21dcefa5-57e9-4ace-9f76-78b79cbcfc31")
-		(property "Reference" "R73"
+		(property "Reference" "R137"
 			(at 341.376 181.61 90)
 			(effects
 				(font
@@ -58986,7 +58911,83 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R73")
+					(reference "R137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 303.53 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "222112d2-d722-45c4-a781-1d42a279cd4d")
+		(property "Reference" "Q5"
+			(at 309.88 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 309.88 320.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 308.61 320.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 308.61 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 303.53 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "331e5c06-9791-46c7-b514-4956d8dfc73d")
+		)
+		(pin "1"
+			(uuid "58961c7e-b219-4fe9-bbca-50816aa93e4b")
+		)
+		(pin "3"
+			(uuid "a251f971-9299-4339-91dd-db1bf7ae800e")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -59003,7 +59004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22810691-68fa-43a2-9c66-9319c98e7c8f")
-		(property "Reference" "#PWR0260"
+		(property "Reference" "#PWR0176"
 			(at 396.24 344.17 0)
 			(effects
 				(font
@@ -59053,7 +59054,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0260")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -59068,7 +59069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "237571fa-133c-4200-9080-69338f368ba2")
-		(property "Reference" "R154"
+		(property "Reference" "R129"
 			(at 326.39 171.704 90)
 			(effects
 				(font
@@ -59120,7 +59121,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R154")
+					(reference "R129")
 					(unit 1)
 				)
 			)
@@ -59135,7 +59136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23e1e5fd-beac-44a9-ac17-601f7a65cced")
-		(property "Reference" "R146"
+		(property "Reference" "R148"
 			(at 341.376 223.52 90)
 			(effects
 				(font
@@ -59187,7 +59188,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R146")
+					(reference "R148")
 					(unit 1)
 				)
 			)
@@ -59202,7 +59203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23fb1a9b-e8f9-4ccf-b70d-8c495675d643")
-		(property "Reference" "R148"
+		(property "Reference" "R138"
 			(at 341.376 186.69 90)
 			(effects
 				(font
@@ -59254,7 +59255,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R148")
+					(reference "R138")
 					(unit 1)
 				)
 			)
@@ -59269,7 +59270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "247961b3-cd1d-46b3-b944-d870612c0e19")
-		(property "Reference" "R192"
+		(property "Reference" "R70"
 			(at 66.04 233.934 90)
 			(effects
 				(font
@@ -59321,7 +59322,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R192")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -59336,7 +59337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25f3649c-b6a3-4f01-9ca7-7e9d2cd559d1")
-		(property "Reference" "R152"
+		(property "Reference" "R141"
 			(at 341.376 196.85 90)
 			(effects
 				(font
@@ -59388,7 +59389,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R152")
+					(reference "R141")
 					(unit 1)
 				)
 			)
@@ -59403,7 +59404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27bd309b-6ba8-4be8-8786-d7d743241bb0")
-		(property "Reference" "R131"
+		(property "Reference" "R94"
 			(at 218.44 231.394 90)
 			(effects
 				(font
@@ -59455,7 +59456,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R131")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -59471,7 +59472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27bf77f6-ddb9-4d6f-9a8e-8c722ee89db6")
-		(property "Reference" "D9"
+		(property "Reference" "D6"
 			(at 266.7 302.2599 90)
 			(effects
 				(font
@@ -59543,7 +59544,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D9")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -59558,7 +59559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2940034c-6a33-4fd1-a481-31fb97593736")
-		(property "Reference" "R80"
+		(property "Reference" "R109"
 			(at 233.426 201.93 90)
 			(effects
 				(font
@@ -59610,7 +59611,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R80")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -59625,7 +59626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29f2f0f4-1458-4707-94a9-4717ad76c59d")
-		(property "Reference" "R64"
+		(property "Reference" "R74"
 			(at 143.51 319.024 90)
 			(effects
 				(font
@@ -59679,7 +59680,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R64")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -59694,7 +59695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bd95775-1f38-4c04-8dc8-f8002b4bd1d7")
-		(property "Reference" "R81"
+		(property "Reference" "R110"
 			(at 233.426 204.47 90)
 			(effects
 				(font
@@ -59746,7 +59747,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R81")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -59762,7 +59763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c459d32-455b-4886-bbb8-e076e6fae54e")
-		(property "Reference" "#PWR0265"
+		(property "Reference" "#PWR0181"
 			(at 494.03 307.34 0)
 			(effects
 				(font
@@ -59812,7 +59813,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0265")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -59827,7 +59828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ce53350-9f07-48f3-b396-fb1888ae2673")
-		(property "Reference" "R78"
+		(property "Reference" "R105"
 			(at 233.426 157.48 90)
 			(effects
 				(font
@@ -59879,7 +59880,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R78")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -59894,7 +59895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d115939-5fe0-4982-a953-d653f7d308c3")
-		(property "Reference" "R157"
+		(property "Reference" "R135"
 			(at 341.376 127 90)
 			(effects
 				(font
@@ -59946,7 +59947,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R157")
+					(reference "R135")
 					(unit 1)
 				)
 			)
@@ -59961,7 +59962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e436672-85f1-447c-b13e-3e9bdabe2cd3")
-		(property "Reference" "R123"
+		(property "Reference" "R85"
 			(at 208.28 231.394 90)
 			(effects
 				(font
@@ -60013,7 +60014,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R123")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -60029,7 +60030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b0a6f1-d421-4e51-8b0b-9bf1f87b79ee")
-		(property "Reference" "#PWR0255"
+		(property "Reference" "#PWR0166"
 			(at 264.16 303.53 0)
 			(effects
 				(font
@@ -60079,7 +60080,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0255")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -60094,7 +60095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30c87d1a-aa59-4254-bfe8-e5ffe9327715")
-		(property "Reference" "R191"
+		(property "Reference" "R69"
 			(at 63.5 233.934 90)
 			(effects
 				(font
@@ -60146,7 +60147,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R191")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -60161,7 +60162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31d2bd24-b45e-4882-acb0-b8dc13bc0ef9")
-		(property "Reference" "R126"
+		(property "Reference" "R114"
 			(at 233.426 219.71 90)
 			(effects
 				(font
@@ -60213,7 +60214,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R126")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -60228,7 +60229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33a0aed3-57c6-4b90-9d7d-b01631927da9")
-		(property "Reference" "R176"
+		(property "Reference" "R86"
 			(at 210.82 119.634 90)
 			(effects
 				(font
@@ -60280,7 +60281,83 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R176")
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 111.76 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34473617-139a-459d-b60f-ca60f56a132b")
+		(property "Reference" "Q1"
+			(at 118.11 314.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 118.11 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 116.84 318.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 116.84 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 111.76 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41049e28-9ece-4834-9bd1-eb7f42d81d06")
+		)
+		(pin "1"
+			(uuid "bc38b71f-4871-462c-ad1c-1f5f16c8f3fe")
+		)
+		(pin "3"
+			(uuid "c46c5f8b-4cd4-48a0-9f4f-0f18d87c7be2")
+		)
+		(instances
+			(project ""
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -60295,7 +60372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34906f12-e85d-41d7-9bdd-43aea6473845")
-		(property "Reference" "R139"
+		(property "Reference" "R130"
 			(at 326.39 232.664 90)
 			(effects
 				(font
@@ -60347,7 +60424,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R139")
+					(reference "R130")
 					(unit 1)
 				)
 			)
@@ -60362,7 +60439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37b5ee60-756c-4a33-bb94-83001eb5a36c")
-		(property "Reference" "R120"
+		(property "Reference" "R106"
 			(at 233.426 191.77 90)
 			(effects
 				(font
@@ -60414,7 +60491,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R120")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -60430,7 +60507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3881b780-9a87-45a9-adf9-52f1532f07da")
-		(property "Reference" "R188"
+		(property "Reference" "R73"
 			(at 106.68 321.3099 0)
 			(effects
 				(font
@@ -60484,7 +60561,83 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R188")
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 393.7 320.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38cb6083-2597-481f-9f0b-50d253617c89")
+		(property "Reference" "Q7"
+			(at 400.05 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 400.05 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 398.78 321.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 398.78 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 393.7 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f44d4694-9b20-47fb-a8bc-28c976e081c5")
+		)
+		(pin "1"
+			(uuid "0f516382-5d72-4c5f-9c28-69f1c28fc804")
+		)
+		(pin "3"
+			(uuid "8816af15-c466-455e-8a86-0e3324d71507")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -60499,7 +60652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38f2cc06-c425-4599-9faf-656702de8a8a")
-		(property "Reference" "R122"
+		(property "Reference" "R111"
 			(at 233.426 209.55 90)
 			(effects
 				(font
@@ -60551,7 +60704,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R122")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -60566,7 +60719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bee5943-6231-46ca-b64a-95df9f855280")
-		(property "Reference" "R168"
+		(property "Reference" "R101"
 			(at 233.426 142.24 90)
 			(effects
 				(font
@@ -60618,7 +60771,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R168")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -60634,7 +60787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e81b1c6-7ad3-4309-aed1-eaf54990d3db")
-		(property "Reference" "D12"
+		(property "Reference" "D9"
 			(at 405.13 304.7999 90)
 			(effects
 				(font
@@ -60706,7 +60859,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D12")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -60721,7 +60874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45b74141-d99e-4154-be2e-d480fa99a5ca")
-		(property "Reference" "R189"
+		(property "Reference" "R67"
 			(at 58.42 233.934 90)
 			(effects
 				(font
@@ -60773,7 +60926,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R189")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -60789,7 +60942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45cfdecd-1487-40a4-9a0a-0ca6aa255ea6")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0162"
 			(at 223.52 181.61 0)
 			(effects
 				(font
@@ -60839,7 +60992,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0121")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -60854,7 +61007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "463b09ae-5015-4fb4-9aec-e574420094cc")
-		(property "Reference" "R128"
+		(property "Reference" "R89"
 			(at 213.36 231.394 90)
 			(effects
 				(font
@@ -60906,83 +61059,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 111.76 316.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "483a8069-8bbe-426c-b067-9fa14b494611")
-		(property "Reference" "Q1"
-			(at 118.11 314.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 118.11 317.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 318.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 116.84 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 111.76 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f5979ee-e63d-4558-9227-8305d9f2ba00")
-		)
-		(pin "1"
-			(uuid "c1a53a0b-04c4-41c7-b9f1-11f34226709a")
-		)
-		(pin "3"
-			(uuid "13add6f1-c0d1-4444-95d2-ca73a5e09370")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q1")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -60997,7 +61074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a54707a-7df5-4cf9-b806-08002dec5b93")
-		(property "Reference" "R145"
+		(property "Reference" "R147"
 			(at 341.376 220.98 90)
 			(effects
 				(font
@@ -61049,7 +61126,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R145")
+					(reference "R147")
 					(unit 1)
 				)
 			)
@@ -61064,7 +61141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c119c75-9dbe-4989-ace0-6d52028e94a1")
-		(property "Reference" "R165"
+		(property "Reference" "R90"
 			(at 215.9 119.634 90)
 			(effects
 				(font
@@ -61116,7 +61193,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R165")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -61131,7 +61208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c319ff2-9d68-48b1-9b1e-48e2ec384b72")
-		(property "Reference" "R158"
+		(property "Reference" "R136"
 			(at 341.376 129.54 90)
 			(effects
 				(font
@@ -61183,7 +61260,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R158")
+					(reference "R136")
 					(unit 1)
 				)
 			)
@@ -61199,7 +61276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5146293c-fc1a-472a-bb45-936719a7d9f9")
-		(property "Reference" "#PWR0263"
+		(property "Reference" "#PWR0179"
 			(at 445.77 306.07 0)
 			(effects
 				(font
@@ -61249,7 +61326,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0263")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -61266,7 +61343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52594a31-5cbe-460e-bd66-653dde697749")
-		(property "Reference" "#PWR0254"
+		(property "Reference" "#PWR0165"
 			(at 257.81 341.63 0)
 			(effects
 				(font
@@ -61316,7 +61393,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0254")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -61332,7 +61409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56040009-f5e3-4c4c-8059-11611e3cdeff")
-		(property "Reference" "R85"
+		(property "Reference" "R77"
 			(at 154.94 321.3099 0)
 			(effects
 				(font
@@ -61386,83 +61463,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 345.44 318.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a5ce78d-b5b5-461c-b83d-a17b9e692e2a")
-		(property "Reference" "Q10"
-			(at 351.79 317.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 351.79 320.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 320.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 350.52 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 345.44 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a08d581f-1f54-48ec-8cf2-e080a8cf2182")
-		)
-		(pin "1"
-			(uuid "c1f0a2d9-6b12-485b-946b-cdc4aefc9fca")
-		)
-		(pin "3"
-			(uuid "2436729e-3209-4f06-9f49-a89b0bf63823")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q10")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -61477,7 +61478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b4e8a69-1f70-415a-9b4b-525f6b8af70a")
-		(property "Reference" "R121"
+		(property "Reference" "R107"
 			(at 233.426 194.31 90)
 			(effects
 				(font
@@ -61529,7 +61530,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R121")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -61546,7 +61547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d974e91-6fce-4665-8760-036d128eecd2")
-		(property "Reference" "#PWR0258"
+		(property "Reference" "#PWR0174"
 			(at 347.98 342.9 0)
 			(effects
 				(font
@@ -61596,83 +61597,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0258")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 436.88 320.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5da393f7-d9cf-4cf3-b0a7-95a676be5461")
-		(property "Reference" "Q12"
-			(at 443.23 318.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 443.23 321.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 441.96 321.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 441.96 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 436.88 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab36f9b4-cff1-478e-83b4-56e45157d5be")
-		)
-		(pin "1"
-			(uuid "13ebe2f2-4add-4687-96fe-1872f9cb5509")
-		)
-		(pin "3"
-			(uuid "fbf42ad8-ba59-4897-9162-fdb44d5b208d")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q12")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -61687,7 +61612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ec34330-3da6-42ca-a137-5db17826c15e")
-		(property "Reference" "R167"
+		(property "Reference" "R100"
 			(at 233.426 139.7 90)
 			(effects
 				(font
@@ -61739,7 +61664,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R167")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -61754,7 +61679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f5fafae-9e19-423c-8ee4-24dcfe4d5d23")
-		(property "Reference" "R147"
+		(property "Reference" "R122"
 			(at 318.77 171.704 90)
 			(effects
 				(font
@@ -61806,7 +61731,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R147")
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -61821,7 +61746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5feaf70e-23a2-4aa2-86ea-366a7b480298")
-		(property "Reference" "R125"
+		(property "Reference" "R113"
 			(at 233.426 217.17 90)
 			(effects
 				(font
@@ -61873,7 +61798,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R125")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -61889,7 +61814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6078ff12-5b64-4ca2-8b78-0d448928b3bb")
-		(property "Reference" "#PWR0259"
+		(property "Reference" "#PWR0175"
 			(at 354.33 304.8 0)
 			(effects
 				(font
@@ -61939,7 +61864,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0259")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -61954,7 +61879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62279882-51cb-4b93-be33-f8928760feb4")
-		(property "Reference" "R86"
+		(property "Reference" "R78"
 			(at 191.77 319.024 90)
 			(effects
 				(font
@@ -62008,7 +61933,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R86")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -62023,7 +61948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65dab03c-3714-4a41-a51a-ba0149f9bcd6")
-		(property "Reference" "R150"
+		(property "Reference" "R140"
 			(at 341.376 191.77 90)
 			(effects
 				(font
@@ -62075,7 +62000,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R150")
+					(reference "R140")
 					(unit 1)
 				)
 			)
@@ -62090,7 +62015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "666dbdc0-0135-45e6-8ea4-01ec5bde501e")
-		(property "Reference" "R127"
+		(property "Reference" "R115"
 			(at 233.426 222.25 90)
 			(effects
 				(font
@@ -62142,7 +62067,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R127")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -62157,7 +62082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69a2f7fc-5b95-4cac-b5f3-cbc4eaec6310")
-		(property "Reference" "R162"
+		(property "Reference" "R81"
 			(at 203.2 231.394 90)
 			(effects
 				(font
@@ -62209,7 +62134,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R162")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -62225,7 +62150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a179f59-4903-4dfc-ad1b-36bcf80c2d9d")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 532.13 113.792 0)
 			(effects
 				(font
@@ -63146,7 +63071,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 10)
 				)
 			)
@@ -63161,7 +63086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6aabf623-5a45-4188-bac1-275e02219538")
-		(property "Reference" "R172"
+		(property "Reference" "R132"
 			(at 328.93 171.704 90)
 			(effects
 				(font
@@ -63213,7 +63138,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R172")
+					(reference "R132")
 					(unit 1)
 				)
 			)
@@ -63228,7 +63153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d123ce7-6b6c-434f-98e0-deb6d653ca3c")
-		(property "Reference" "R163"
+		(property "Reference" "R92"
 			(at 218.44 119.634 90)
 			(effects
 				(font
@@ -63280,7 +63205,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R163")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -63295,7 +63220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e0d8c2d-eb6a-43b9-a0bc-73cc772229ef")
-		(property "Reference" "R183"
+		(property "Reference" "R72"
 			(at 95.25 319.024 90)
 			(effects
 				(font
@@ -63349,7 +63274,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R183")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -63364,7 +63289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fb46184-86e6-407f-b369-8e3a37181660")
-		(property "Reference" "R88"
+		(property "Reference" "R116"
 			(at 238.76 320.294 90)
 			(effects
 				(font
@@ -63418,7 +63343,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R88")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -63434,7 +63359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b3b158-174e-4c98-b809-d84b13b4cf37")
-		(property "Reference" "#PWR0261"
+		(property "Reference" "#PWR0177"
 			(at 402.59 306.07 0)
 			(effects
 				(font
@@ -63484,7 +63409,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0261")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -63500,7 +63425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7110781f-2646-40b5-b569-8f7ff15d4d11")
-		(property "Reference" "R100"
+		(property "Reference" "R155"
 			(at 480.06 326.3899 0)
 			(effects
 				(font
@@ -63554,7 +63479,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R100")
+					(reference "R155")
 					(unit 1)
 				)
 			)
@@ -63570,7 +63495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71aec0b7-6de1-45d7-b7ae-cdf019f6503f")
-		(property "Reference" "#PWR0257"
+		(property "Reference" "#PWR0170"
 			(at 312.42 304.8 0)
 			(effects
 				(font
@@ -63620,7 +63545,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0257")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -63636,7 +63561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "726d3446-0862-40f7-aba9-64b67690f613")
-		(property "Reference" "D10"
+		(property "Reference" "D7"
 			(at 314.96 303.5299 90)
 			(effects
 				(font
@@ -63708,7 +63633,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D10")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -63724,7 +63649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75ab4860-f2d2-4e86-841e-037b366d48d8")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 107.95 185.166 0)
 			(effects
 				(font
@@ -64645,8 +64570,84 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 485.14 321.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76fa5159-a5e2-418b-80b4-8a371eb548aa")
+		(property "Reference" "Q9"
+			(at 491.49 320.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 491.49 322.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 490.22 323.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 490.22 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 485.14 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b29371d-c625-42dc-b4d4-e53c5f658feb")
+		)
+		(pin "1"
+			(uuid "4d935ec7-b320-4a22-b503-9c0fb7f41b2d")
+		)
+		(pin "3"
+			(uuid "91f66eac-5059-4df4-8257-52ed715a1865")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q9")
+					(unit 1)
 				)
 			)
 		)
@@ -64661,7 +64662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7861ebc7-9c7a-46c7-9038-14a4e5d9bb21")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0161"
 			(at 222.25 113.03 0)
 			(effects
 				(font
@@ -64711,7 +64712,83 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR077")
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 436.88 320.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79c7e6da-9099-4c60-a8c3-9855ea442c32")
+		(property "Reference" "Q8"
+			(at 443.23 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 443.23 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 441.96 321.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 441.96 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 436.88 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "865e4c03-be39-45ee-ae95-de5284eab23e")
+		)
+		(pin "1"
+			(uuid "4787e2f4-d867-4878-91d2-7712e964e49d")
+		)
+		(pin "3"
+			(uuid "e248d9a1-f552-43ef-b5b6-6b9f3f7ba7dd")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -64727,7 +64804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e300353-c46d-4343-9192-3576c0a02576")
-		(property "Reference" "#PWR0253"
+		(property "Reference" "#PWR0160"
 			(at 217.17 302.26 0)
 			(effects
 				(font
@@ -64777,7 +64854,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0253")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -64793,7 +64870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ede18fc-a1fb-4613-b7c0-f0480367d0e7")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0152"
 			(at 120.65 302.26 0)
 			(effects
 				(font
@@ -64843,7 +64920,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0143")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -64858,7 +64935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84567ffc-ee8d-4b62-84b6-295a5c5b35cb")
-		(property "Reference" "R75"
+		(property "Reference" "R103"
 			(at 233.426 152.4 90)
 			(effects
 				(font
@@ -64910,7 +64987,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R75")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -64925,7 +65002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86ac310f-14cc-41cf-a10f-701cb0b8ef10")
-		(property "Reference" "R99"
+		(property "Reference" "R154"
 			(at 468.63 324.104 90)
 			(effects
 				(font
@@ -64979,83 +65056,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R99")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 485.14 321.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89708697-12d5-4e11-8a50-685161f59f61")
-		(property "Reference" "Q13"
-			(at 491.49 320.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 491.49 322.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 490.22 323.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 490.22 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 485.14 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53f48e08-ad85-4ecd-aae6-f3dd3c4a84ef")
-		)
-		(pin "1"
-			(uuid "a6b2433a-737d-4ff5-8ef0-6f98350d54f0")
-		)
-		(pin "3"
-			(uuid "694a3017-539e-42d0-85ae-876122fe1c7f")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q13")
+					(reference "R154")
 					(unit 1)
 				)
 			)
@@ -65071,7 +65072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "898025e4-28ce-4764-b935-038e3ba37574")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 275.844 109.474 0)
 			(effects
 				(font
@@ -65992,7 +65993,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 4)
 				)
 			)
@@ -66009,7 +66010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8be28c75-30a6-4174-89fd-c8a0a7646ef8")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR0180"
 			(at 487.68 345.44 0)
 			(effects
 				(font
@@ -66059,7 +66060,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0264")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -66074,7 +66075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c1b0d9a-b193-4d7a-9e21-fedee150a3a2")
-		(property "Reference" "R171"
+		(property "Reference" "R99"
 			(at 233.426 137.16 90)
 			(effects
 				(font
@@ -66126,7 +66127,83 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R171")
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 160.02 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c396e22-537d-48a2-9374-eb827b67bea6")
+		(property "Reference" "Q2"
+			(at 166.37 314.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 166.37 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 165.1 318.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 165.1 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 160.02 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6f14966-a139-481e-b6ee-b1984d3794b9")
+		)
+		(pin "1"
+			(uuid "9312baae-fa4d-43ec-918a-9f4aa0abb979")
+		)
+		(pin "3"
+			(uuid "e7eb119e-d6f3-4697-b0b0-7743de7e8943")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -66142,7 +66219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dc3191d-17d3-4f46-8428-44327daf65b9")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0172"
 			(at 335.28 116.84 0)
 			(effects
 				(font
@@ -66192,7 +66269,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0122")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -66208,7 +66285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96e1c822-4d04-4fb0-a261-3254d234d32a")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 458.47 112.522 0)
 			(effects
 				(font
@@ -67129,84 +67206,8 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 8)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 393.7 320.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98321406-757c-48ac-9e8d-6e324c681373")
-		(property "Reference" "Q11"
-			(at 400.05 318.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 400.05 321.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 321.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 398.78 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 393.7 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8155b9d9-862f-4eb6-8c6e-75b59abe5a48")
-		)
-		(pin "1"
-			(uuid "0eff4cd2-a6eb-4a7e-8135-5fb78d16b7de")
-		)
-		(pin "3"
-			(uuid "a516e2bd-fede-4045-a638-de154aa3e79d")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q11")
-					(unit 1)
 				)
 			)
 		)
@@ -67220,7 +67221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9836dff3-e7d3-48f3-a8b0-6f1863fd1c4a")
-		(property "Reference" "R124"
+		(property "Reference" "R112"
 			(at 233.426 214.63 90)
 			(effects
 				(font
@@ -67272,83 +67273,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 255.27 317.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99f09023-1a4d-4119-b0ff-e687c635ed4d")
-		(property "Reference" "Q8"
-			(at 261.62 316.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 261.62 318.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 319.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 260.35 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 255.27 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9db87f76-1f1f-47e8-b437-d5040109beeb")
-		)
-		(pin "1"
-			(uuid "8b64faa2-ab79-42f1-a0aa-695b059f5864")
-		)
-		(pin "3"
-			(uuid "87d9743f-191c-4dee-a12b-b5ef3981a7b0")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q8")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -67365,7 +67290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e71ebf8-636e-4a03-bce6-d364e7af2558")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR0159"
 			(at 210.82 340.36 0)
 			(effects
 				(font
@@ -67415,7 +67340,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0252")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -67430,7 +67355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a14a58a3-77b2-42aa-9ae5-54a700386f2b")
-		(property "Reference" "R137"
+		(property "Reference" "R93"
 			(at 218.44 178.054 90)
 			(effects
 				(font
@@ -67482,7 +67407,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R137")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -67497,7 +67422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1c580ea-8758-489c-8702-a406822faa35")
-		(property "Reference" "R138"
+		(property "Reference" "R96"
 			(at 220.98 178.054 90)
 			(effects
 				(font
@@ -67549,7 +67474,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R138")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -67564,7 +67489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2fa1d77-0aa1-466f-9c84-e2fc75d0d008")
-		(property "Reference" "R130"
+		(property "Reference" "R91"
 			(at 215.9 231.394 90)
 			(effects
 				(font
@@ -67616,7 +67541,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R130")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -67633,7 +67558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a314a4cb-55dd-474c-9198-0aa1271646e5")
-		(property "Reference" "#PWR0240"
+		(property "Reference" "#PWR0155"
 			(at 162.56 340.36 0)
 			(effects
 				(font
@@ -67683,7 +67608,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0240")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -67699,7 +67624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a37f1c5e-3d08-497a-8258-f1af5ac83bd1")
-		(property "Reference" "R96"
+		(property "Reference" "R151"
 			(at 388.62 325.1199 0)
 			(effects
 				(font
@@ -67753,7 +67678,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R96")
+					(reference "R151")
 					(unit 1)
 				)
 			)
@@ -67768,7 +67693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3dac8ff-e11f-4cfc-82f0-9a7aa054a88b")
-		(property "Reference" "R74"
+		(property "Reference" "R120"
 			(at 316.23 171.704 90)
 			(effects
 				(font
@@ -67820,7 +67745,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R74")
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -67835,7 +67760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a90e405f-c5bf-415f-8e7a-898bf1ea7fcf")
-		(property "Reference" "R133"
+		(property "Reference" "R121"
 			(at 316.23 232.664 90)
 			(effects
 				(font
@@ -67887,7 +67812,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R133")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -67902,7 +67827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a94d44ff-8f68-46c3-966e-0c7ee67ea362")
-		(property "Reference" "R190"
+		(property "Reference" "R68"
 			(at 60.96 233.934 90)
 			(effects
 				(font
@@ -67954,7 +67879,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R190")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -67970,7 +67895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae25bab-7cdb-4dcd-a87f-265904c83d2b")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0154"
 			(at 148.59 237.49 0)
 			(effects
 				(font
@@ -68020,7 +67945,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0137")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -68035,7 +67960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abb8b358-e48d-4e63-aac8-6e0f393843b2")
-		(property "Reference" "R129"
+		(property "Reference" "R87"
 			(at 210.82 231.394 90)
 			(effects
 				(font
@@ -68087,7 +68012,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R129")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -68102,7 +68027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad6b0f83-74ea-4fc1-be14-fdcd661bffac")
-		(property "Reference" "R156"
+		(property "Reference" "R131"
 			(at 328.93 113.284 90)
 			(effects
 				(font
@@ -68154,7 +68079,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R156")
+					(reference "R131")
 					(unit 1)
 				)
 			)
@@ -68170,7 +68095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae4942cf-ce77-4ba2-ad0a-1f964aeebcdb")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 123.19 300.9899 90)
 			(effects
 				(font
@@ -68188,7 +68113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 120.65 302.26 0)
 			(effects
 				(font
@@ -68242,7 +68167,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -68258,7 +68183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec80567-b2ff-4b1b-b5d5-2f9d048ef6e5")
-		(property "Reference" "#PWR0274"
+		(property "Reference" "#PWR0156"
 			(at 166.37 125.73 0)
 			(effects
 				(font
@@ -68308,7 +68233,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0274")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -68324,7 +68249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0e8ed35-36ab-40a6-b9bb-d80db3fc0fac")
-		(property "Reference" "R91"
+		(property "Reference" "R119"
 			(at 298.45 323.8499 0)
 			(effects
 				(font
@@ -68378,7 +68303,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R91")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -68393,7 +68318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b18ea35e-cc0e-4234-919a-3be6c160da0c")
-		(property "Reference" "R166"
+		(property "Reference" "R65"
 			(at 63.246 149.86 90)
 			(effects
 				(font
@@ -68445,7 +68370,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R166")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -68460,7 +68385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b25559d3-1af3-4f19-9f30-94fbe8b7e3b8")
-		(property "Reference" "R140"
+		(property "Reference" "R133"
 			(at 328.93 232.664 90)
 			(effects
 				(font
@@ -68512,7 +68437,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R140")
+					(reference "R133")
 					(unit 1)
 				)
 			)
@@ -68527,7 +68452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3ed4bd3-fc91-48da-972c-9b7a29ff297d")
-		(property "Reference" "R119"
+		(property "Reference" "R83"
 			(at 205.74 231.394 90)
 			(effects
 				(font
@@ -68579,7 +68504,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R119")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -68595,7 +68520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b57b31b8-031c-4048-b9a4-24cb0a51a04a")
-		(property "Reference" "D8"
+		(property "Reference" "D5"
 			(at 219.71 300.9899 90)
 			(effects
 				(font
@@ -68613,7 +68538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 217.17 302.26 0)
 			(effects
 				(font
@@ -68667,7 +68592,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -68683,7 +68608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7836c89-d391-4211-a060-9525650c971d")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0163"
 			(at 226.06 246.38 0)
 			(effects
 				(font
@@ -68733,7 +68658,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0120")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -68748,7 +68673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9b48d0f-e201-4226-961c-9b0b5539147c")
-		(property "Reference" "R77"
+		(property "Reference" "R104"
 			(at 233.426 154.94 90)
 			(effects
 				(font
@@ -68800,7 +68725,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R77")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -68882,7 +68807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd43a3c6-c6e3-465a-a04a-22ab3501816f")
-		(property "Reference" "D11"
+		(property "Reference" "D8"
 			(at 356.87 303.5299 90)
 			(effects
 				(font
@@ -68954,7 +68879,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "D11")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -68971,7 +68896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd66123b-858a-4ab9-903f-aa34febdb531")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 508 157.48 0)
 			(effects
 				(font
@@ -69892,7 +69817,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -69908,7 +69833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c20981d7-7243-408c-abee-f6bf87506e53")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0169"
 			(at 311.15 242.57 0)
 			(effects
 				(font
@@ -69958,7 +69883,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR078")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -69973,7 +69898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5aa5d78-dcb4-4ddc-ab88-2916b5e694a0")
-		(property "Reference" "R143"
+		(property "Reference" "R145"
 			(at 341.376 215.9 90)
 			(effects
 				(font
@@ -70025,7 +69950,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R143")
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -70040,7 +69965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cae916b1-ce34-4751-b587-abe091c8d3f5")
-		(property "Reference" "R178"
+		(property "Reference" "R80"
 			(at 203.2 119.634 90)
 			(effects
 				(font
@@ -70092,7 +70017,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R178")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -70108,7 +70033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf65fd5f-e49b-4256-8111-b796d9a31842")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0168"
 			(at 311.15 172.72 0)
 			(effects
 				(font
@@ -70158,7 +70083,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0148")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -70240,7 +70165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2551fdf-a379-444b-a668-bde0c76e3233")
-		(property "Reference" "R155"
+		(property "Reference" "R128"
 			(at 326.39 113.284 90)
 			(effects
 				(font
@@ -70292,7 +70217,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R155")
+					(reference "R128")
 					(unit 1)
 				)
 			)
@@ -70309,7 +70234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d42ea17e-2657-40ae-a03b-ca9c9e135765")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0164"
 			(at 240.03 241.3 0)
 			(effects
 				(font
@@ -70359,7 +70284,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0136")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -70374,7 +70299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4ad613c-1bcf-4f59-8183-bab528787396")
-		(property "Reference" "R151"
+		(property "Reference" "R124"
 			(at 321.31 171.704 90)
 			(effects
 				(font
@@ -70426,7 +70351,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R151")
+					(reference "R124")
 					(unit 1)
 				)
 			)
@@ -70443,7 +70368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5b6976b-4a4a-4503-ab8e-730b9ffb05f2")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 453.39 158.75 0)
 			(effects
 				(font
@@ -71364,7 +71289,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 2)
 				)
 			)
@@ -71379,7 +71304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5ee2f86-835f-4bd8-b60e-d6089215c70d")
-		(property "Reference" "R173"
+		(property "Reference" "R66"
 			(at 55.88 233.934 90)
 			(effects
 				(font
@@ -71431,7 +71356,83 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R173")
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 255.27 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d813e6dd-76cf-4ef3-b103-a9fd75aee740")
+		(property "Reference" "Q4"
+			(at 261.62 316.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 261.62 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 260.35 319.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 260.35 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 255.27 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a43aaaa0-ab73-4d13-a75e-b752557eb1fa")
+		)
+		(pin "1"
+			(uuid "0751c3ad-ebbf-41cc-b40a-68da56eaaef6")
+		)
+		(pin "3"
+			(uuid "5c44d294-69cd-4c09-a562-9a07672aac92")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -71446,7 +71447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d95905cc-979e-46c6-895b-570a19a410d2")
-		(property "Reference" "R47"
+		(property "Reference" "R76"
 			(at 158.496 124.714 90)
 			(effects
 				(font
@@ -71462,7 +71463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 127.508 90)
 			(effects
 				(font
@@ -71498,7 +71499,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R47")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -71515,7 +71516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9688ba7-e434-46c2-9ba7-33b8d248e88d")
-		(property "Reference" "#PWR0256"
+		(property "Reference" "#PWR0167"
 			(at 306.07 342.9 0)
 			(effects
 				(font
@@ -71565,7 +71566,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0256")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -71580,7 +71581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9fd3a58-19e7-445e-9c06-13e43154497e")
-		(property "Reference" "R149"
+		(property "Reference" "R139"
 			(at 341.376 189.23 90)
 			(effects
 				(font
@@ -71632,7 +71633,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R149")
+					(reference "R139")
 					(unit 1)
 				)
 			)
@@ -71647,7 +71648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd69e1a1-cade-4993-95a3-254d4b35cb6d")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 104.902 115.824 0)
 			(effects
 				(font
@@ -72568,7 +72569,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 3)
 				)
 			)
@@ -72584,7 +72585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfec10be-c4ae-4702-84a6-e4f75de6e441")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 496.57 112.522 0)
 			(effects
 				(font
@@ -73505,7 +73506,7 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 9)
 				)
 			)
@@ -73521,7 +73522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e182eb60-c185-40e1-b417-02f8030bab66")
-		(property "Reference" "#FLG032"
+		(property "Reference" "#FLG027"
 			(at 146.05 127.635 0)
 			(effects
 				(font
@@ -73571,83 +73572,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#FLG032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRL6283M")
-		(at 303.53 318.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e35b0495-dd03-4505-804d-ff016a925ec4")
-		(property "Reference" "Q9"
-			(at 309.88 317.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRL6283M"
-			(at 309.88 320.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 320.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573"
-			(at 308.61 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD"
-			(at 303.53 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5dd20ad-52d8-4b9d-9251-d7667ad49b8c")
-		)
-		(pin "1"
-			(uuid "69a82fdc-476a-46ba-a772-b7d728e02098")
-		)
-		(pin "3"
-			(uuid "84103a2d-aac9-495f-bdb7-a4924f04fc09")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q9")
+					(reference "#FLG027")
 					(unit 1)
 				)
 			)
@@ -73662,7 +73587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4bc008a-57c8-4ef2-bd50-678971337bbe")
-		(property "Reference" "R142"
+		(property "Reference" "R144"
 			(at 341.376 213.36 90)
 			(effects
 				(font
@@ -73714,7 +73639,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R142")
+					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -73729,7 +73654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e51a4805-adc9-467a-9b4c-e065a76df7f1")
-		(property "Reference" "R175"
+		(property "Reference" "R84"
 			(at 208.28 119.634 90)
 			(effects
 				(font
@@ -73781,7 +73706,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R175")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -73796,7 +73721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5a6951c-a86f-4644-ae96-5916030ce41d")
-		(property "Reference" "R141"
+		(property "Reference" "R143"
 			(at 341.376 210.82 90)
 			(effects
 				(font
@@ -73848,7 +73773,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R141")
+					(reference "R143")
 					(unit 1)
 				)
 			)
@@ -73864,7 +73789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e78daab8-569c-4f4c-8e9f-04bd649d1df7")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0153"
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -73914,7 +73839,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0147")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -73929,7 +73854,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "eb4622c6-d9a3-4b90-b0e2-4ecd67dd448d")
-		(property "Reference" "R48"
+		(property "Reference" "R75"
 			(at 158.496 122.174 90)
 			(effects
 				(font
@@ -73945,7 +73870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 152.4 124.968 90)
 			(effects
 				(font
@@ -73981,7 +73906,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R48")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -73996,7 +73921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebda0163-a7d4-456a-a14f-1ec7b4d8e495")
-		(property "Reference" "R79"
+		(property "Reference" "R108"
 			(at 233.426 199.39 90)
 			(effects
 				(font
@@ -74048,7 +73973,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R79")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -74064,7 +73989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef1843b4-f3d4-46c9-b521-ac1c123f672e")
-		(property "Reference" "R87"
+		(property "Reference" "R79"
 			(at 203.2 321.3099 0)
 			(effects
 				(font
@@ -74118,7 +74043,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R87")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -74133,7 +74058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f03f86f9-a3f3-41a1-9ef2-30c0571a661e")
-		(property "Reference" "R179"
+		(property "Reference" "R82"
 			(at 205.74 119.634 90)
 			(effects
 				(font
@@ -74185,7 +74110,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R179")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -74200,7 +74125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f101454d-4c47-413f-87af-c7a674ecc242")
-		(property "Reference" "R92"
+		(property "Reference" "R134"
 			(at 328.93 321.564 90)
 			(effects
 				(font
@@ -74254,7 +74179,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R92")
+					(reference "R134")
 					(unit 1)
 				)
 			)
@@ -74269,7 +74194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f163ec26-cae4-4acb-8e7c-899d7f04fca2")
-		(property "Reference" "R135"
+		(property "Reference" "R125"
 			(at 321.31 232.664 90)
 			(effects
 				(font
@@ -74321,7 +74246,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R135")
+					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -74336,7 +74261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2bc0eba-7143-4eaa-8890-134728eb0151")
-		(property "Reference" "R170"
+		(property "Reference" "R98"
 			(at 233.426 134.62 90)
 			(effects
 				(font
@@ -74388,7 +74313,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R170")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -74403,7 +74328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f37c6f17-8128-4490-8de1-a92bbf257f0f")
-		(property "Reference" "R136"
+		(property "Reference" "R127"
 			(at 323.85 232.664 90)
 			(effects
 				(font
@@ -74455,7 +74380,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R136")
+					(reference "R127")
 					(unit 1)
 				)
 			)
@@ -74470,7 +74395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4c8bd4b-fd62-4f9c-9d62-cf9180c5a8cc")
-		(property "Reference" "R97"
+		(property "Reference" "R152"
 			(at 420.37 322.834 90)
 			(effects
 				(font
@@ -74524,7 +74449,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R97")
+					(reference "R152")
 					(unit 1)
 				)
 			)
@@ -74539,7 +74464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f79a0286-268e-4a55-8358-659ee97694bb")
-		(property "Reference" "R95"
+		(property "Reference" "R150"
 			(at 377.19 322.834 90)
 			(effects
 				(font
@@ -74593,7 +74518,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R95")
+					(reference "R150")
 					(unit 1)
 				)
 			)
@@ -74608,7 +74533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f85ed094-52a4-405f-8bef-fedd060a0253")
-		(property "Reference" "R132"
+		(property "Reference" "R97"
 			(at 220.98 231.394 90)
 			(effects
 				(font
@@ -74660,7 +74585,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R132")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -74675,7 +74600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa0bb8b9-3362-4aee-aa28-7e2c4ba64478")
-		(property "Reference" "R82"
+		(property "Reference" "R142"
 			(at 341.376 204.47 90)
 			(effects
 				(font
@@ -74727,7 +74652,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R82")
+					(reference "R142")
 					(unit 1)
 				)
 			)
@@ -74742,7 +74667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa373660-f380-4389-832c-daf9602b5287")
-		(property "Reference" "R153"
+		(property "Reference" "R126"
 			(at 323.85 171.704 90)
 			(effects
 				(font
@@ -74794,7 +74719,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "R153")
+					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -74810,7 +74735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa956119-95bf-40fb-bba5-73f29de28f81")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 275.59 169.926 0)
 			(effects
 				(font
@@ -75731,8 +75656,84 @@
 		(instances
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "U9")
+					(reference "U11")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 208.28 316.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd30254d-c619-4190-8db6-3307c82f94d0")
+		(property "Reference" "Q3"
+			(at 214.63 314.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 214.63 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 213.36 318.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 213.36 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 208.28 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac286157-ceaf-4163-bbe5-81612c8f182b")
+		)
+		(pin "1"
+			(uuid "1c524705-fec3-49bb-8499-b35d523563e3")
+		)
+		(pin "3"
+			(uuid "940e22de-9bf9-44a2-a36b-241b2bc9e81f")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q3")
+					(unit 1)
 				)
 			)
 		)
@@ -75747,7 +75748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe328727-a113-4100-9194-a348fbf17b58")
-		(property "Reference" "#PWR0251"
+		(property "Reference" "#PWR0157"
 			(at 168.91 302.26 0)
 			(effects
 				(font
@@ -75797,7 +75798,7 @@
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "#PWR0251")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
