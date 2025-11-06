@@ -3648,7 +3648,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3ba8fda2-27c9-4bbe-985d-3ea4c017b9e8")
 		(property "Reference" "R59"
 			(at 262.636 162.56 90)
@@ -4730,7 +4730,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8262dbdd-1ed7-4634-9fd9-da1e9ec832a1")
 		(property "Reference" "R46"
 			(at 262.636 165.1 90)
@@ -6138,7 +6138,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d8613400-f957-4283-92df-db121222526a")
 		(property "Reference" "R54"
 			(at 262.636 167.64 90)

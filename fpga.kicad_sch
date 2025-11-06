@@ -4434,8 +4434,92 @@
 		(uuid "c212bb73-9a67-424d-b8ad-7732916a1467")
 	)
 	(no_connect
+		(at 125.73 95.25)
+		(uuid "05516896-649d-4802-a3d8-9b4731723228")
+	)
+	(no_connect
+		(at 125.73 135.89)
+		(uuid "18c96983-a7e4-4550-96d8-561237e26652")
+	)
+	(no_connect
+		(at 125.73 128.27)
+		(uuid "1b6a7c94-18e0-4336-9eda-5e6414a14846")
+	)
+	(no_connect
+		(at 80.01 49.53)
+		(uuid "20512dbd-14e1-422b-a0d1-3c9ffbf16785")
+	)
+	(no_connect
+		(at 125.73 130.81)
+		(uuid "32efe603-943a-4279-9508-63a214dfb502")
+	)
+	(no_connect
+		(at 80.01 100.33)
+		(uuid "3e0200b6-fe50-4070-bf44-ec826c80fc4b")
+	)
+	(no_connect
+		(at 125.73 90.17)
+		(uuid "3ec86ec5-97ba-48af-a0dc-777c4681a1a3")
+	)
+	(no_connect
 		(at 217.17 59.69)
 		(uuid "484e4539-f71d-467b-8de8-534f842ff8e9")
+	)
+	(no_connect
+		(at 125.73 92.71)
+		(uuid "52e68a0d-c40f-4990-a584-db0a6f7ef150")
+	)
+	(no_connect
+		(at 125.73 87.63)
+		(uuid "5604c663-363d-4255-b98a-bfb29e203223")
+	)
+	(no_connect
+		(at 125.73 120.65)
+		(uuid "5b46f85e-a7b3-4147-a0c8-27f807e96a4b")
+	)
+	(no_connect
+		(at 80.01 90.17)
+		(uuid "6e810a47-6883-4cdc-b550-0223c716dd51")
+	)
+	(no_connect
+		(at 80.01 46.99)
+		(uuid "7a6da2c7-e7bb-44a2-b661-caa3943c3627")
+	)
+	(no_connect
+		(at 125.73 123.19)
+		(uuid "85030098-2747-4ce5-bba8-891470359940")
+	)
+	(no_connect
+		(at 125.73 62.23)
+		(uuid "869c5f24-cb1e-46a1-8dd9-34504d3e247b")
+	)
+	(no_connect
+		(at 80.01 123.19)
+		(uuid "aaca0de8-77db-4c31-aec7-f2f7b47f607a")
+	)
+	(no_connect
+		(at 80.01 92.71)
+		(uuid "ac62da26-24cb-4ec1-9b3a-3664f9421b20")
+	)
+	(no_connect
+		(at 125.73 64.77)
+		(uuid "b07663aa-f201-4350-a512-bf3d6db3e148")
+	)
+	(no_connect
+		(at 125.73 46.99)
+		(uuid "be9e4133-e851-4f65-8f0c-f0294ce79b45")
+	)
+	(no_connect
+		(at 125.73 125.73)
+		(uuid "c9d0166b-c29f-451b-88f6-c6052f4f3357")
+	)
+	(no_connect
+		(at 80.01 95.25)
+		(uuid "d216073f-49d9-4add-8ca5-ff9dc3fd6a15")
+	)
+	(no_connect
+		(at 125.73 85.09)
+		(uuid "d84a1f84-d24e-487c-8ba6-ffaff6418828")
 	)
 	(bus_entry
 		(at 181.61 106.68)
@@ -9040,7 +9124,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "42ee5220-4f88-4f02-b3c6-c6b35e39b912")
 		(property "Reference" "R72"
@@ -10083,7 +10167,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d514a3b5-f6ea-43b1-80eb-363c3c49d419")
 		(property "Reference" "R56"
 			(at 138.176 40.64 90)
@@ -10150,7 +10234,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "da5e29a3-363b-4dd5-b82d-e6d583fd5a49")
 		(property "Reference" "R58"
 			(at 138.176 114.3 90)
