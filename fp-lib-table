@@ -4,4 +4,5 @@
   (lib (name "LTC2299")(type "KiCad")(uri "${KIPRJMOD}/Components/ul_LTC2299CUP/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "AD8337BCPZ")(type "KiCad")(uri "${KIPRJMOD}/Components/ul_AD8337BCPZ-REEL-ND/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TL072")(type "KiCad")(uri "${KIPRJMOD}/Components/ul_TL072QDREP/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TQ2-5V")(type "KiCad")(uri "${KIPRJMOD}/Components/TQ2-5V")(options "")(descr ""))
 )
