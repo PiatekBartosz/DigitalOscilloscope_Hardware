@@ -12198,6 +12198,524 @@
 		)
 	)
 	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 445.77 506.73 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03f529b4-38c7-4930-9488-9a09dd59b289")
+		(property "Reference" "K6"
+			(at 438.15 505.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 438.15 507.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 445.77 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "17f34c21-83dd-4e92-a7ff-2b8cc24b0b69")
+		)
+		(pin "9"
+			(uuid "e59aff35-cf4e-4261-9485-0ac94e1d30d8")
+		)
+		(pin "4"
+			(uuid "bcd431b1-1757-4c92-a3ec-3f0243df477d")
+		)
+		(pin "7"
+			(uuid "b8439677-2728-4f93-bc36-2108feba3e64")
+		)
+		(pin "3"
+			(uuid "775424b8-667c-409e-a32d-d2c70f068992")
+		)
+		(pin "1"
+			(uuid "f9c169e4-47db-4a8a-89ef-617754bb7fa7")
+		)
+		(pin "8"
+			(uuid "b090fae5-1e37-419d-829c-fc1176f1aa87")
+		)
+		(pin "2"
+			(uuid "6553e895-c644-40b1-964c-f7269e6cbbf0")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 179.07 320.04 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "058633b8-9d8e-4c28-af93-361585651d33")
+		(property "Reference" "K4"
+			(at 186.69 318.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 186.69 321.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 179.07 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53014776-ecb8-4afb-bc4c-1187910e714b")
+		)
+		(pin "10"
+			(uuid "7b3e4a69-2bfd-4b52-a11f-fb0746684672")
+		)
+		(pin "1"
+			(uuid "b5a5d875-518b-4495-94a7-b7d1bae62afb")
+		)
+		(pin "4"
+			(uuid "b0f55177-4738-4a21-a57e-d369831562b9")
+		)
+		(pin "3"
+			(uuid "eff48f60-f2d1-4a8f-80c8-bb82c3c842b6")
+		)
+		(pin "8"
+			(uuid "39f1ffbe-fa0e-45e5-8e41-55c16bb21c7c")
+		)
+		(pin "7"
+			(uuid "6efab5d9-7d1d-4966-9b4c-f27ab04825a4")
+		)
+		(pin "9"
+			(uuid "63a741aa-b710-47b4-b599-723c77c006cf")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "AD8337BCPZ-REEL-ND_2")
 		(lib_id "2025-07-13_23-24-37:AD8337BCPZ-REEL-ND")
 		(at 599.44 199.39 0)
@@ -12766,265 +13284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 137.16 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09233ba9-2bea-49fa-8f6b-905ce2c914ba")
-		(property "Reference" "K3"
-			(at 143.51 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 143.51 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 137.16 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "5dc897fa-9788-4aef-8e95-d86663f59814")
-		)
-		(pin "2"
-			(uuid "073fb527-5073-4371-86d9-415abebc999f")
-		)
-		(pin "1"
-			(uuid "a8b1711a-4b0c-4415-be58-1768fc9d684d")
-		)
-		(pin "10"
-			(uuid "ea3a8cb7-67c0-4aaa-a4e6-5a7dbeb2f43b")
-		)
-		(pin "4"
-			(uuid "325f0ad4-7070-42db-bf2b-892c428b5796")
-		)
-		(pin "3"
-			(uuid "4708d8c9-02a7-4d61-87ee-2170ada55972")
-		)
-		(pin "7"
-			(uuid "7dea312f-75dd-4996-a92c-d707779190d6")
-		)
-		(pin "9"
-			(uuid "a7967f95-1ae7-4455-ad88-8947fa44aec5")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 722.63 255.27 180)
 		(unit 1)
@@ -13090,6 +13349,262 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "C63")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 242.57 63.5 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b30fa8a-29be-4d1d-834d-12e49cd86539")
+		(property "Reference" "K5"
+			(at 242.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 242.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "de989dde-eb26-4fb1-9604-14a3906ea505")
+		)
+		(pin "7"
+			(uuid "5a07f143-e17d-4309-ad32-d762805d8971")
+		)
+		(pin "4"
+			(uuid "8e562d59-39ca-46e4-8ded-1619ecba81ae")
+		)
+		(pin "3"
+			(uuid "50cf8186-040f-4201-9a21-b9ad7cc90caa")
+		)
+		(pin "9"
+			(uuid "32f20fb1-8ade-4fcb-9788-47bce60fdd72")
+		)
+		(pin "2"
+			(uuid "b2a29290-4bb1-4033-9024-efe48ca1af16")
+		)
+		(pin "10"
+			(uuid "19602299-bfb0-487c-b0a2-c59913988b54")
+		)
+		(pin "1"
+			(uuid "3db40d41-2e7e-4c6c-af21-340aa2d27c44")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K5")
+					(unit 3)
 				)
 			)
 		)
@@ -14432,6 +14947,263 @@
 		)
 	)
 	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 63.5 312.42 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16b1781f-9614-4558-8344-543809c490dd")
+		(property "Reference" "K2"
+			(at 63.5 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 63.5 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 63.5 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "17b39d7d-9465-4989-9411-ab6ce1e22f4e")
+		)
+		(pin "7"
+			(uuid "ea7d6651-2dd8-44f3-af7f-9b000226924a")
+		)
+		(pin "4"
+			(uuid "8e562d59-39ca-46e4-8ded-1619ecba81ae")
+		)
+		(pin "3"
+			(uuid "50cf8186-040f-4201-9a21-b9ad7cc90caa")
+		)
+		(pin "9"
+			(uuid "52132819-38b2-4058-afc5-6121ffdb6ca9")
+		)
+		(pin "2"
+			(uuid "b2a29290-4bb1-4033-9024-efe48ca1af16")
+		)
+		(pin "10"
+			(uuid "19602299-bfb0-487c-b0a2-c59913988b54")
+		)
+		(pin "1"
+			(uuid "3db40d41-2e7e-4c6c-af21-340aa2d27c44")
+		)
+		(instances
+			(project ""
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 572.77 436.88 0)
 		(unit 1)
@@ -14492,265 +15264,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 158.75 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1866d38f-8f7a-4287-b964-1d234854d588")
-		(property "Reference" "K8"
-			(at 165.1 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 165.1 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 158.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "9053ff5b-d33c-4dd9-89ac-f215fc2fdb68")
-		)
-		(pin "2"
-			(uuid "6b509f3d-11b0-47ab-90e2-2710c337c343")
-		)
-		(pin "8"
-			(uuid "4404d874-bc83-4de2-87c9-5c0159ff0512")
-		)
-		(pin "3"
-			(uuid "fc3ede73-d8f1-4a0b-8079-364e5941e959")
-		)
-		(pin "7"
-			(uuid "1c387677-cacf-47da-8880-887f1575b770")
-		)
-		(pin "4"
-			(uuid "9fdd0322-4337-4c25-a9c4-db86cf2cc3f9")
-		)
-		(pin "10"
-			(uuid "bb23d799-5c1e-4b3d-a804-fc6fea357368")
-		)
-		(pin "1"
-			(uuid "0ffad6ec-38a4-443a-a1bc-e49d38da4bba")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K8")
 					(unit 1)
 				)
 			)
@@ -15088,6 +15601,265 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 137.16 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b22e8ec-45c6-4df1-9d01-ad2bf990501a")
+		(property "Reference" "K5"
+			(at 143.51 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 143.51 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "17b39d7d-9465-4989-9411-ab6ce1e22f4e")
+		)
+		(pin "7"
+			(uuid "ea7d6651-2dd8-44f3-af7f-9b000226924a")
+		)
+		(pin "4"
+			(uuid "8e562d59-39ca-46e4-8ded-1619ecba81ae")
+		)
+		(pin "3"
+			(uuid "50cf8186-040f-4201-9a21-b9ad7cc90caa")
+		)
+		(pin "9"
+			(uuid "52132819-38b2-4058-afc5-6121ffdb6ca9")
+		)
+		(pin "2"
+			(uuid "b2a29290-4bb1-4033-9024-efe48ca1af16")
+		)
+		(pin "10"
+			(uuid "09fde143-9f33-4b11-9915-5024c8f938fe")
+		)
+		(pin "1"
+			(uuid "d022cc2a-9895-41d9-8789-ad17bf9e1c38")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -15640,263 +16412,6 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "R32")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 208.28 63.5 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "212e02b0-2d6c-43be-b9ed-87a0491e53c8")
-		(property "Reference" "K6"
-			(at 208.28 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 208.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 208.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "790fe88b-4379-417d-80de-c1c82b3adbba")
-		)
-		(pin "10"
-			(uuid "35cf0aa2-d76c-4c2b-b171-96db0ca01b3b")
-		)
-		(pin "8"
-			(uuid "d3fd7e73-0fcc-457a-bb33-ec7ff314d3bc")
-		)
-		(pin "2"
-			(uuid "aba5106a-f222-4c7a-b4fe-9aeee8027ffa")
-		)
-		(pin "9"
-			(uuid "3c01628a-e17c-473d-bf7e-1e487bf654d7")
-		)
-		(pin "7"
-			(uuid "b9f931fd-61f7-46ad-b1e1-d28c48dc88fb")
-		)
-		(pin "3"
-			(uuid "65628851-5d17-4d81-89fc-a168c8db2385")
-		)
-		(pin "4"
-			(uuid "e8d46fee-fb96-4927-839a-f705f4698aef")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K6")
-					(unit 3)
 				)
 			)
 		)
@@ -17000,7 +17515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AD813ARZ:R_8_ADI-L"
+		(property "Footprint" "AD8138ARZ:R_8_ADI-L"
 			(at 706.12 346.71 0)
 			(effects
 				(font
@@ -17406,265 +17921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 427.99 494.03 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2eec3131-4fea-4c59-9303-41f2e246a761")
-		(property "Reference" "K3"
-			(at 420.37 492.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 420.37 495.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 427.99 494.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "5dc897fa-9788-4aef-8e95-d86663f59814")
-		)
-		(pin "2"
-			(uuid "073fb527-5073-4371-86d9-415abebc999f")
-		)
-		(pin "1"
-			(uuid "17090021-4574-4711-8d66-fb2ed70f0a60")
-		)
-		(pin "10"
-			(uuid "1af02f23-5c03-4d79-a390-a889a4a7b314")
-		)
-		(pin "4"
-			(uuid "325f0ad4-7070-42db-bf2b-892c428b5796")
-		)
-		(pin "3"
-			(uuid "4708d8c9-02a7-4d61-87ee-2170ada55972")
-		)
-		(pin "7"
-			(uuid "7dea312f-75dd-4996-a92c-d707779190d6")
-		)
-		(pin "9"
-			(uuid "a7967f95-1ae7-4455-ad88-8947fa44aec5")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 688.34 382.27 0)
 		(unit 1)
@@ -17795,6 +18051,265 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 39.37 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32cc999c-46f4-4275-b6dc-cc45b65a0de1")
+		(property "Reference" "K1"
+			(at 45.72 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 45.72 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "de93af04-6061-4b64-8cbe-7420dcb972fc")
+		)
+		(pin "7"
+			(uuid "c836c47f-24a6-44e6-8cde-1aa4d8aa31d8")
+		)
+		(pin "1"
+			(uuid "c5eefdb8-1166-46c8-8e3b-12bc1d03933a")
+		)
+		(pin "8"
+			(uuid "8cc8622e-2a3f-47b7-a129-cc3adee120b4")
+		)
+		(pin "10"
+			(uuid "b520c563-0b77-401f-b36f-6568ce67c31b")
+		)
+		(pin "2"
+			(uuid "db7ed409-a876-49a6-beab-bf02359d00c3")
+		)
+		(pin "3"
+			(uuid "409969d3-b49b-423e-806f-e2fc7201b716")
+		)
+		(pin "4"
+			(uuid "06b6adf6-1136-48de-af4e-6f9ca414034f")
+		)
+		(instances
+			(project ""
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -18141,6 +18656,263 @@
 		)
 	)
 	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 208.28 63.5 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39769b3e-ca9d-4363-9b33-4e9bb314c611")
+		(property "Reference" "K3"
+			(at 208.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "17f34c21-83dd-4e92-a7ff-2b8cc24b0b69")
+		)
+		(pin "9"
+			(uuid "b337adab-0e39-41b2-ab5c-fb933a5ef144")
+		)
+		(pin "4"
+			(uuid "29caea82-b3b1-4b0d-bc80-475b79224432")
+		)
+		(pin "7"
+			(uuid "54979665-75da-4cec-bbda-7e65f205c549")
+		)
+		(pin "3"
+			(uuid "5a348f81-4e8f-4f6b-b392-9454a79dd862")
+		)
+		(pin "1"
+			(uuid "f9c169e4-47db-4a8a-89ef-617754bb7fa7")
+		)
+		(pin "8"
+			(uuid "67417762-a38e-4d47-97a6-962bfd7a9785")
+		)
+		(pin "2"
+			(uuid "53bc62b8-ebb7-425f-a20e-6b8e22532327")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 396.24 233.68 0)
 		(unit 1)
@@ -18408,6 +19180,264 @@
 		)
 	)
 	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 62.23 387.35 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ddb406c-22b4-4519-a869-6a17b99cfd67")
+		(property "Reference" "K2"
+			(at 62.23 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 62.23 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 62.23 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "4876a0c6-681b-441a-9441-49ff9c80b8a8")
+		)
+		(pin "7"
+			(uuid "4393e045-0811-4e16-abb8-9fda9c5e5888")
+		)
+		(pin "1"
+			(uuid "c5eefdb8-1166-46c8-8e3b-12bc1d03933a")
+		)
+		(pin "8"
+			(uuid "ac224360-d999-4bcc-9705-6049d3e1d1ea")
+		)
+		(pin "10"
+			(uuid "b520c563-0b77-401f-b36f-6568ce67c31b")
+		)
+		(pin "2"
+			(uuid "db7ed409-a876-49a6-beab-bf02359d00c3")
+		)
+		(pin "3"
+			(uuid "409969d3-b49b-423e-806f-e2fc7201b716")
+		)
+		(pin "4"
+			(uuid "06b6adf6-1136-48de-af4e-6f9ca414034f")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 38.1 302.26 0)
 		(mirror y)
@@ -18613,265 +19643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 64.77 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fdd0b79-89e2-4e18-ade3-5f35cd2419eb")
-		(property "Reference" "K1"
-			(at 71.12 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 71.12 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 64.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "fc9ef34d-ff8d-469a-9981-a874092888d6")
-		)
-		(pin "1"
-			(uuid "63b0ed39-8966-47ca-98ef-0b8bffe7e056")
-		)
-		(pin "7"
-			(uuid "dbaeb1df-00bd-4453-859c-d36ac0db8e09")
-		)
-		(pin "9"
-			(uuid "4f4c022d-c1a2-4b35-afbd-74a437a42d88")
-		)
-		(pin "4"
-			(uuid "e15778b0-a0fc-4b85-860c-3a63c854bba0")
-		)
-		(pin "3"
-			(uuid "5fe846cd-a819-41d4-bd0d-226d28e9594c")
-		)
-		(pin "8"
-			(uuid "5571c892-ee44-4ca2-9212-ff9664e99742")
-		)
-		(pin "2"
-			(uuid "7237f155-0564-46cd-bb56-619a60248188")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 745.49 245.11 270)
 		(mirror x)
@@ -18936,263 +19707,6 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "L26")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 259.08 63.5 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4122e37d-9112-47e3-9b5b-2f1fe90a7e3b")
-		(property "Reference" "K4"
-			(at 259.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 259.08 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 259.08 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "b197174b-c6a3-435e-a5dc-9186892d7267")
-		)
-		(pin "2"
-			(uuid "6b509f3d-11b0-47ab-90e2-2710c337c343")
-		)
-		(pin "8"
-			(uuid "ddf9fe78-1f99-43e6-a809-fb87cd94a524")
-		)
-		(pin "3"
-			(uuid "fc3ede73-d8f1-4a0b-8079-364e5941e959")
-		)
-		(pin "7"
-			(uuid "a75e6504-9384-4fac-aaf1-62b4b0cdf0ae")
-		)
-		(pin "4"
-			(uuid "9fdd0322-4337-4c25-a9c4-db86cf2cc3f9")
-		)
-		(pin "10"
-			(uuid "9d5a6107-7322-4681-a712-691f042df2bc")
-		)
-		(pin "1"
-			(uuid "ea4cd783-ca6c-4578-bb9a-2517957cd03a")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K4")
-					(unit 3)
 				)
 			)
 		)
@@ -19421,7 +19935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OPA656U:SOIC127P599X175-8N"
+		(property "Footprint" "OPA656:SOIC127P599X175-8N"
 			(at 355.6 331.47 0)
 			(effects
 				(font
@@ -19549,263 +20063,6 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "U2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 63.5 312.42 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "441ecb81-c3cf-4d47-a8a4-84d9658be921")
-		(property "Reference" "K1"
-			(at 63.5 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 63.5 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 63.5 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "fc9ef34d-ff8d-469a-9981-a874092888d6")
-		)
-		(pin "1"
-			(uuid "63b0ed39-8966-47ca-98ef-0b8bffe7e056")
-		)
-		(pin "7"
-			(uuid "dbaeb1df-00bd-4453-859c-d36ac0db8e09")
-		)
-		(pin "9"
-			(uuid "4f4c022d-c1a2-4b35-afbd-74a437a42d88")
-		)
-		(pin "4"
-			(uuid "e15778b0-a0fc-4b85-860c-3a63c854bba0")
-		)
-		(pin "3"
-			(uuid "5fe846cd-a819-41d4-bd0d-226d28e9594c")
-		)
-		(pin "8"
-			(uuid "5571c892-ee44-4ca2-9212-ff9664e99742")
-		)
-		(pin "2"
-			(uuid "7237f155-0564-46cd-bb56-619a60248188")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K1")
-					(unit 2)
 				)
 			)
 		)
@@ -20623,6 +20880,265 @@
 		)
 	)
 	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 114.3 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "502c1be3-6596-45ca-a4cf-d4d3297b6717")
+		(property "Reference" "K4"
+			(at 120.65 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 120.65 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd08a17d-f4e5-41d2-b2e3-1b109da355b4")
+		)
+		(pin "10"
+			(uuid "72c5663c-6ca3-43d3-826c-81bbe4d5064e")
+		)
+		(pin "1"
+			(uuid "f0aa5567-c2ac-4f94-ae5f-fde88da78723")
+		)
+		(pin "4"
+			(uuid "8b0e0d35-7913-4f1b-880a-b960714aac71")
+		)
+		(pin "3"
+			(uuid "f5476d16-62f6-4a4f-9b7e-eb3315b99fe8")
+		)
+		(pin "8"
+			(uuid "39f1ffbe-fa0e-45e5-8e41-55c16bb21c7c")
+		)
+		(pin "7"
+			(uuid "6efab5d9-7d1d-4966-9b4c-f27ab04825a4")
+		)
+		(pin "9"
+			(uuid "63a741aa-b710-47b4-b599-723c77c006cf")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 585.47 242.57 0)
 		(unit 1)
@@ -21295,32 +21811,34 @@
 	)
 	(symbol
 		(lib_id "TQ2-5V:TQ2-5V")
-		(at 274.32 63.5 0)
-		(unit 3)
+		(at 64.77 62.23 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57b34817-767d-42cd-a23e-593d40cfb70e")
-		(property "Reference" "K8"
-			(at 274.32 53.34 0)
+		(uuid "57d97f3e-e898-4e1d-975f-03e825a9dfc0")
+		(property "Reference" "K2"
+			(at 71.12 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TQ2-5V"
-			(at 274.32 55.88 0)
+			(at 71.12 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TQ2-5V:TQ2"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21330,7 +21848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21339,7 +21857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21348,7 +21866,7 @@
 			)
 		)
 		(property "UCOIL" "5VDC"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21358,7 +21876,7 @@
 			)
 		)
 		(property "RCOIL" "178Ω"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21368,7 +21886,7 @@
 			)
 		)
 		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21378,7 +21896,7 @@
 			)
 		)
 		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21388,7 +21906,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21398,7 +21916,7 @@
 			)
 		)
 		(property "CONTACTS" "2 CO contacts"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21408,7 +21926,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21418,7 +21936,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21428,7 +21946,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21438,7 +21956,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21448,7 +21966,7 @@
 			)
 		)
 		(property "COIL_CURRENT" "28.1mA"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21458,7 +21976,7 @@
 			)
 		)
 		(property "MP" "TQ2-5V"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21468,7 +21986,7 @@
 			)
 		)
 		(property "FARNELL" "1175716"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21478,7 +21996,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21488,7 +22006,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21498,7 +22016,7 @@
 			)
 		)
 		(property "RELAYS_TYP" "Non-Latching"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21508,7 +22026,7 @@
 			)
 		)
 		(property "MOUSER" "769-TQ2-5V"
-			(at 274.32 63.5 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21517,35 +22035,35 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4eaed614-4ff7-4be8-ab11-a0e9b7698fce")
-		)
-		(pin "3"
-			(uuid "05d69f64-4c1b-44b5-92cc-49a6788f6111")
-		)
-		(pin "4"
-			(uuid "f4f3eb95-637b-4440-9ae0-1ea54497b419")
+		(pin "10"
+			(uuid "f68a0a7c-7f51-4157-89ea-eeee864bbabf")
 		)
 		(pin "9"
-			(uuid "dd9eeaad-aa6d-4686-b415-51bad55cb447")
+			(uuid "e59aff35-cf4e-4261-9485-0ac94e1d30d8")
 		)
-		(pin "10"
-			(uuid "fcd84c11-87bf-40c9-9296-29a68a9ef1a4")
-		)
-		(pin "1"
-			(uuid "627e7c02-b7a5-4018-8570-eed629d357df")
-		)
-		(pin "8"
-			(uuid "1afe6c5a-b576-4b8f-be58-a4af0433dfa3")
+		(pin "4"
+			(uuid "29caea82-b3b1-4b0d-bc80-475b79224432")
 		)
 		(pin "7"
-			(uuid "a9f3efb2-6ee3-4595-9395-dc9d3d458130")
+			(uuid "b8439677-2728-4f93-bc36-2108feba3e64")
+		)
+		(pin "3"
+			(uuid "5a348f81-4e8f-4f6b-b392-9454a79dd862")
+		)
+		(pin "1"
+			(uuid "32748f58-769b-40bb-9a55-f33ad4140c87")
+		)
+		(pin "8"
+			(uuid "b090fae5-1e37-419d-829c-fc1176f1aa87")
+		)
+		(pin "2"
+			(uuid "53bc62b8-ebb7-425f-a20e-6b8e22532327")
 		)
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K8")
-					(unit 3)
+					(reference "K2")
+					(unit 1)
 				)
 			)
 		)
@@ -22525,7 +23043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AD813ARZ:R_8_ADI-L"
+		(property "Footprint" "AD8138ARZ:R_8_ADI-L"
 			(at 703.58 208.28 0)
 			(effects
 				(font
@@ -22652,6 +23170,262 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "L12")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 427.99 494.03 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6103ffe7-fce7-4d14-abe9-4c0b05400c9b")
+		(property "Reference" "K5"
+			(at 417.83 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 420.37 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 427.99 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de6b9b19-9e3c-4cbd-b247-da9cff5cecad")
+		)
+		(pin "3"
+			(uuid "0d2baa27-b7a8-4faa-9fd5-6405d4dd6c51")
+		)
+		(pin "7"
+			(uuid "9b10d32a-7524-4d76-bccf-9228270a7084")
+		)
+		(pin "10"
+			(uuid "41c059d8-211d-4877-9a89-e1cdbba27634")
+		)
+		(pin "1"
+			(uuid "a965d060-631e-4813-896a-eeeb820d3ec8")
+		)
+		(pin "8"
+			(uuid "fb27f52a-8ea0-48f6-83f2-256e705036d5")
+		)
+		(pin "9"
+			(uuid "2982dc0f-29a5-4c02-93b6-8bdb8cbd0106")
+		)
+		(pin "4"
+			(uuid "7ab221ad-f141-4e89-abe9-9d8ab2e1a7a4")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K5")
+					(unit 2)
 				)
 			)
 		)
@@ -23194,6 +23968,265 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "#PWR042")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 467.36 520.7 270)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6667660a-fead-4272-b575-cca51e7d914f")
+		(property "Reference" "K7"
+			(at 474.98 521.9701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 474.98 519.4301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 467.36 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "ad59e4ed-591a-4eb7-a246-5c35c3036024")
+		)
+		(pin "8"
+			(uuid "866e0889-a120-4c89-bc52-f8f2076b3c0d")
+		)
+		(pin "7"
+			(uuid "784af030-a692-4eaf-87e8-fef226dfe0a3")
+		)
+		(pin "3"
+			(uuid "9fb730a6-2dad-4f51-b58a-80ca1ac660cf")
+		)
+		(pin "10"
+			(uuid "256e7ed6-f774-4408-a8fb-4bfa81e2384f")
+		)
+		(pin "2"
+			(uuid "9a16aec7-b991-4585-acf0-3c61b600d227")
+		)
+		(pin "4"
+			(uuid "0079ed2d-cd19-4f53-8db9-a650ee76d3a5")
+		)
+		(pin "1"
+			(uuid "a13bafe8-44ad-443c-9ced-5e6d39f07cc4")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K7")
+					(unit 2)
 				)
 			)
 		)
@@ -23877,265 +24910,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 179.07 320.04 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f7570ee-ec67-46ba-9e02-aef9aa0c31e0")
-		(property "Reference" "K7"
-			(at 186.69 318.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 186.69 321.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 179.07 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "054b465b-000e-41dd-a11f-df5a69e61a3b")
-		)
-		(pin "4"
-			(uuid "9efbe203-bea0-4790-9604-90ff56c1f346")
-		)
-		(pin "7"
-			(uuid "974e37d8-a7ea-4ccf-b173-92d2d57a5be9")
-		)
-		(pin "3"
-			(uuid "ea5d08b3-5e03-468f-ac2c-a0a3e52eb9eb")
-		)
-		(pin "9"
-			(uuid "e548d8a3-207e-4af1-9b65-a591f974fa62")
-		)
-		(pin "2"
-			(uuid "1255870c-2afb-40db-b984-2f2da93fb16b")
-		)
-		(pin "1"
-			(uuid "9e9789a2-6ec4-4b23-ae63-09dc7895726b")
-		)
-		(pin "8"
-			(uuid "e0f7a27d-6af2-4fd4-8ed1-986acd389b69")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 571.5 382.27 90)
 		(unit 1)
@@ -24479,262 +25253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 445.77 506.73 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77053050-9097-4dc5-a25f-31d16468e09b")
-		(property "Reference" "K4"
-			(at 435.61 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 438.15 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 445.77 506.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "9053ff5b-d33c-4dd9-89ac-f215fc2fdb68")
-		)
-		(pin "2"
-			(uuid "1e71326d-5d8b-41b7-b6ab-c1b85a679616")
-		)
-		(pin "8"
-			(uuid "4404d874-bc83-4de2-87c9-5c0159ff0512")
-		)
-		(pin "3"
-			(uuid "72c4f464-0d5f-4dcb-804d-51fc451ef911")
-		)
-		(pin "7"
-			(uuid "1c387677-cacf-47da-8880-887f1575b770")
-		)
-		(pin "4"
-			(uuid "792d528c-8a43-4fc4-a09e-96979cb4fc23")
-		)
-		(pin "10"
-			(uuid "9d5a6107-7322-4681-a712-691f042df2bc")
-		)
-		(pin "1"
-			(uuid "ea4cd783-ca6c-4578-bb9a-2517957cd03a")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 585.47 256.54 0)
 		(mirror y)
@@ -24928,6 +25446,265 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "L18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 180.34 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797561b2-4415-41fd-8bdb-481de56d0923")
+		(property "Reference" "K7"
+			(at 186.69 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 186.69 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "ad59e4ed-591a-4eb7-a246-5c35c3036024")
+		)
+		(pin "8"
+			(uuid "866e0889-a120-4c89-bc52-f8f2076b3c0d")
+		)
+		(pin "7"
+			(uuid "784af030-a692-4eaf-87e8-fef226dfe0a3")
+		)
+		(pin "3"
+			(uuid "32546685-0252-44f3-b239-1090d04af47f")
+		)
+		(pin "10"
+			(uuid "256e7ed6-f774-4408-a8fb-4bfa81e2384f")
+		)
+		(pin "2"
+			(uuid "98435b9e-33fa-4e6b-8de4-ce2adbbf0f33")
+		)
+		(pin "4"
+			(uuid "de9c3a19-71d6-400e-9388-f109d7fbab43")
+		)
+		(pin "1"
+			(uuid "a13bafe8-44ad-443c-9ced-5e6d39f07cc4")
+		)
+		(instances
+			(project ""
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K7")
 					(unit 1)
 				)
 			)
@@ -25197,6 +25974,263 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "C48")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 226.06 63.5 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ddc9423-c6c0-4bba-9359-f42e994a29a6")
+		(property "Reference" "K4"
+			(at 226.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1c7eb896-379a-4cf4-9d51-5cbcb1d4a6dc")
+		)
+		(pin "9"
+			(uuid "f3cd9420-4862-4b0c-a25c-da28b7ab5c55")
+		)
+		(pin "7"
+			(uuid "4d61eca9-ff17-42c6-9952-0033f29fc6d2")
+		)
+		(pin "4"
+			(uuid "a0a32d4f-e504-43f6-b936-90167101e560")
+		)
+		(pin "10"
+			(uuid "ccf7b05c-28d1-4a9a-b9b4-5fc80b5c0e8c")
+		)
+		(pin "8"
+			(uuid "820beee5-b088-4bad-86e8-04e8dfeef7b5")
+		)
+		(pin "2"
+			(uuid "60a2c603-7eab-4d41-84a5-42464fab5002")
+		)
+		(pin "1"
+			(uuid "eeecf70b-a9db-49e3-a535-a03f784bef01")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K4")
+					(unit 3)
 				)
 			)
 		)
@@ -25611,6 +26645,265 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "L25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 158.75 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847a5686-e580-48bf-9228-4fb8e67322ec")
+		(property "Reference" "K6"
+			(at 165.1 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 165.1 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 158.75 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dce9558d-3284-463f-beb9-80d60a5fbbca")
+		)
+		(pin "3"
+			(uuid "fe397677-b309-4fae-97d4-30d1295a9229")
+		)
+		(pin "7"
+			(uuid "9b10d32a-7524-4d76-bccf-9228270a7084")
+		)
+		(pin "10"
+			(uuid "5e764e93-5455-4905-9877-0108b64f9994")
+		)
+		(pin "1"
+			(uuid "1c219e00-aee5-4f2f-a55a-ddb647b3ac49")
+		)
+		(pin "8"
+			(uuid "fb27f52a-8ea0-48f6-83f2-256e705036d5")
+		)
+		(pin "9"
+			(uuid "2982dc0f-29a5-4c02-93b6-8bdb8cbd0106")
+		)
+		(pin "4"
+			(uuid "c43a794a-04a3-416c-93f4-9c9e7a2289a7")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -26907,6 +28200,263 @@
 		)
 	)
 	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 274.32 63.5 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dd41b9d-1f11-4f86-8893-a17381ae065f")
+		(property "Reference" "K7"
+			(at 274.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 274.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 274.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "0e202e9a-49e7-4c51-8a79-64050dcc83e1")
+		)
+		(pin "8"
+			(uuid "a9ae4dc4-9a9d-4b50-a136-9cf3a912925d")
+		)
+		(pin "7"
+			(uuid "582d3c0d-9711-4a34-8bdf-703ed3a8e181")
+		)
+		(pin "3"
+			(uuid "32546685-0252-44f3-b239-1090d04af47f")
+		)
+		(pin "10"
+			(uuid "256e7ed6-f774-4408-a8fb-4bfa81e2384f")
+		)
+		(pin "2"
+			(uuid "98435b9e-33fa-4e6b-8de4-ce2adbbf0f33")
+		)
+		(pin "4"
+			(uuid "de9c3a19-71d6-400e-9388-f109d7fbab43")
+		)
+		(pin "1"
+			(uuid "a13bafe8-44ad-443c-9ced-5e6d39f07cc4")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 722.63 162.56 0)
 		(unit 1)
@@ -27319,8 +28869,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9520fb57-a8be-444a-8c48-e9787acdf689")
-		(property "Reference" "K2"
+		(uuid "95a5ea99-f0ca-41c4-a6ec-30a465028f79")
+		(property "Reference" "K3"
 			(at 96.52 60.9599 0)
 			(effects
 				(font
@@ -27536,294 +29086,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "790fe88b-4379-417d-80de-c1c82b3adbba")
-		)
-		(pin "10"
-			(uuid "35cf0aa2-d76c-4c2b-b171-96db0ca01b3b")
-		)
-		(pin "8"
-			(uuid "d3fd7e73-0fcc-457a-bb33-ec7ff314d3bc")
-		)
-		(pin "2"
-			(uuid "aba5106a-f222-4c7a-b4fe-9aeee8027ffa")
+		(pin "3"
+			(uuid "1c7eb896-379a-4cf4-9d51-5cbcb1d4a6dc")
 		)
 		(pin "9"
-			(uuid "3c01628a-e17c-473d-bf7e-1e487bf654d7")
+			(uuid "37653745-4202-4a74-ac09-6f7e06681cac")
 		)
 		(pin "7"
-			(uuid "b9f931fd-61f7-46ad-b1e1-d28c48dc88fb")
-		)
-		(pin "3"
-			(uuid "65628851-5d17-4d81-89fc-a168c8db2385")
+			(uuid "38c7ca53-b384-45a0-90df-c8f3126f113d")
 		)
 		(pin "4"
-			(uuid "e8d46fee-fb96-4927-839a-f705f4698aef")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 180.34 147.32 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9584bfbc-aad4-4f76-8b73-1be4f0eb8fec")
-		(property "Reference" "K2"
-			(at 187.96 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 187.96 148.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "790fe88b-4379-417d-80de-c1c82b3adbba")
+			(uuid "a0a32d4f-e504-43f6-b936-90167101e560")
 		)
 		(pin "10"
-			(uuid "35cf0aa2-d76c-4c2b-b171-96db0ca01b3b")
+			(uuid "9d7bc5b1-6614-4e06-91c3-751d551b78ac")
 		)
 		(pin "8"
-			(uuid "d3fd7e73-0fcc-457a-bb33-ec7ff314d3bc")
+			(uuid "af200380-e447-4d80-9aed-0fdb9ea59a4e")
 		)
 		(pin "2"
-			(uuid "cdb005ba-f8b9-44b0-84d9-c401551f5c55")
+			(uuid "60a2c603-7eab-4d41-84a5-42464fab5002")
 		)
-		(pin "9"
-			(uuid "3c01628a-e17c-473d-bf7e-1e487bf654d7")
-		)
-		(pin "7"
-			(uuid "b9f931fd-61f7-46ad-b1e1-d28c48dc88fb")
-		)
-		(pin "3"
-			(uuid "7219cd66-42de-44ed-8ffe-2c39bf634c65")
-		)
-		(pin "4"
-			(uuid "fd477561-5198-41b9-9c81-9abb9bfe5d17")
+		(pin "1"
+			(uuid "491dff0d-d006-4573-86d6-32cab85a63a6")
 		)
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K2")
-					(unit 2)
+					(reference "K3")
+					(unit 1)
 				)
 			)
 		)
@@ -29048,265 +30339,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 114.3 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a533ab24-4373-418f-8d33-2466da1754c9")
-		(property "Reference" "K7"
-			(at 120.65 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 120.65 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "054b465b-000e-41dd-a11f-df5a69e61a3b")
-		)
-		(pin "4"
-			(uuid "9efbe203-bea0-4790-9604-90ff56c1f346")
-		)
-		(pin "7"
-			(uuid "974e37d8-a7ea-4ccf-b173-92d2d57a5be9")
-		)
-		(pin "3"
-			(uuid "ea5d08b3-5e03-468f-ac2c-a0a3e52eb9eb")
-		)
-		(pin "9"
-			(uuid "e548d8a3-207e-4af1-9b65-a591f974fa62")
-		)
-		(pin "2"
-			(uuid "1255870c-2afb-40db-b984-2f2da93fb16b")
-		)
-		(pin "1"
-			(uuid "9e9789a2-6ec4-4b23-ae63-09dc7895726b")
-		)
-		(pin "8"
-			(uuid "e0f7a27d-6af2-4fd4-8ed1-986acd389b69")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 554.99 501.65 0)
 		(unit 1)
@@ -29577,34 +30609,32 @@
 	)
 	(symbol
 		(lib_id "TQ2-5V:TQ2-5V")
-		(at 66.04 212.09 0)
-		(mirror y)
-		(unit 3)
+		(at 67.31 137.16 180)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a87a6911-a35f-4ac9-b9aa-a4f4a44793e4")
+		(fields_autoplaced yes)
+		(uuid "a852b698-7032-4126-85bd-9025bc45e813")
 		(property "Reference" "K1"
-			(at 70.612 211.582 0)
+			(at 67.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "TQ2-5V"
-			(at 70.612 214.122 0)
+			(at 67.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "TQ2-5V:TQ2"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29614,7 +30644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29623,7 +30653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29632,7 +30662,7 @@
 			)
 		)
 		(property "UCOIL" "5VDC"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29642,7 +30672,7 @@
 			)
 		)
 		(property "RCOIL" "178Ω"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29652,7 +30682,7 @@
 			)
 		)
 		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29662,7 +30692,7 @@
 			)
 		)
 		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29672,7 +30702,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29682,7 +30712,7 @@
 			)
 		)
 		(property "CONTACTS" "2 CO contacts"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29692,7 +30722,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29702,7 +30732,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29712,7 +30742,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29722,7 +30752,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29732,7 +30762,7 @@
 			)
 		)
 		(property "COIL_CURRENT" "28.1mA"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29742,7 +30772,7 @@
 			)
 		)
 		(property "MP" "TQ2-5V"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29752,7 +30782,7 @@
 			)
 		)
 		(property "FARNELL" "1175716"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29762,7 +30792,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29772,7 +30802,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29782,7 +30812,7 @@
 			)
 		)
 		(property "RELAYS_TYP" "Non-Latching"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29792,7 +30822,7 @@
 			)
 		)
 		(property "MOUSER" "769-TQ2-5V"
-			(at 66.04 212.09 0)
+			(at 67.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29801,35 +30831,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "14105039-ddbc-45b1-8060-c1b08f2b535f")
+		(pin "9"
+			(uuid "de93af04-6061-4b64-8cbe-7420dcb972fc")
 		)
 		(pin "7"
-			(uuid "1e23153c-1446-4a22-80a0-f196942d7a10")
+			(uuid "c836c47f-24a6-44e6-8cde-1aa4d8aa31d8")
 		)
-		(pin "9"
-			(uuid "24a30519-ca02-4b66-9c66-8d51419834e3")
-		)
-		(pin "10"
-			(uuid "6a3d9f94-c565-4497-a35b-54dd60b733b2")
-		)
-		(pin "2"
-			(uuid "8a24dfca-36b3-45f1-9332-64ec6e6d4bd5")
-		)
-		(pin "3"
-			(uuid "00ca602b-17ea-417f-80d9-47cf94f0cd39")
-		)
-		(pin "4"
-			(uuid "720544fd-9e68-4569-85fe-73ba981520ee")
+		(pin "1"
+			(uuid "c5eefdb8-1166-46c8-8e3b-12bc1d03933a")
 		)
 		(pin "8"
-			(uuid "cd1444d3-47c2-4c32-8554-f600ebbcb354")
+			(uuid "8cc8622e-2a3f-47b7-a129-cc3adee120b4")
+		)
+		(pin "10"
+			(uuid "b520c563-0b77-401f-b36f-6568ce67c31b")
+		)
+		(pin "2"
+			(uuid "db7ed409-a876-49a6-beab-bf02359d00c3")
+		)
+		(pin "3"
+			(uuid "409969d3-b49b-423e-806f-e2fc7201b716")
+		)
+		(pin "4"
+			(uuid "06b6adf6-1136-48de-af4e-6f9ca414034f")
 		)
 		(instances
-			(project "DigitalOsciloscope"
+			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "K1")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -32246,7 +33276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AD813ARZ:R_8_ADI-L"
+		(property "Footprint" "AD8611ARZ:R_8_ADI-L"
 			(at 552.45 487.68 0)
 			(effects
 				(font
@@ -33735,263 +34765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 62.23 387.35 0)
-		(mirror y)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0f997f6-00cf-4ab5-ac21-12783d967359")
-		(property "Reference" "K2"
-			(at 62.23 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 62.23 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 62.23 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "fc9ef34d-ff8d-469a-9981-a874092888d6")
-		)
-		(pin "1"
-			(uuid "63b0ed39-8966-47ca-98ef-0b8bffe7e056")
-		)
-		(pin "7"
-			(uuid "dbaeb1df-00bd-4453-859c-d36ac0db8e09")
-		)
-		(pin "9"
-			(uuid "4f4c022d-c1a2-4b35-afbd-74a437a42d88")
-		)
-		(pin "4"
-			(uuid "e15778b0-a0fc-4b85-860c-3a63c854bba0")
-		)
-		(pin "3"
-			(uuid "5fe846cd-a819-41d4-bd0d-226d28e9594c")
-		)
-		(pin "8"
-			(uuid "5571c892-ee44-4ca2-9212-ff9664e99742")
-		)
-		(pin "2"
-			(uuid "7237f155-0564-46cd-bb56-619a60248188")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 468.63 506.73 90)
 		(unit 1)
@@ -34491,7 +35264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OPA656U:SOIC127P599X175-8N"
+		(property "Footprint" "OPA656:SOIC127P599X175-8N"
 			(at 372.11 193.04 0)
 			(effects
 				(font
@@ -35237,34 +36010,32 @@
 	)
 	(symbol
 		(lib_id "TQ2-5V:TQ2-5V")
-		(at 39.37 62.23 0)
-		(unit 1)
+		(at 259.08 63.5 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d967bb78-3df1-4b69-901f-bd4b077c96ba")
+		(uuid "d9958e5d-9e9e-4552-98a3-c3d73f58d11b")
 		(property "Reference" "K6"
-			(at 45.72 60.9599 0)
+			(at 259.08 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TQ2-5V"
-			(at 45.72 63.4999 0)
+			(at 259.08 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TQ2-5V:TQ2"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35274,7 +36045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35283,7 +36054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35292,7 +36063,7 @@
 			)
 		)
 		(property "UCOIL" "5VDC"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35302,7 +36073,7 @@
 			)
 		)
 		(property "RCOIL" "178Ω"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35312,7 +36083,7 @@
 			)
 		)
 		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35322,7 +36093,7 @@
 			)
 		)
 		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35332,7 +36103,7 @@
 			)
 		)
 		(property "MF" "Panasonic"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35342,7 +36113,7 @@
 			)
 		)
 		(property "CONTACTS" "2 CO contacts"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35352,7 +36123,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35362,7 +36133,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35372,7 +36143,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35382,7 +36153,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35392,7 +36163,7 @@
 			)
 		)
 		(property "COIL_CURRENT" "28.1mA"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35402,7 +36173,7 @@
 			)
 		)
 		(property "MP" "TQ2-5V"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35412,7 +36183,7 @@
 			)
 		)
 		(property "FARNELL" "1175716"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35422,7 +36193,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35432,7 +36203,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35442,7 +36213,7 @@
 			)
 		)
 		(property "RELAYS_TYP" "Non-Latching"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35452,7 +36223,7 @@
 			)
 		)
 		(property "MOUSER" "769-TQ2-5V"
-			(at 39.37 62.23 0)
+			(at 259.08 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35461,35 +36232,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "14105039-ddbc-45b1-8060-c1b08f2b535f")
-		)
-		(pin "7"
-			(uuid "874a4998-c4e8-4107-b505-917680817db8")
-		)
-		(pin "9"
-			(uuid "559da630-7398-4e04-a234-77944263fc89")
+		(pin "2"
+			(uuid "dd08a17d-f4e5-41d2-b2e3-1b109da355b4")
 		)
 		(pin "10"
-			(uuid "6a3d9f94-c565-4497-a35b-54dd60b733b2")
+			(uuid "7b3e4a69-2bfd-4b52-a11f-fb0746684672")
 		)
-		(pin "2"
-			(uuid "8a24dfca-36b3-45f1-9332-64ec6e6d4bd5")
-		)
-		(pin "3"
-			(uuid "00ca602b-17ea-417f-80d9-47cf94f0cd39")
+		(pin "1"
+			(uuid "b5a5d875-518b-4495-94a7-b7d1bae62afb")
 		)
 		(pin "4"
-			(uuid "720544fd-9e68-4569-85fe-73ba981520ee")
+			(uuid "8b0e0d35-7913-4f1b-880a-b960714aac71")
+		)
+		(pin "3"
+			(uuid "f5476d16-62f6-4a4f-9b7e-eb3315b99fe8")
 		)
 		(pin "8"
-			(uuid "5b1009a9-9b89-4ced-8fa8-cad92c364dc6")
+			(uuid "40615f30-d636-4203-a900-2c17d01d143b")
+		)
+		(pin "7"
+			(uuid "cfa42bdd-11aa-4010-8f80-1f1fa038af05")
+		)
+		(pin "9"
+			(uuid "1f090816-3489-475e-9f32-0e7b3744bde0")
 		)
 		(instances
-			(project ""
+			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "K6")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -35562,6 +36333,265 @@
 		)
 	)
 	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 180.34 147.32 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dda6432a-787d-4961-8902-4cc24d8ddcfb")
+		(property "Reference" "K3"
+			(at 187.96 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 187.96 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 180.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7733b882-f51b-4a5f-982a-9a941c53d97b")
+		)
+		(pin "9"
+			(uuid "37653745-4202-4a74-ac09-6f7e06681cac")
+		)
+		(pin "7"
+			(uuid "38c7ca53-b384-45a0-90df-c8f3126f113d")
+		)
+		(pin "4"
+			(uuid "18b22453-b2a9-46d0-b720-fb10238bf872")
+		)
+		(pin "10"
+			(uuid "ccf7b05c-28d1-4a9a-b9b4-5fc80b5c0e8c")
+		)
+		(pin "8"
+			(uuid "af200380-e447-4d80-9aed-0fdb9ea59a4e")
+		)
+		(pin "2"
+			(uuid "3c437a59-8130-4b45-abc9-dc47be39993d")
+		)
+		(pin "1"
+			(uuid "eeecf70b-a9db-49e3-a535-a03f784bef01")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 725.17 297.18 0)
 		(unit 1)
@@ -35622,265 +36652,6 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "#PWR093")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 467.36 520.7 270)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "deb216a3-89be-48ee-9651-fe60a9cc7bc6")
-		(property "Reference" "K5"
-			(at 474.98 519.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 474.98 521.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 467.36 520.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fbcf9eb7-899d-4bb3-9d16-a1838e117ab3")
-		)
-		(pin "3"
-			(uuid "376588e9-d917-4997-b3a8-ef221cae3570")
-		)
-		(pin "4"
-			(uuid "271c5790-22d8-4c8e-9510-2b1d01e59fd5")
-		)
-		(pin "9"
-			(uuid "607ba3e7-6c88-4b9e-b7b6-e17902787b36")
-		)
-		(pin "10"
-			(uuid "fcd84c11-87bf-40c9-9296-29a68a9ef1a4")
-		)
-		(pin "1"
-			(uuid "627e7c02-b7a5-4018-8570-eed629d357df")
-		)
-		(pin "8"
-			(uuid "546b15c7-3f0b-4c69-9ee6-2c0efd860491")
-		)
-		(pin "7"
-			(uuid "be3c878d-f993-42a7-99de-1130f8f8a301")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K5")
-					(unit 2)
 				)
 			)
 		)
@@ -36627,263 +37398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 67.31 137.16 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e872733c-9a5d-4bb3-b91a-06e14a83cf99")
-		(property "Reference" "K6"
-			(at 67.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 67.31 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 67.31 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14105039-ddbc-45b1-8060-c1b08f2b535f")
-		)
-		(pin "7"
-			(uuid "874a4998-c4e8-4107-b505-917680817db8")
-		)
-		(pin "9"
-			(uuid "559da630-7398-4e04-a234-77944263fc89")
-		)
-		(pin "10"
-			(uuid "6a3d9f94-c565-4497-a35b-54dd60b733b2")
-		)
-		(pin "2"
-			(uuid "8a24dfca-36b3-45f1-9332-64ec6e6d4bd5")
-		)
-		(pin "3"
-			(uuid "00ca602b-17ea-417f-80d9-47cf94f0cd39")
-		)
-		(pin "4"
-			(uuid "720544fd-9e68-4569-85fe-73ba981520ee")
-		)
-		(pin "8"
-			(uuid "5b1009a9-9b89-4ced-8fa8-cad92c364dc6")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 90.17 166.37 0)
 		(unit 1)
@@ -37084,520 +37598,6 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "C6")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 226.06 63.5 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee381ab1-5320-46d9-8d78-93d8c9ad98bd")
-		(property "Reference" "K7"
-			(at 226.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 226.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "054b465b-000e-41dd-a11f-df5a69e61a3b")
-		)
-		(pin "4"
-			(uuid "9efbe203-bea0-4790-9604-90ff56c1f346")
-		)
-		(pin "7"
-			(uuid "7489deb8-ea98-475d-96c2-9c93aeb69792")
-		)
-		(pin "3"
-			(uuid "ea5d08b3-5e03-468f-ac2c-a0a3e52eb9eb")
-		)
-		(pin "9"
-			(uuid "b46d3434-7343-4b44-82d5-29847de12c64")
-		)
-		(pin "2"
-			(uuid "1255870c-2afb-40db-b984-2f2da93fb16b")
-		)
-		(pin "1"
-			(uuid "9e9789a2-6ec4-4b23-ae63-09dc7895726b")
-		)
-		(pin "8"
-			(uuid "10aabd99-d1e9-431c-a407-c46af457c196")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K7")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 242.57 63.5 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee8d722d-1323-47f6-b4de-950120b20931")
-		(property "Reference" "K3"
-			(at 242.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "dc508bf6-35c4-455f-8ffa-9bb078035c01")
-		)
-		(pin "2"
-			(uuid "073fb527-5073-4371-86d9-415abebc999f")
-		)
-		(pin "1"
-			(uuid "17090021-4574-4711-8d66-fb2ed70f0a60")
-		)
-		(pin "10"
-			(uuid "1af02f23-5c03-4d79-a390-a889a4a7b314")
-		)
-		(pin "4"
-			(uuid "325f0ad4-7070-42db-bf2b-892c428b5796")
-		)
-		(pin "3"
-			(uuid "4708d8c9-02a7-4d61-87ee-2170ada55972")
-		)
-		(pin "7"
-			(uuid "3f812f7a-a5e6-406e-b92b-25586ffe26c5")
-		)
-		(pin "9"
-			(uuid "87dc08ac-982e-458b-b518-f6950d4ef57b")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K3")
-					(unit 3)
 				)
 			)
 		)
@@ -38268,265 +38268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TQ2-5V:TQ2-5V")
-		(at 180.34 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7c5e2b5-1b33-42ae-a749-ea42a1380ae9")
-		(property "Reference" "K4"
-			(at 186.69 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TQ2-5V"
-			(at 186.69 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TQ2-5V:TQ2"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4eaed614-4ff7-4be8-ab11-a0e9b7698fce")
-		)
-		(pin "3"
-			(uuid "05d69f64-4c1b-44b5-92cc-49a6788f6111")
-		)
-		(pin "4"
-			(uuid "f4f3eb95-637b-4440-9ae0-1ea54497b419")
-		)
-		(pin "9"
-			(uuid "607ba3e7-6c88-4b9e-b7b6-e17902787b36")
-		)
-		(pin "10"
-			(uuid "3d90fcef-6605-42e1-9f76-ce50afbb1b1b")
-		)
-		(pin "1"
-			(uuid "41969bbc-3f5c-4560-ab51-3f2e26d8b1f3")
-		)
-		(pin "8"
-			(uuid "546b15c7-3f0b-4c69-9ee6-2c0efd860491")
-		)
-		(pin "7"
-			(uuid "be3c878d-f993-42a7-99de-1130f8f8a301")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 254 242.57 0)
 		(unit 1)
@@ -38875,6 +38616,263 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "#PWR03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TQ2-5V:TQ2-5V")
+		(at 66.04 212.09 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb87ec74-e3a5-4535-85c5-f359c2847ae9")
+		(property "Reference" "K1"
+			(at 66.04 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TQ2-5V"
+			(at 66.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TQ2-5V:TQ2"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 66.04 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dce9558d-3284-463f-beb9-80d60a5fbbca")
+		)
+		(pin "3"
+			(uuid "fe397677-b309-4fae-97d4-30d1295a9229")
+		)
+		(pin "7"
+			(uuid "26b87d17-97c6-4aa2-8e3d-f6251b19e3a3")
+		)
+		(pin "10"
+			(uuid "41c059d8-211d-4877-9a89-e1cdbba27634")
+		)
+		(pin "1"
+			(uuid "a965d060-631e-4813-896a-eeeb820d3ec8")
+		)
+		(pin "8"
+			(uuid "b410f8da-837e-4c2d-b6fc-be33d9906c50")
+		)
+		(pin "9"
+			(uuid "a61463bb-5d4c-47f0-93c1-a6764beaa566")
+		)
+		(pin "4"
+			(uuid "c43a794a-04a3-416c-93f4-9c9e7a2289a7")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K1")
+					(unit 3)
 				)
 			)
 		)

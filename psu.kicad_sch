@@ -8308,7 +8308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 180.34 36.83 0)
 			(effects
 				(font
@@ -10523,7 +10523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 205.74 36.83 0)
 			(effects
 				(font
@@ -14349,7 +14349,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 193.04 36.83 0)
 			(effects
 				(font

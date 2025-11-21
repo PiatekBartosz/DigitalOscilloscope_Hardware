@@ -1,4 +1,4 @@
-25822858606162079
+25836933690468811
 ABM1116.000MHZ-B7GT
 XTAL_ABM1116.000MHZ-B7GT
 
@@ -6,6 +6,27 @@ XTAL_ABM1116.000MHZ-B7GT
 0
 4
 4
+AD8138ARZ
+R_8_ADI
+
+AD8138ARZ 
+0
+8
+8
+AD8138ARZ
+R_8_ADI-L
+
+AD8138ARZ 
+0
+8
+8
+AD8138ARZ
+R_8_ADI-M
+
+AD8138ARZ 
+0
+8
+8
 AD8337BCPZ
 CP_8_2_ADI
 
@@ -27,6 +48,27 @@ AD8337BCPZ-REEL-ND
 0
 9
 9
+AD8611ARZ
+R_8_ADI
+
+AD8611ARZ 
+0
+8
+8
+AD8611ARZ
+R_8_ADI-L
+
+AD8611ARZ 
+0
+8
+8
+AD8611ARZ
+R_8_ADI-M
+
+AD8611ARZ 
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71287,6 +71329,20 @@ net tie
 0
 4
 4
+OPA656
+Bez_nazwy
+
+
+0
+0
+0
+OPA656
+SOIC127P599X175-8N
+
+
+0
+8
+8
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
