@@ -11394,7 +11394,7 @@
 			)
 		)
 	)
-	(global_label "CH2_CH-"
+	(global_label "CH2_CH_N"
 		(shape output)
 		(at 779.78 351.79 0)
 		(fields_autoplaced yes)
@@ -11406,7 +11406,7 @@
 		)
 		(uuid "2b61fcb5-a7b1-4856-ba3c-633fdddd1c40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 791.7157 351.79 0)
+			(at 792.4414 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11548,7 +11548,7 @@
 			)
 		)
 	)
-	(global_label "CH1_CH+"
+	(global_label "CH1_CH_P"
 		(shape output)
 		(at 777.24 203.2 0)
 		(fields_autoplaced yes)
@@ -11560,7 +11560,7 @@
 		)
 		(uuid "66d351a8-829b-4dda-994e-8b5c07e53519")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 789.1757 203.2 0)
+			(at 789.8409 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11658,7 +11658,7 @@
 			)
 		)
 	)
-	(global_label "CH1_CH-"
+	(global_label "CH1_CH_N"
 		(shape output)
 		(at 777.24 213.36 0)
 		(fields_autoplaced yes)
@@ -11670,7 +11670,7 @@
 		)
 		(uuid "c782efc6-049e-4da7-a363-db7a9986006b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 789.1757 213.36 0)
+			(at 789.9014 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11724,7 +11724,7 @@
 			)
 		)
 	)
-	(global_label "CH2_CH+"
+	(global_label "CH2_CH_P"
 		(shape output)
 		(at 779.78 341.63 0)
 		(fields_autoplaced yes)
@@ -11736,7 +11736,7 @@
 		)
 		(uuid "e31e15e8-b0c9-4f81-a09b-008c08f6cce4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 791.7157 341.63 0)
+			(at 792.3809 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35549,7 +35549,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 385.572 352.806 90)
+			(at 386.842 352.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
