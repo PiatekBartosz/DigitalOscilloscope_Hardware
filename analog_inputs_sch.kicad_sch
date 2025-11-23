@@ -15347,7 +15347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Trimmer_Murata_TZB4-A"
+		(property "Footprint" "Capacitor_SMD:C_Trimmer_Voltronics_JZ"
 			(at 97.79 354.33 0)
 			(effects
 				(font
@@ -19575,7 +19575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Trimmer_Murata_TZB4-A"
+		(property "Footprint" "Capacitor_SMD:C_Trimmer_Voltronics_JZ"
 			(at 55.88 165.1 0)
 			(effects
 				(font
@@ -20664,7 +20664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Trimmer_Murata_TZB4-A"
+		(property "Footprint" "Capacitor_SMD:C_Trimmer_Voltronics_JZ"
 			(at 52.07 340.36 0)
 			(effects
 				(font
@@ -27834,7 +27834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Trimmer_Murata_TZB4-A"
+		(property "Footprint" "Capacitor_SMD:C_Trimmer_Voltronics_JZ"
 			(at 101.6 179.07 0)
 			(effects
 				(font

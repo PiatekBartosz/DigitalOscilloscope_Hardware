@@ -4437,6 +4437,10 @@
 		(uuid "3e0200b6-fe50-4070-bf44-ec826c80fc4b")
 	)
 	(no_connect
+		(at 80.01 74.93)
+		(uuid "3f03244c-dd1f-402d-a788-5cfde9f0c9ad")
+	)
+	(no_connect
 		(at 217.17 59.69)
 		(uuid "484e4539-f71d-467b-8de8-534f842ff8e9")
 	)

@@ -1,0 +1,452 @@
+# === PCB ASSEMBLY CHECKLIST ===
+
+- [M] C3      2.0-10.0pF       Capacitor_SMD:C_Trimmer_Murata_TZB4-A
+- [M] C5      2.0-10.0pF       Capacitor_SMD:C_Trimmer_Murata_TZB4-A
+- [M] C11     2.0-6.0pF        Capacitor_SMD:C_Trimmer_Murata_TZB4-A
+- [M] C12     2.0-6.0pF        Capacitor_SMD:C_Trimmer_Murata_TZB4-A
+
+- [M] C103    10uF             Capacitor_SMD:CP_Elec_5x4.4
+- [M] C104    10uF             Capacitor_SMD:CP_Elec_5x4.4
+- [M] C105    10uF             Capacitor_SMD:CP_Elec_5x4.4
+- [M] C106    10uF             Capacitor_SMD:CP_Elec_5x4.4
+- [M] C123    10uF             Capacitor_SMD:CP_Elec_5x4.4
+- [M] C124    10uF             Capacitor_SMD:CP_Elec_5x4.4
+- [M] C127    10uF             Capacitor_SMD:CP_Elec_5x4.4
+
+- [M] D1      BAV199DW         Package_TO_SOT_SMD:SOT-363_SC-70-6
+- [M] D2      BAV199DW         Package_TO_SOT_SMD:SOT-363_SC-70-6
+
+- [M] D3      1N4148W          Diode_SMD:D_SOD-123
+- [M] D4      1N4148W          Diode_SMD:D_SOD-123
+- [M] D5      1N4148W          Diode_SMD:D_SOD-123
+- [M] D6      1N4148W          Diode_SMD:D_SOD-123
+- [M] D7      1N4148W          Diode_SMD:D_SOD-123
+- [M] D8      1N4148W          Diode_SMD:D_SOD-123
+- [M] D9      1N4148W          Diode_SMD:D_SOD-123
+
+- [M] J1      Conn_Coaxial     Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical
+- [M] J2      Conn_Coaxial     Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical
+- [M] J3      Conn_Coaxial     Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical
+
+- [M] J4      Conn_01x03_Pin   Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+- [M] J5      Conn_01x03_Pin   Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+- [M] J6      Conn_01x02_Pin   Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+- [M] J7      Conn_01x03_Pin   Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+- [M] J8      Conn_01x02_Pin   Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+- [M] J9      Conn_01x02_Pin   Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+- [M] J10     Conn_01x02_Pin   Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+
+- [ ] J11     Screw_Terminal_01x02  TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
+- [ ] J12     Screw_Terminal_01x03  TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm
+
+- [M] K1      TQ2-5V           TQ2-5V:TQ2
+- [M] K2      TQ2-5V           TQ2-5V:TQ2
+- [M] K3      TQ2-5V           TQ2-5V:TQ2
+- [M] K4      TQ2-5V           TQ2-5V:TQ2
+- [M] K5      TQ2-5V           TQ2-5V:TQ2
+- [M] K6      TQ2-5V           TQ2-5V:TQ2
+- [M] K7      TQ2-5V           TQ2-5V:TQ2
+
+- [M] Q1      2N7002           Package_TO_SOT_SMD:SOT-23
+- [M] Q2      2N7002           Package_TO_SOT_SMD:SOT-23
+- [M] Q3      2N7002           Package_TO_SOT_SMD:SOT-23
+- [M] Q4      2N7002           Package_TO_SOT_SMD:SOT-23
+- [M] Q5      2N7002           Package_TO_SOT_SMD:SOT-23
+- [M] Q6      2N7002           Package_TO_SOT_SMD:SOT-23
+- [M] Q7      2N7002           Package_TO_SOT_SMD:SOT-23
+
+- [M] TP1     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP2     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP3     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP4     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP5     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP6     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP7     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP8     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP9     TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP10    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP11    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP12    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP13    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP14    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP15    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP16    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP17    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP18    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP19    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP20    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP21    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP22    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP23    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP24    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP25    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+- [M] TP26    TestPoint        Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
+
+- [M] U1      TL072            TL072:D8-L
+
+- [x] U2      OPA656U          OPA656:SOIC127P599X175-8N
+- [x] U3      OPA656U          OPA656:SOIC127P599X175-8N
+
+- [M] U4      AD8611ARZ        AD8611ARZ:R_8_ADI-L
+
+- [x] U5      AD8337BCPZ-REEL-ND  AD8337BCPZ:CP_8_2_ADI-L
+- [x] U6      AD8337BCPZ-REEL-ND  AD8337BCPZ:CP_8_2_ADI-L
+
+- [x] U7      AD8138ARZ        AD8138ARZ:R_8_ADI-L
+- [x] U8      AD8138ARZ        AD8138ARZ:R_8_ADI-L
+
+- [x] U9      LTC2299xUP       Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.15x7.15mm
+
+- [ ] U10     P0082_BOTTOMMOUNT  P0082_BOTTOMMOUNT:MODULE_P0082_BOTTOMMOUNT
+- [ ] HEADER FPGAA
+
+- [ ] U11     NUCLEOH723ZG     NUCLEO232ZG:MODULE_NUCLEOH723ZG
+- [ ] HEADER NUCLEO
+
+- [M] U13     AZ1117-ADJ       Package_TO_SOT_SMD:SOT-89-3
+- [M] U14     AZ1117-ADJ       Package_TO_SOT_SMD:SOT-89-3
+- [M] U15     AZ1117-ADJ       Package_TO_SOT_SMD:SOT-89-3
+- [M] U16     AZ1117-ADJ       Package_TO_SOT_SMD:SOT-89-3
+- [M] U19     AZ1117-ADJ       Package_TO_SOT_SMD:SOT-89-3
+
+- [M] U17     ADP7182AUJZ      Package_TO_SOT_SMD:TSOT-23-5
+- [M] U18     ADP7182AUJZ      Package_TO_SOT_SMD:TSOT-23-5
+
+- [M] U20     DAC61408RHAR     ul_DAC61408RHAR:QFN_08RHAT_TEX-L
+
+- [M] Y1      XLL735080.000000I  KiCad:XLL735080000000I
+
+- [ ] PCC Isoproph.
+
+# LED
+
+- [x] D10     LED              LED_SMD:LED_0805_2012Metric
+- [x] D11     LED              LED_SMD:LED_0805_2012Metric
+- [x] D12     LED              LED_SMD:LED_0805_2012Metric
+- [x] D13     LED              LED_SMD:LED_0805_2012Metric
+- [x] D14     LED              LED_SMD:LED_0805_2012Metric
+- [x] D15     LED              LED_SMD:LED_0805_2012Metric
+- [x] D16     LED              LED_SMD:LED_0805_2012Metric
+- [x] D17     LED              LED_SMD:LED_0805_2012Metric
+- [x] D18     LED              LED_SMD:LED_0805_2012Metric
+- [x] D19     LED              LED_SMD:LED_0805_2012Metric
+
+# INDUCTORS
+
+- [ ] L1      LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L2      LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L3      LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L4      LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L5      0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L6      0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L7      0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L8      LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L9      0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L10     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L11     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L12     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L13     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L14     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L15     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L16     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L17     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L18     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L19     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L20     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L21     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L22     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L23     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L24     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L25     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L26     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L27     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L28     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L29     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L30     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L31     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L32     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L33     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L34     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L35     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L36     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L37     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L38     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L39     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L40     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L41     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L42     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L43     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L44     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L45     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L46     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L47     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L48     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L49     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L50     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L51     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L52     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L53     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L54     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L55     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L56     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L57     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L58     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L59     LCBB-601         Inductor_SMD:L_0805_2012Metric
+- [ ] L60     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L61     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+- [ ] L62     0.68uH, 0.8Ohm   Inductor_SMD:L_0805_2012Metric
+
+# RESISTORS
+
+- [x] R1      990k             Resistor_SMD:R_0805_2012Metric
+- [x] R2      990k             Resistor_SMD:R_0805_2012Metric
+- [x] R3      10k              Resistor_SMD:R_0805_2012Metric
+- [x] R4      10k              Resistor_SMD:R_0805_2012Metric
+- [x] R5      33R              Resistor_SMD:R_0805_2012Metric
+- [x] R6      33R              Resistor_SMD:R_0805_2012Metric
+- [x] R7      33R              Resistor_SMD:R_0805_2012Metric
+- [x] R8      49.9k            Resistor_SMD:R_0805_2012Metric
+- [x] R9      953k             Resistor_SMD:R_0805_2012Metric
+- [x] R10     49.9k            Resistor_SMD:R_0805_2012Metric
+- [x] R11     953k             Resistor_SMD:R_0805_2012Metric
+- [x] R12     33R              Resistor_SMD:R_0805_2012Metric
+- [x] R13     33R              Resistor_SMD:R_0805_2012Metric
+- [x] R14     10R              Resistor_SMD:R_0805_2012Metric
+- [x] R15     10R              Resistor_SMD:R_0805_2012Metric
+- [x] R16     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R17     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R18     20k              Resistor_SMD:R_0805_2012Metric
+- [x] R19     20k              Resistor_SMD:R_0805_2012Metric
+- [x] R20     33R              Resistor_SMD:R_0805_2012Metric
+- [x] R21     33R              Resistor_SMD:R_0805_2012Metric
+- [x] R22     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R23     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R24     49.9 R           Resistor_SMD:R_0805_2012Metric
+- [x] R25     49.9 R           Resistor_SMD:R_0805_2012Metric
+- [x] R26     100 R            Resistor_SMD:R_0805_2012Metric
+- [x] R27     100 R            Resistor_SMD:R_0805_2012Metric
+- [x] R28     100 R            Resistor_SMD:R_0805_2012Metric
+- [x] R29     2M               Resistor_SMD:R_0805_2012Metric
+- [x] R30     2M               Resistor_SMD:R_0805_2012Metric
+- [x] R31     100 R            Resistor_SMD:R_0805_2012Metric
+- [x] R32     25R              Resistor_SMD:R_0805_2012Metric
+- [x] R33     25R              Resistor_SMD:R_0805_2012Metric
+- [x] R34     25R              Resistor_SMD:R_0805_2012Metric
+- [x] R35     25R              Resistor_SMD:R_0805_2012Metric
+- [x] R36     33 R             Resistor_SMD:R_0805_2012Metric
+- [x] R37     33R              Resistor_SMD:R_0805_2012Metric
+- [x] R38     33 R             Resistor_SMD:R_0805_2012Metric
+- [x] R39     33R              Resistor_SMD:R_0805_2012Metric
+- [x] R40     499R             Resistor_SMD:R_0805_2012Metric
+- [x] R41     499R             Resistor_SMD:R_0805_2012Metric
+- [x] R42     499R             Resistor_SMD:R_0805_2012Metric
+- [x] R43     499R             Resistor_SMD:R_0805_2012Metric
+- [x] R44     499R             Resistor_SMD:R_0805_2012Metric
+- [x] R45     499R             Resistor_SMD:R_0805_2012Metric
+- [x] R46     499R             Resistor_SMD:R_0805_2012Metric
+- [x] R47     499R             Resistor_SMD:R_0805_2012Metric
+- [x] R48     25R              Resistor_SMD:R_0805_2012Metric
+- [x] R49     25R              Resistor_SMD:R_0805_2012Metric
+- [x] R50     25R              Resistor_SMD:R_0805_2012Metric
+- [x] R51     25R              Resistor_SMD:R_0805_2012Metric
+- [x] (DNP) R52     DNP              Resistor_SMD:R_0805_2012Metric
+- [x] (DNP) R53     DNP              Resistor_SMD:R_0805_2012Metric
+- [x] R54     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R55     20k              Resistor_SMD:R_0805_2012Metric
+- [x] R56     20k              Resistor_SMD:R_0805_2012Metric
+- [x] R57     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R59     33R              Resistor_SMD:R_0805_2012Metric
+- [x] R60     0R               Resistor_SMD:R_0805_2012Metric
+- [x] (DNP) R61     DNP              Resistor_SMD:R_0805_2012Metric
+- [x] R62     0R               Resistor_SMD:R_0805_2012Metric
+- [x] (DNP) R63     DNP              Resistor_SMD:R_0805_2012Metric
+- [x] (DNP) R64     DNP              Resistor_SMD:R_0805_2012Metric
+- [x] R65     33R              Resistor_SMD:R_0805_2012Metric
+- [x] R67     220R             Resistor_SMD:R_0805_2012Metric
+- [x] R68     10k              Resistor_SMD:R_0805_2012Metric
+- [x] (DNP) R69     DNP              Resistor_SMD:R_0805_2012Metric
+- [x] R70     0R               Resistor_SMD:R_0805_2012Metric
+- [x] R71     220R             Resistor_SMD:R_0805_2012Metric
+- [x] R72     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R73     220R             Resistor_SMD:R_0805_2012Metric
+- [x] R74     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R75     10kR             Resistor_SMD:R_0805_2012Metric
+- [x] R76     10kR             Resistor_SMD:R_0805_2012Metric
+- [x] R77     220R             Resistor_SMD:R_0805_2012Metric
+- [x] R78     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R79     10kR             Resistor_SMD:R_0805_2012Metric
+- [x] R80     220R             Resistor_SMD:R_0805_2012Metric
+- [x] R81     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R82     220R             Resistor_SMD:R_0805_2012Metric
+- [x] R83     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R84     220R             Resistor_SMD:R_0805_2012Metric
+- [x] R85     10k              Resistor_SMD:R_0805_2012Metric
+- [x] R86     120              Resistor_SMD:R_0805_2012Metric
+- [x] R87     360              Resistor_SMD:R_0805_2012Metric
+- [x] R88     120              Resistor_SMD:R_0805_2012Metric
+- [x] R89     200              Resistor_SMD:R_0805_2012Metric
+- [x] R90     120              Resistor_SMD:R_0805_2012Metric
+- [x] R91     200              Resistor_SMD:R_0805_2012Metric
+- [x] R92     120              Resistor_SMD:R_0805_2012Metric
+- [x] R93     200              Resistor_SMD:R_0805_2012Metric
+- [x] R94     600              Resistor_SMD:R_0805_2012Metric
+- [x] R95     1k2              Resistor_SMD:R_0805_2012Metric
+- [x] R96     1k2              Resistor_SMD:R_0805_2012Metric
+- [x] R97     1k2              Resistor_SMD:R_0805_2012Metric
+- [x] R98     800              Resistor_SMD:R_0805_2012Metric
+- [x] R99     300              Resistor_SMD:R_0805_2012Metric
+- [x] R100    600              Resistor_SMD:R_0805_2012Metric
+- [x] R101    300              Resistor_SMD:R_0805_2012Metric
+- [x] R102    300              Resistor_SMD:R_0805_2012Metric
+- [x] R103    10k              Resistor_SMD:R_0805_2012Metric
+- [x] R104    10k              Resistor_SMD:R_0805_2012Metric
+- [x] R105    300              Resistor_SMD:R_0805_2012Metric
+- [x] R106    123              Resistor_SMD:R_0805_2012Metric
+- [x] R107    510              Resistor_SMD:R_0805_2012Metric
+- [x] R108    39k              Resistor_SMD:R_0805_2012Metric
+- [x] R109    120k             Resistor_SMD:R_0805_2012Metric
+- [x] R110    68k              Resistor_SMD:R_0805_2012Metric
+- [x] R111    120k             Resistor_SMD:R_0805_2012Metric
+
+# CAPACTORS
+
+- [x] C13     22nF             Capacitor_SMD:C_0805_2012Metric
+- [x] C14     22nF             Capacitor_SMD:C_0805_2012Metric
+- [x] C15     100pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C16     100pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C17     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C18     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C19     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C20     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C21     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C22     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C23     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C24     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C25     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C26     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C27     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C28     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C29     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C30     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C31     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C32     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C33     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C34     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C35     22nF             Capacitor_SMD:C_0805_2012Metric
+- [x] C36     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C37     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C38     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C39     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C40     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C41     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C42     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C43     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C44     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C45     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C46     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C47     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C48     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C49     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C50     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C51     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C52     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C53     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C54     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C55     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] C56     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C57     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C58     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C59     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] C60     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C61     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C62     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C63     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] C64     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C65     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C66     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C67     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C68     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C69     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C70     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C71     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C72     12pF             Capacitor_SMD:C_0805_2012Metric
+- [x] C73     12pF             Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C74     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C75     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C76     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C77     DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] C78     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C79     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C80     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C81     10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C82     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C83     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C84     2.2uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C85     2.2uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C86     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C87     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C88     2.2uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C89     2.2uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C90     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C91     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C92     0.1uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C93     0.1uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C94     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C95     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C96     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C97     100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C98     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C99     1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C100    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C101    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C102    10nF             Capacitor_SMD:C_0805_2012Metric
+- [x] C107    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C108    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C109    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C110    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C111    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C112    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C113    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C114    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C115    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C116    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C117    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C118    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C119    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C120    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C121    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C122    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C125    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C126    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C128    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C129    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C130    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C131    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C132    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C133    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C134    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C135    10uF             Capacitor_SMD:C_0805_2012Metric
+- [x] C136    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C137    100nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C138    1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C139    0.1uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C140    100pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C141    150nF            Capacitor_SMD:C_0805_2012Metric
+- [x] C142    330pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C143    100pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C144    100pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C145    100pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C146    0.1uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C147    0.1uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C148    0.1uF            Capacitor_SMD:C_0805_2012Metric
+- [x] C149    1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C150    1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] C151    1uF              Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C1      DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C2      DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] C4      360pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C6      360pF            Capacitor_SMD:C_0805_2012Metric
+- [x] C7      390pF            Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C8      DNP              Capacitor_SMD:C_0805_2012Metric
+- [x] C9      390pF            Capacitor_SMD:C_0805_2012Metric
+- [x] (DNP) C10     DNP              Capacitor_SMD:C_0805_2012Metric

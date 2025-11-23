@@ -75,26 +75,6 @@
       ],
       "drc_exclusions": [
         [
-          "malformed_courtyard|191170199|63061100|d4fc0172-0a17-4340-a380-c4cdef1aae15|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|191373399|65038900|d4fc0172-0a17-4340-a380-c4cdef1aae15|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|191373399|65776601|d4fc0172-0a17-4340-a380-c4cdef1aae15|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|191870199|90311100|e90bbdab-76de-470a-8ea4-78042159d127|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|192073399|92288900|e90bbdab-76de-470a-8ea4-78042159d127|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "malformed_courtyard|193088900|62323399|d4fc0172-0a17-4340-a380-c4cdef1aae15|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -108,10 +88,6 @@
         ],
         [
           "malformed_courtyard|193811100|93026601|e90bbdab-76de-470a-8ea4-78042159d127|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|195029801|65038900|d4fc0172-0a17-4340-a380-c4cdef1aae15|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -314,7 +290,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "missing_power_pin|4584700|1981200|05613dc9-1187-4471-b374-5274a2da7c64|00000000-0000-0000-0000-000000000000|/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138|/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -581,7 +562,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -785,6 +766,54 @@
           "group_by": false,
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCHING_CURRENT",
+          "name": "SWITCHING_CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACTS",
+          "name": "CONTACTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RCOIL",
+          "name": "RCOIL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RELAYS_TYP",
+          "name": "RELAYS_TYP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "UCOIL",
+          "name": "UCOIL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER",
+          "name": "MOUSER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FARNELL",
+          "name": "FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COIL_CURRENT",
+          "name": "COIL_CURRENT",
           "show": false
         }
       ],

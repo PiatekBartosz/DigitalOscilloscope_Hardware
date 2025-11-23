@@ -276,7 +276,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 57.15)
+		(at 91.44 58.42)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -292,7 +292,7 @@
 		)
 		(uuid "c6e88111-c18e-4095-b1d8-9b944099aec3")
 		(property "Sheetname" "analog_inputs"
-			(at 91.44 56.4384 0)
+			(at 91.44 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +301,7 @@
 			)
 		)
 		(property "Sheetfile" "analog_inputs_sch.kicad_sch"
-			(at 91.44 83.1346 0)
+			(at 91.44 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
