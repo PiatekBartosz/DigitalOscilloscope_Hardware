@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NUCLEO232ZG")(type "KiCad")(uri "${KIPRJMOD}/Components/NUCLEOH723ZG/NUCLEOH723ZG.kicad_sym")(options "")(descr ""))
+)
