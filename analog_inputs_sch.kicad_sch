@@ -4961,6 +4961,12 @@
 		(uuid "11b7c354-3bf4-45e8-b330-c2f182ba34fa")
 	)
 	(junction
+		(at 731.52 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1228678b-e62a-4d49-85bc-a40bdc8f2d38")
+	)
+	(junction
 		(at 154.94 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5181,12 +5187,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48b98970-8c78-488f-863b-44e675b0600c")
-	)
-	(junction
-		(at 728.98 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "497718ed-bdeb-445f-8624-a57cffad290d")
 	)
 	(junction
 		(at 497.84 506.73)
@@ -5633,6 +5633,12 @@
 		(uuid "d5b9ed1c-faa2-439e-a004-bb7db0bf9244")
 	)
 	(junction
+		(at 731.52 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6e44c60-16c3-497b-b68d-25c2fdff300e")
+	)
+	(junction
 		(at 73.66 360.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5745,12 +5751,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f63ee745-cd94-43ea-aaed-7eae6b684d94")
-	)
-	(junction
-		(at 728.98 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f70d7adb-ce12-4d0c-9f2f-97070d1bbc85")
 	)
 	(junction
 		(at 421.64 193.04)
@@ -6600,6 +6600,16 @@
 	)
 	(wire
 		(pts
+			(xy 731.52 203.2) (xy 742.95 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2795704b-fe18-49be-b882-8403f9b71569")
+	)
+	(wire
+		(pts
 			(xy 392.43 300.99) (xy 381 300.99)
 		)
 		(stroke
@@ -6617,16 +6627,6 @@
 			(type default)
 		)
 		(uuid "27b64977-0b46-430f-b677-39ea1538726d")
-	)
-	(wire
-		(pts
-			(xy 728.98 213.36) (xy 742.95 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ec8ce4-9f72-4f95-a849-34390bb53ba0")
 	)
 	(wire
 		(pts
@@ -7490,7 +7490,7 @@
 	)
 	(wire
 		(pts
-			(xy 722.63 213.36) (xy 728.98 213.36)
+			(xy 722.63 213.36) (xy 731.52 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7670,6 +7670,16 @@
 	)
 	(wire
 		(pts
+			(xy 731.52 213.36) (xy 742.95 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5987dfba-c370-418b-a432-232e634e5606")
+	)
+	(wire
+		(pts
 			(xy 759.46 351.79) (xy 759.46 350.52)
 		)
 		(stroke
@@ -7720,7 +7730,7 @@
 	)
 	(wire
 		(pts
-			(xy 722.63 203.2) (xy 728.98 203.2)
+			(xy 722.63 203.2) (xy 731.52 203.2)
 		)
 		(stroke
 			(width 0)
@@ -10600,16 +10610,6 @@
 	)
 	(wire
 		(pts
-			(xy 728.98 203.2) (xy 742.95 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4774cb-bb51-4fbf-8ed6-0c5361350e6f")
-	)
-	(wire
-		(pts
 			(xy 180.34 68.58) (xy 180.34 67.31)
 		)
 		(stroke
@@ -11327,6 +11327,46 @@
 			(type default)
 		)
 		(uuid "ffcfb59c-b2e1-4f86-9f72-1d4ec32787a1")
+	)
+	(label "CH1_SYM_OUT_N"
+		(at 722.63 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cdb2d5c-9753-4452-92bb-0706ad7d629a")
+	)
+	(label "CH2_SYM_OUT_N"
+		(at 725.17 358.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88c0187a-ba6b-43c8-8549-d9290a45a5cc")
+	)
+	(label "CH2_SYM_OUT_P"
+		(at 725.17 334.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba68e3b0-b982-4144-8932-1e63b173505d")
+	)
+	(label "CH1_SYM_OUT_P"
+		(at 722.63 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f640f5af-963f-4a43-84f3-c3f78a39e686")
 	)
 	(global_label "AN_TRIGGER_N"
 		(shape output)
@@ -22883,7 +22923,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 728.98 213.36 0)
+		(at 731.52 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22892,7 +22932,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f98cf17-faa6-49a6-8741-e00db3e4c389")
 		(property "Reference" "TP20"
-			(at 731.52 208.7879 0)
+			(at 734.06 208.7879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22901,7 +22941,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 731.52 211.3279 0)
+			(at 734.06 211.3279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22910,7 +22950,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 734.06 213.36 0)
+			(at 736.6 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22919,7 +22959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 734.06 213.36 0)
+			(at 736.6 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22928,7 +22968,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 728.98 213.36 0)
+			(at 731.52 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27801,7 +27841,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 728.98 203.2 0)
+		(at 731.52 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27810,7 +27850,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b5a545e-42a8-4649-8228-ff0637ef60cc")
 		(property "Reference" "TP19"
-			(at 731.52 198.6279 0)
+			(at 734.06 198.6279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27819,7 +27859,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 731.52 201.1679 0)
+			(at 734.06 201.1679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27828,7 +27868,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 734.06 203.2 0)
+			(at 736.6 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27837,7 +27877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 734.06 203.2 0)
+			(at 736.6 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27846,7 +27886,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 728.98 203.2 0)
+			(at 731.52 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
