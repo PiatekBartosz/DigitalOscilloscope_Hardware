@@ -1283,130 +1283,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1974,6 +1850,12 @@
 		(uuid "21e078ce-744b-4fbd-a952-83df5fcb6632")
 	)
 	(junction
+		(at 261.62 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28137b60-a0bb-44d4-b8dc-0ccad6771e4e")
+	)
+	(junction
 		(at 238.76 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2094,15 +1976,19 @@
 		(uuid "eee18678-8c82-446b-b4e4-193c52396c5b")
 	)
 	(no_connect
-		(at 260.35 168.91)
+		(at 274.32 171.45)
+		(uuid "a9e40ad3-5ed2-4e91-a678-91eb13a709ff")
+	)
+	(no_connect
+		(at 274.32 168.91)
 		(uuid "bb1641be-7495-433c-871f-dd8393cef743")
 	)
 	(no_connect
-		(at 260.35 166.37)
+		(at 274.32 166.37)
 		(uuid "cb801adb-b80e-48df-85ea-30161bbdc592")
 	)
 	(no_connect
-		(at 260.35 163.83)
+		(at 274.32 163.83)
 		(uuid "e36cfd46-ae2e-41ef-a896-ee2a6e0e4612")
 	)
 	(wire
@@ -2164,6 +2050,16 @@
 			(type default)
 		)
 		(uuid "118c7d4f-5ccf-4fba-89b0-e401c6a202e0")
+	)
+	(wire
+		(pts
+			(xy 220.98 171.45) (xy 261.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160548c9-b571-4076-8d9a-93e7eedeccc1")
 	)
 	(wire
 		(pts
@@ -2387,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 163.83) (xy 252.73 163.83)
+			(xy 223.52 163.83) (xy 274.32 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2477,6 +2373,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 162.56) (xy 261.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2bddea-ecdc-42d6-90a1-6758b86e0044")
+	)
+	(wire
+		(pts
 			(xy 284.48 146.05) (xy 288.29 146.05)
 		)
 		(stroke
@@ -2537,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 166.37) (xy 252.73 166.37)
+			(xy 236.22 166.37) (xy 274.32 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2557,7 +2463,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 168.91) (xy 252.73 168.91)
+			(xy 248.92 168.91) (xy 274.32 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2794,6 +2700,16 @@
 			(type default)
 		)
 		(uuid "d796877d-9411-43e9-a31f-4733bdbedb15")
+	)
+	(wire
+		(pts
+			(xy 261.62 171.45) (xy 274.32 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d874cfea-1b3f-4edf-a3c6-34b588c89bca")
 	)
 	(wire
 		(pts
@@ -3163,28 +3079,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TRIGGER_THRESHOLD"
-		(shape output)
-		(at 220.98 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e47cf253-eda6-4eae-a974-52d34b7f604f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.6199 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3959,73 +3853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 256.54 163.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3ba8fda2-27c9-4bbe-985d-3ea4c017b9e8")
-		(property "Reference" "R176"
-			(at 262.636 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 267.462 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 256.54 165.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 256.54 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b07d5a67-1967-43e9-add1-8a538dde1836")
-		)
-		(pin "2"
-			(uuid "162e1d60-e435-44d0-bb98-e05ca91835ba")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "R176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 257.81 146.05 90)
 		(unit 1)
@@ -4568,6 +4395,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69294420-02ea-47e3-acc6-f5ed489d69e3")
+		(property "Reference" "TP26"
+			(at 264.16 157.9879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 264.668 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 266.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed7345c3-082d-4507-ae30-57a91e591c8f")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 125.73 90)
 		(unit 1)
@@ -5101,73 +4994,6 @@
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
 					(reference "L55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 256.54 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8262dbdd-1ed7-4634-9fd9-da1e9ec832a1")
-		(property "Reference" "R177"
-			(at 262.636 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 267.462 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 256.54 168.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "170d2a14-09c3-4f34-b46b-52b65ab2a538")
-		)
-		(pin "2"
-			(uuid "ee399154-6c19-4b89-8cae-99323b95b1bb")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "R177")
 					(unit 1)
 				)
 			)
@@ -6513,73 +6339,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 256.54 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "d8613400-f957-4283-92df-db121222526a")
-		(property "Reference" "R178"
-			(at 262.636 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 267.462 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 256.54 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 256.54 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9aa77322-2297-4d7d-9e34-2ff65d53ed1b")
-		)
-		(pin "2"
-			(uuid "67650962-c5eb-4acc-9824-523db85efba0")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/63f109b5-e3fc-444f-b815-14a9a2dd1ea3"
-					(reference "R178")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 358.14 113.03 270)
 		(mirror x)
@@ -6931,7 +6690,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f97e52be-3fbc-44e6-a6f2-b62a6dd9e963")
 		(property "Reference" "TP25"
 			(at 251.46 157.9879 0)
@@ -6943,7 +6701,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 251.46 160.5279 0)
+			(at 251.714 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
