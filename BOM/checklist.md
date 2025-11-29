@@ -39,6 +39,7 @@
 - [ ] J11     Screw_Terminal_01x02  TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 - [ ] J12     Screw_Terminal_01x03  TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm
 
+<!-- TODO: change to SMD version, probably ordered to much -->
 - [M] K1      TQ2-5V           TQ2-5V:TQ2
 - [M] K2      TQ2-5V           TQ2-5V:TQ2
 - [M] K3      TQ2-5V           TQ2-5V:TQ2
