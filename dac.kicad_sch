@@ -1976,10 +1976,6 @@
 		(uuid "eee18678-8c82-446b-b4e4-193c52396c5b")
 	)
 	(no_connect
-		(at 274.32 171.45)
-		(uuid "a9e40ad3-5ed2-4e91-a678-91eb13a709ff")
-	)
-	(no_connect
 		(at 274.32 168.91)
 		(uuid "bb1641be-7495-433c-871f-dd8393cef743")
 	)
@@ -2854,6 +2850,28 @@
 		(uuid "0ff2af62-15d2-4cb8-9b17-f332b8186834")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 233.3994 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TRIGGER_THRESHOLD"
+		(shape output)
+		(at 274.32 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25cc570a-60e9-4f8f-8ba9-dbbec8109c89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.9599 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

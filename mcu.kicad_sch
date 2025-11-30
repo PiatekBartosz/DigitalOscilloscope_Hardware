@@ -40485,6 +40485,10 @@
 		(uuid "444914f9-083c-4757-9932-55f3987c81de")
 	)
 	(no_connect
+		(at 308.61 158.75)
+		(uuid "4d26ab75-3b3c-4c99-9d54-147ef394c836")
+	)
+	(no_connect
 		(at 242.57 185.42)
 		(uuid "50a80f32-bec4-4d2f-84dc-59298c82b985")
 	)
@@ -40507,10 +40511,6 @@
 	(no_connect
 		(at 242.57 123.19)
 		(uuid "786d8902-5879-4e7f-86c6-88ae4c8d6780")
-	)
-	(no_connect
-		(at 308.61 158.75)
-		(uuid "7df1130e-c62e-4da3-aedd-a6f56484fb88")
 	)
 	(no_connect
 		(at 146.05 219.71)
@@ -42667,7 +42667,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_3"
+	(global_label "GPIO_PB10"
 		(shape input)
 		(at 350.52 190.5 0)
 		(fields_autoplaced yes)
@@ -42679,7 +42679,7 @@
 		)
 		(uuid "5161050f-04b1-47fb-8b7c-d3eb948034e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.1576 190.5 0)
+			(at 363.9071 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42865,7 +42865,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_0"
+	(global_label "GPIO_PE14"
 		(shape input)
 		(at 350.52 205.74 0)
 		(fields_autoplaced yes)
@@ -42877,7 +42877,7 @@
 		)
 		(uuid "7502f01e-409b-4749-af25-363cc0737cd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.1576 205.74 0)
+			(at 363.7861 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42931,7 +42931,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_1"
+	(global_label "GPIO_PB0"
 		(shape input)
 		(at 350.52 198.12 0)
 		(fields_autoplaced yes)
@@ -42943,7 +42943,7 @@
 		)
 		(uuid "8310ea6a-b734-4830-a935-820863f837ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.1576 198.12 0)
+			(at 362.6976 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43040,7 +43040,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_4"
+	(global_label "GPIO_PA0"
 		(shape input)
 		(at 350.52 187.96 0)
 		(fields_autoplaced yes)
@@ -43052,7 +43052,7 @@
 		)
 		(uuid "91c5c019-f293-49fe-8ffd-fd9f2c483d94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.1576 187.96 0)
+			(at 362.5162 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43259,7 +43259,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_2"
+	(global_label "GPIO_PB11"
 		(shape input)
 		(at 350.52 193.04 0)
 		(fields_autoplaced yes)
@@ -43271,7 +43271,7 @@
 		)
 		(uuid "c49da000-36d2-4e5c-8a2b-c559721f55d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 360.1576 193.04 0)
+			(at 363.9071 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
