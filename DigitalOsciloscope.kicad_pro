@@ -290,12 +290,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "missing_power_pin|4584700|1981200|05613dc9-1187-4471-b374-5274a2da7c64|00000000-0000-0000-0000-000000000000|/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138|/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
