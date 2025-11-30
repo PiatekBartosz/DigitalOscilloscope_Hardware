@@ -1,0 +1,207 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TQ2-5V" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "K" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "TQ2-5V" (id 1) (at 1.27 2.921 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "TQ2-5V:TQ2" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "UCOIL" "5VDC" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "RCOIL" "178Ω" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V\n                        \n" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Panasonic" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "CONTACTS" "2 CO contacts" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "COIL_CURRENT" "28.1mA" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "TQ2-5V" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "FARNELL" "1175716" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Panasonic" (id 17) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 18) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "RELAYS_TYP" "Non-Latching" (id 19) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MOUSER" "769-TQ2-5V" (id 20) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TQ2-5V_1_0"
+      (polyline
+        (pts (xy -3.81 -1.905) (xy -1.905 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 -1.905) (xy 3.81 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.81 1.905) (xy 1.905 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.81 1.905) (xy -3.81 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 0.0 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -1.905) (xy 3.81 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 0.0 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 1.905) (xy -3.81 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.905 -1.905) (xy 1.905 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.905 -1.905) (xy 0.0 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.905 1.905) (xy 0.0 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 4.318 2.159) (xy 4.826 2.159)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.572 2.413) (xy 4.572 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.318 -2.159) (xy 4.826 -2.159)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "TQ2-5V_2_0"
+      (polyline
+        (pts (xy 3.175 5.08) (xy 1.905 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 5.08) (xy -1.905 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 2.54 5.715)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (circle (center 0.0 1.27) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (pin passive line (at 5.08 5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -2.54 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "TQ2-5V_3_0"
+      (polyline
+        (pts (xy 3.175 5.08) (xy 1.905 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 5.08) (xy -1.905 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 2.54 5.715)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.27) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (circle (center 0.0 1.27) (radius 0.127)
+        (stroke (width 0.4064)) (fill (type none))
+      )
+      (pin passive line (at 5.08 5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -2.54 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
