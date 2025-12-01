@@ -39490,7 +39490,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7002"
+		(symbol "Transistor_BJT:BC817"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -39507,7 +39507,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7002"
+			(property "Value" "BC817"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -39527,8 +39527,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 5.08 -3.81 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39537,7 +39537,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -39546,7 +39546,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -39564,22 +39564,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N7002_0_1"
+			(symbol "BC817_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -39591,81 +39579,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -39673,57 +39590,10 @@
 					)
 				)
 				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -39731,11 +39601,47 @@
 					)
 				)
 			)
-			(symbol "2N7002_1_1"
+			(symbol "BC817_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "G"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -39753,7 +39659,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "D"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -39771,7 +39677,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "S"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -45629,17 +45535,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 281.94 318.77 0)
+		(lib_id "Transistor_BJT:BC817")
+		(at 135.89 318.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "180f3e57-8b57-4358-a553-28c529f2c847")
-		(property "Reference" "Q4"
-			(at 288.29 317.4999 0)
+		(uuid "1f7e810b-063c-417c-aa60-8d324d680013")
+		(property "Reference" "Q7"
+			(at 140.97 317.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45647,8 +45553,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
-			(at 288.29 320.0399 0)
+		(property "Value" "BC817"
+			(at 140.97 320.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45657,7 +45563,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 287.02 320.675 0)
+			(at 140.97 320.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45667,8 +45573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 287.02 322.58 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 135.89 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45677,8 +45583,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 281.94 318.77 0)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 135.89 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45686,19 +45592,19 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "7f3c8fee-c53d-49a4-b4ca-635f7de377a6")
-		)
 		(pin "1"
-			(uuid "e71e2324-8d34-4d81-b8e6-c19377e7d274")
+			(uuid "bce7f495-fb9c-4653-be02-ad9cb37fa25b")
 		)
 		(pin "3"
-			(uuid "54d1c7a9-18ae-430e-bdef-4dd5e76a6979")
+			(uuid "d276abde-24ff-4c86-b2a6-8f571ef7f3ed")
+		)
+		(pin "2"
+			(uuid "e83995fb-983c-4f3c-bc33-e4cbcdf9a332")
 		)
 		(instances
-			(project "DigitalOsciloscope"
+			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q4")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -46913,17 +46819,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 135.89 318.77 0)
+		(lib_id "Transistor_BJT:BC817")
+		(at 331.47 320.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34473617-139a-459d-b60f-ca60f56a132b")
-		(property "Reference" "Q1"
-			(at 142.24 317.4999 0)
+		(uuid "326dfc86-2a74-4b49-8219-7874c9e3dbb0")
+		(property "Reference" "Q4"
+			(at 336.55 318.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46931,8 +46837,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
-			(at 142.24 320.0399 0)
+		(property "Value" "BC817"
+			(at 336.55 321.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46941,7 +46847,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 140.97 320.675 0)
+			(at 336.55 321.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46951,8 +46857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 140.97 322.58 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 331.47 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46961,8 +46867,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 135.89 318.77 0)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 331.47 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46970,19 +46876,19 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "41049e28-9ece-4834-9bd1-eb7f42d81d06")
-		)
 		(pin "1"
-			(uuid "bc38b71f-4871-462c-ad1c-1f5f16c8f3fe")
+			(uuid "5c6f678e-dcfd-4449-99c3-fd7129508b2a")
 		)
 		(pin "3"
-			(uuid "c46c5f8b-4cd4-48a0-9f4f-0f18d87c7be2")
+			(uuid "c97fbd31-3173-4120-b207-9895e363a9f7")
+		)
+		(pin "2"
+			(uuid "8d0cabc9-1fb0-42a1-9ae9-7764ee129550")
 		)
 		(instances
-			(project ""
+			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q1")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -48915,158 +48821,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 379.73 321.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76fa5159-a5e2-418b-80b4-8a371eb548aa")
-		(property "Reference" "Q6"
-			(at 386.08 320.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 386.08 322.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 384.81 323.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 384.81 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 379.73 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b29371d-c625-42dc-b4d4-e53c5f658feb")
-		)
-		(pin "1"
-			(uuid "4d935ec7-b320-4a22-b503-9c0fb7f41b2d")
-		)
-		(pin "3"
-			(uuid "91f66eac-5059-4df4-8257-52ed715a1865")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 331.47 320.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79c7e6da-9099-4c60-a8c3-9855ea442c32")
-		(property "Reference" "Q5"
-			(at 337.82 318.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 337.82 321.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 336.55 321.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 336.55 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 331.47 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "865e4c03-be39-45ee-ae95-de5284eab23e")
-		)
-		(pin "1"
-			(uuid "4787e2f4-d867-4878-91d2-7712e964e49d")
-		)
-		(pin "3"
-			(uuid "e248d9a1-f552-43ef-b5b6-6b9f3f7ba7dd")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "+2v5:+5V_EXT")
 		(at 144.78 300.99 0)
 		(unit 1)
@@ -49357,17 +49111,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 184.15 318.77 0)
+		(lib_id "Transistor_BJT:BC817")
+		(at 379.73 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c396e22-537d-48a2-9374-eb827b67bea6")
-		(property "Reference" "Q2"
-			(at 190.5 317.4999 0)
+		(uuid "907d440a-ae7a-4f20-a322-280005ffd52f")
+		(property "Reference" "Q5"
+			(at 384.81 320.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49375,8 +49129,160 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
-			(at 190.5 320.0399 0)
+		(property "Value" "BC817"
+			(at 384.81 322.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 384.81 323.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 379.73 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 379.73 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e19a3458-c3cc-49b5-9c3f-4c2d7497fd5f")
+		)
+		(pin "3"
+			(uuid "10b31561-a25f-4c2b-877c-06a22b73ea5c")
+		)
+		(pin "2"
+			(uuid "1942f652-76d0-424e-a760-936581ba85d6")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 281.94 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a14a66-5d51-4052-b6b6-b4dcf1aecce4")
+		(property "Reference" "Q3"
+			(at 287.02 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 287.02 320.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 287.02 320.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 281.94 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 281.94 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00a27b6c-a702-4499-a96e-7c4891c58e04")
+		)
+		(pin "3"
+			(uuid "ffc27c0e-0edd-49e7-8d23-c233b87b17b8")
+		)
+		(pin "2"
+			(uuid "e98abab3-6ed6-41fe-aea0-9c05dfc874b0")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 184.15 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b5cef7c-6584-4db0-b71d-41a94e1525b8")
+		(property "Reference" "Q1"
+			(at 189.23 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 189.23 320.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49395,8 +49301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 189.23 322.58 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 184.15 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49405,7 +49311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
 			(at 184.15 318.77 0)
 			(effects
 				(font
@@ -49414,19 +49320,19 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e6f14966-a139-481e-b6ee-b1984d3794b9")
-		)
 		(pin "1"
-			(uuid "9312baae-fa4d-43ec-918a-9f4aa0abb979")
+			(uuid "7f753353-49c1-4fc0-8309-954c267eaf2a")
 		)
 		(pin "3"
-			(uuid "e7eb119e-d6f3-4697-b0b0-7743de7e8943")
+			(uuid "266f82ef-3192-4ab4-959b-1ab422432bc1")
+		)
+		(pin "2"
+			(uuid "20dc4220-79b2-4b83-b584-78b23f3cabce")
 		)
 		(instances
 			(project "DigitalOsciloscope"
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -52712,6 +52618,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 231.14 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3097a64-7ebb-4695-8eef-2e477a30e44e")
+		(property "Reference" "Q2"
+			(at 236.22 317.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC817"
+			(at 236.22 320.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 236.22 320.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 231.14 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 231.14 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e432e4d-b677-46d7-b200-ddac2217cf15")
+		)
+		(pin "3"
+			(uuid "e11cfe3d-6889-42f6-b6f2-a2cac58c3c33")
+		)
+		(pin "2"
+			(uuid "bc1cd024-3745-46b7-b721-57b3d11aaa33")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "NUCLEOH723ZG_7")
 		(lib_id "NUCLEO232ZG:NUCLEOH723ZG")
 		(at 105.41 140.97 0)
@@ -53887,82 +53869,6 @@
 			(project ""
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 231.14 318.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d813e6dd-76cf-4ef3-b103-a9fd75aee740")
-		(property "Reference" "Q3"
-			(at 237.49 317.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 237.49 320.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 236.22 320.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 236.22 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 231.14 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a43aaaa0-ab73-4d13-a75e-b752557eb1fa")
-		)
-		(pin "1"
-			(uuid "0751c3ad-ebbf-41cc-b40a-68da56eaaef6")
-		)
-		(pin "3"
-			(uuid "5c44d294-69cd-4c09-a562-9a07672aac92")
-		)
-		(instances
-			(project "DigitalOsciloscope"
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/621a6474-ab24-4092-baf1-9c2ce5cff138"
-					(reference "Q3")
 					(unit 1)
 				)
 			)

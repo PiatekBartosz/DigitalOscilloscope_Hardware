@@ -4766,6 +4766,16 @@
 		)
 		(uuid "2c6f321d-7def-4ee3-ab1c-e48fb11ca484")
 	)
+	(text "EXT_TRIG"
+		(exclude_from_sim no)
+		(at 55.118 473.964 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3bb0d7a5-9fd6-406c-8204-22949032bc38")
+	)
 	(text "TODO: choose C trimmer "
 		(exclude_from_sim no)
 		(at 59.944 160.528 0)
@@ -4836,16 +4846,6 @@
 		)
 		(uuid "7edbf1dc-5d93-486c-a4f7-ad641da6f7a3")
 	)
-	(text "TODO: What R20 for histeresis?"
-		(exclude_from_sim no)
-		(at 187.198 470.154 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0694731-2553-4e32-b1e3-03cf034932ad")
-	)
 	(text "1:1"
 		(exclude_from_sim no)
 		(at 85.852 328.168 0)
@@ -4885,16 +4885,6 @@
 			)
 		)
 		(uuid "fb913f60-52c0-423a-af49-2911d3c0aaae")
-	)
-	(text "EXT_TRIG"
-		(exclude_from_sim no)
-		(at 52.578 495.554 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "ff476889-3ad4-4f0d-90bc-294b553a50ef")
 	)
 	(text "1 : 100\n"
 		(exclude_from_sim no)
@@ -7402,6 +7392,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 491.49) (xy 167.64 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e712d1c-902f-4195-8bb7-08c5b05d6c99")
+	)
+	(wire
+		(pts
 			(xy 241.3 521.97) (xy 254 521.97)
 		)
 		(stroke
@@ -7469,16 +7469,6 @@
 			(type default)
 		)
 		(uuid "53abb5ba-2a3a-4082-abb2-59877bd8b594")
-	)
-	(wire
-		(pts
-			(xy 165.1 496.57) (xy 165.1 488.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54085132-cd42-4e01-96b0-2ad63e2f433c")
 	)
 	(wire
 		(pts
@@ -7592,16 +7582,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 501.65) (xy 180.34 501.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b9c3e5-614d-4558-9662-f28d48969909")
-	)
-	(wire
-		(pts
 			(xy 709.93 148.59) (xy 722.63 148.59)
 		)
 		(stroke
@@ -7692,6 +7672,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 496.57) (xy 54.61 500.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b291a40-4e8d-4d43-8d5f-7ad8d1db5c46")
+	)
+	(wire
+		(pts
 			(xy 27.94 331.47) (xy 39.37 331.47)
 		)
 		(stroke
@@ -7729,6 +7719,16 @@
 			(type default)
 		)
 		(uuid "5c2493ac-e324-416c-8c9f-39284244fa1d")
+	)
+	(wire
+		(pts
+			(xy 175.26 480.06) (xy 190.5 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d17e61f-6c86-4681-9f73-1027705dec48")
 	)
 	(wire
 		(pts
@@ -8112,6 +8112,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 459.74) (xy 149.86 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706350ca-da41-4c16-be0c-9e73deb83d4f")
+	)
+	(wire
+		(pts
 			(xy 604.52 217.17) (xy 604.52 215.9)
 		)
 		(stroke
@@ -8199,16 +8209,6 @@
 			(type default)
 		)
 		(uuid "736dea00-6b65-49c8-9573-9cfaa807a9a6")
-	)
-	(wire
-		(pts
-			(xy 140.97 496.57) (xy 147.32 496.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "744e94de-4fa7-4ea2-8984-ccdffe916523")
 	)
 	(wire
 		(pts
@@ -8422,6 +8422,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 485.14) (xy 167.64 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cce8889-2220-41b8-99f0-9998b6cf72b1")
+	)
+	(wire
+		(pts
 			(xy 114.3 68.58) (xy 114.3 67.31)
 		)
 		(stroke
@@ -8542,16 +8552,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 481.33) (xy 147.32 481.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "840d4edd-0d54-48d5-9178-2cdd1b2a8134")
-	)
-	(wire
-		(pts
 			(xy 725.17 351.79) (xy 731.52 351.79)
 		)
 		(stroke
@@ -8642,16 +8642,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 513.08) (xy 165.1 513.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890b2771-01fd-4786-8f22-1c90304666fb")
-	)
-	(wire
-		(pts
 			(xy 217.17 488.95) (xy 217.17 485.14)
 		)
 		(stroke
@@ -8659,6 +8649,16 @@
 			(type default)
 		)
 		(uuid "8aa4b744-3ee7-4f7c-bb26-6144b782f131")
+	)
+	(wire
+		(pts
+			(xy 143.51 474.98) (xy 149.86 474.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aaa330c-62a9-4311-8e09-aeb428d139fc")
 	)
 	(wire
 		(pts
@@ -9042,16 +9042,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 513.08) (xy 58.42 513.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7a2cc0-33f9-41ba-8129-987379f261e6")
-	)
-	(wire
-		(pts
 			(xy 557.53 335.28) (xy 557.53 346.71)
 		)
 		(stroke
@@ -9379,16 +9369,6 @@
 			(type default)
 		)
 		(uuid "abe6b53f-8af9-4450-bac7-af580da34717")
-	)
-	(wire
-		(pts
-			(xy 187.96 480.06) (xy 190.5 480.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac1de1bd-0d45-4a00-ba64-b8c3c3584bda")
 	)
 	(wire
 		(pts
@@ -9772,6 +9752,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 474.98) (xy 149.86 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0438ca-18f9-4861-bf44-17a121a1693b")
+	)
+	(wire
+		(pts
 			(xy 97.79 347.98) (xy 115.57 347.98)
 		)
 		(stroke
@@ -10012,16 +10002,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 506.73) (xy 165.1 513.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c82b988e-e9a9-4e1f-9fd9-f731302b5a94")
-	)
-	(wire
-		(pts
 			(xy 708.66 177.8) (xy 681.99 177.8)
 		)
 		(stroke
@@ -10129,16 +10109,6 @@
 			(type default)
 		)
 		(uuid "cdf50666-78ae-4726-8c7c-dd8e1a3148c8")
-	)
-	(wire
-		(pts
-			(xy 165.1 488.95) (xy 154.94 488.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce33dc67-58a7-4a80-875b-de59a1ce0faa")
 	)
 	(wire
 		(pts
@@ -10279,6 +10249,16 @@
 			(type default)
 		)
 		(uuid "d3958f8a-0525-4509-b544-b63548dd2208")
+	)
+	(wire
+		(pts
+			(xy 167.64 474.98) (xy 167.64 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ce2bcf-8cd4-4271-a97d-43c1a819a3d6")
 	)
 	(wire
 		(pts
@@ -10452,16 +10432,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 481.33) (xy 147.32 483.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc8126fd-8bea-4268-8015-2beb829d2ffa")
-	)
-	(wire
-		(pts
 			(xy 359.41 364.49) (xy 367.03 364.49)
 		)
 		(stroke
@@ -10469,6 +10439,16 @@
 			(type default)
 		)
 		(uuid "dcd2c2ab-178b-404f-bcf5-00a9a7248db6")
+	)
+	(wire
+		(pts
+			(xy 177.8 501.65) (xy 180.34 501.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de503f09-26ac-40ad-a07d-cfba8446a69b")
 	)
 	(wire
 		(pts
@@ -10519,6 +10499,16 @@
 			(type default)
 		)
 		(uuid "deaef265-6092-43f1-b963-a9d92a21cfab")
+	)
+	(wire
+		(pts
+			(xy 149.86 459.74) (xy 149.86 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2e5613-c2c7-4c1e-bd5d-a1dd584442b9")
 	)
 	(wire
 		(pts
@@ -10882,16 +10872,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 518.16) (xy 52.07 521.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd5234f-ea4f-4d50-b11e-d308e93c752e")
-	)
-	(wire
-		(pts
 			(xy 43.18 127) (xy 44.45 127)
 		)
 		(stroke
@@ -11052,6 +11032,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 467.36) (xy 157.48 467.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7552e56-6264-4bf3-87a5-5d16f02573f7")
+	)
+	(wire
+		(pts
 			(xy 581.66 344.17) (xy 582.93 344.17)
 		)
 		(stroke
@@ -11132,16 +11122,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 496.57) (xy 147.32 494.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd390629-6786-4a3d-9b3a-c48c9bb9da85")
-	)
-	(wire
-		(pts
 			(xy 128.27 127) (xy 138.43 127)
 		)
 		(stroke
@@ -11149,6 +11129,16 @@
 			(type default)
 		)
 		(uuid "fe5b9636-caab-467d-97d7-171bc989532b")
+	)
+	(wire
+		(pts
+			(xy 59.69 491.49) (xy 60.96 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe977543-bc2e-4818-a90d-8c3a383c852a")
 	)
 	(wire
 		(pts
@@ -11294,28 +11284,6 @@
 			)
 		)
 	)
-	(global_label "AN_TRIGGER_CH1"
-		(shape input)
-		(at 142.24 481.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "228852f7-f168-4284-9a8e-11233de1e350")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2891 481.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CH2_CH_N"
 		(shape output)
 		(at 779.78 351.79 0)
@@ -11334,6 +11302,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AN_TRIGGER_CH2"
+		(shape input)
+		(at 143.51 474.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3befbfe4-6bae-40ef-a6aa-2f782bd57363")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.5591 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11404,6 +11394,28 @@
 			)
 		)
 	)
+	(global_label "AN_TRIGGER_CH1"
+		(shape input)
+		(at 144.78 459.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "683639cf-68f0-46c0-ad2d-21494349a097")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.8291 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CH1_OFFSET_DAC"
 		(shape input)
 		(at 229.87 240.03 180)
@@ -11448,9 +11460,9 @@
 			)
 		)
 	)
-	(global_label "AN_TRIGGER_CH2"
+	(global_label "TRIGGER_THRESHOLD"
 		(shape input)
-		(at 140.97 496.57 180)
+		(at 177.8 501.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11458,9 +11470,9 @@
 			)
 			(justify right)
 		)
-		(uuid "91cdceec-5667-4bd4-8e8d-f1c9c500796d")
+		(uuid "870ba7ab-cf23-4696-a719-ed6474baa7fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.0191 496.57 0)
+			(at 155.1601 501.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,28 +11680,6 @@
 			)
 		)
 	)
-	(global_label "TRIGGER_THRESHOLD"
-		(shape input)
-		(at 187.96 480.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7adb4a3-440e-4fcf-bba2-570a66a48266")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.3201 480.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CH2_ATTEN"
 		(shape input)
 		(at 64.77 68.58 270)
@@ -11789,18 +11779,18 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "030946dd-8855-40f0-ad38-4906a2ad2367")
 		(property "Reference" "R16"
-			(at 247.65 455.93 90)
+			(at 247.65 457.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2M"
-			(at 247.65 458.47 90)
+		(property "Value" "DNP"
+			(at 247.65 459.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14760,7 +14750,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 52.07 513.08 0)
+		(at 54.61 491.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14769,7 +14759,7 @@
 		(dnp no)
 		(uuid "1ca8c0da-254f-4d28-a098-093dd99aa4ec")
 		(property "Reference" "J3"
-			(at 48.26 512.1031 0)
+			(at 50.8 490.5131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +14768,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 48.26 514.6431 0)
+			(at 50.8 493.0531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14787,7 +14777,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
-			(at 52.07 513.08 0)
+			(at 54.61 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14796,7 +14786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 513.08 0)
+			(at 54.61 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14805,7 +14795,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 52.07 513.08 0)
+			(at 54.61 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15189,7 +15179,7 @@
 				)
 			)
 		)
-		(property "Value" "2M"
+		(property "Value" "19k"
 			(at 248.92 501.65 90)
 			(effects
 				(font
@@ -15724,7 +15714,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 204.978 483.108 90)
 			(effects
 				(font
@@ -22842,7 +22832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 521.97 0)
+		(at 54.61 500.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22851,7 +22841,7 @@
 		(fields_autoplaced yes)
 		(uuid "623a2b86-f1a7-425f-ba23-043b038fc914")
 		(property "Reference" "#PWR06"
-			(at 52.07 528.32 0)
+			(at 54.61 506.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22860,7 +22850,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 527.05 0)
+			(at 54.61 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22868,7 +22858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 521.97 0)
+			(at 54.61 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22877,7 +22867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 521.97 0)
+			(at 54.61 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22886,7 +22876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 521.97 0)
+			(at 54.61 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25245,265 +25235,6 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "C49")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TX2SA-5V:TX2SA-5V")
-		(at 152.4 488.95 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ee9a7f0-03d0-484b-8101-592c20330d2f")
-		(property "Reference" "K3"
-			(at 144.78 487.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TX2SA-5V"
-			(at 144.78 490.2199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TX2SA-5V:RELAY_TX2SA_PAN"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 152.4 488.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "30f4cb27-791e-49fa-9923-8e504b61e8ad")
-		)
-		(pin "9"
-			(uuid "53b7ddb9-ce28-40b7-9327-104dd071a179")
-		)
-		(pin "8"
-			(uuid "a564b813-1e1b-4797-ba42-1fdf08fe34c5")
-		)
-		(pin "4"
-			(uuid "be672784-6754-405f-a8e4-294200c1e72d")
-		)
-		(pin "1"
-			(uuid "7643869e-64d1-45f0-b3fc-646ad67841eb")
-		)
-		(pin "12"
-			(uuid "aaf2bee8-f096-4e69-8c62-af095669f702")
-		)
-		(pin "3"
-			(uuid "7647b0a2-4de3-42dd-8f57-46718ea3e575")
-		)
-		(pin "5"
-			(uuid "a160c680-25eb-40d2-9c59-d41728b8642a")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K3")
-					(unit 2)
 				)
 			)
 		)
@@ -28701,7 +28432,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0R"
 			(at 204.978 477.52 90)
 			(effects
 				(font
@@ -29223,6 +28954,264 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "R31")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TX2SA-5V:TX2SA-5V")
+		(at 172.72 480.06 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7e043f4-ca02-4e2a-a660-e39de6888348")
+		(property "Reference" "K4"
+			(at 165.1 478.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TX2SA-5V"
+			(at 165.1 481.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TX2SA-5V:RELAY_TX2SA_PAN"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 172.72 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "5bda5b08-e2e7-4277-a7a7-24015e5a7308")
+		)
+		(pin "5"
+			(uuid "d6715759-9487-486b-bc58-47ff051ff2cd")
+		)
+		(pin "3"
+			(uuid "406fb8d8-b3cd-4da1-b128-ef3ec7ee928d")
+		)
+		(pin "4"
+			(uuid "a6afba3d-3084-41b1-9323-305c9814d9b8")
+		)
+		(pin "1"
+			(uuid "2d6c33c7-5a4f-4f4a-8822-248f3ebd766b")
+		)
+		(pin "9"
+			(uuid "0a02ce1b-fa1c-4a1d-94f5-476bcce241ff")
+		)
+		(pin "8"
+			(uuid "1be2d834-cd9d-420f-85b4-8783cc9041bc")
+		)
+		(pin "10"
+			(uuid "c493f80c-1f5f-4334-b0eb-79e02037003b")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K4")
+					(unit 2)
 				)
 			)
 		)
@@ -31310,265 +31299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TX2SA-5V:TX2SA-5V")
-		(at 170.18 501.65 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b918546e-0036-4ed3-b916-f51b1375756d")
-		(property "Reference" "K4"
-			(at 162.56 500.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TX2SA-5V"
-			(at 162.56 502.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TX2SA-5V:RELAY_TX2SA_PAN"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "UCOIL" "5VDC"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RCOIL" "178Ω"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTACTS" "2 CO contacts"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COIL_CURRENT" "28.1mA"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TQ2-5V"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1175716"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RELAYS_TYP" "Non-Latching"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER" "769-TQ2-5V"
-			(at 170.18 501.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "5bda5b08-e2e7-4277-a7a7-24015e5a7308")
-		)
-		(pin "5"
-			(uuid "daaa3bf5-df72-41cc-8bf3-1d59f794cf70")
-		)
-		(pin "3"
-			(uuid "25af5a7b-cf0d-462d-b68c-7d9413bc9583")
-		)
-		(pin "4"
-			(uuid "5e2edde5-a298-4726-99e4-4e84f29f355f")
-		)
-		(pin "1"
-			(uuid "2d6c33c7-5a4f-4f4a-8822-248f3ebd766b")
-		)
-		(pin "9"
-			(uuid "0a02ce1b-fa1c-4a1d-94f5-476bcce241ff")
-		)
-		(pin "8"
-			(uuid "1be2d834-cd9d-420f-85b4-8783cc9041bc")
-		)
-		(pin "10"
-			(uuid "c493f80c-1f5f-4334-b0eb-79e02037003b")
-		)
-		(instances
-			(project ""
-				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
-					(reference "K4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 31.75 163.83 0)
 		(unit 1)
@@ -32426,7 +32156,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 513.08 90)
+		(at 64.77 491.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32435,7 +32165,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4db1a67-c518-4e7f-a10f-ee36095e1b36")
 		(property "Reference" "R7"
-			(at 62.23 506.73 90)
+			(at 64.77 485.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32443,7 +32173,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 62.23 509.27 90)
+			(at 64.77 487.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32451,7 +32181,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 62.23 514.858 90)
+			(at 64.77 493.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32460,7 +32190,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 513.08 0)
+			(at 64.77 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32469,7 +32199,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 62.23 513.08 0)
+			(at 64.77 491.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35211,6 +34941,265 @@
 				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
 					(reference "L29")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TX2SA-5V:TX2SA-5V")
+		(at 154.94 467.36 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcdbbf22-c190-48b5-86b1-55c2de6d919e")
+		(property "Reference" "K3"
+			(at 147.32 466.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TX2SA-5V"
+			(at 147.32 468.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TX2SA-5V:RELAY_TX2SA_PAN"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UCOIL" "5VDC"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RCOIL" "178Ω"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SWITCHING_CURRENT" "1 A @ 30 VDC, 0.5 A @ 125 VAC"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Low Profile Relay, 2 Form C 140 mW (Nom.) Gold-Clad Silver, TQ Series | Panasonic Electronic Components TQ2-5V"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACTS" "2 CO contacts"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=eda"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TQ2-5V/Panasonic+Electric+Works/view-part/?ref=snap"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COIL_CURRENT" "28.1mA"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TQ2-5V"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "1175716"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RELAYS_TYP" "Non-Latching"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" "769-TQ2-5V"
+			(at 154.94 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "30f4cb27-791e-49fa-9923-8e504b61e8ad")
+		)
+		(pin "9"
+			(uuid "53b7ddb9-ce28-40b7-9327-104dd071a179")
+		)
+		(pin "8"
+			(uuid "a564b813-1e1b-4797-ba42-1fdf08fe34c5")
+		)
+		(pin "4"
+			(uuid "8f50767a-fa15-4f35-b1b6-e9634403b83a")
+		)
+		(pin "1"
+			(uuid "7643869e-64d1-45f0-b3fc-646ad67841eb")
+		)
+		(pin "12"
+			(uuid "aaf2bee8-f096-4e69-8c62-af095669f702")
+		)
+		(pin "3"
+			(uuid "9fd7e977-08ca-4848-8d91-c528d7181cb6")
+		)
+		(pin "5"
+			(uuid "a89ac9d9-6706-495b-884b-3872afb4b5e3")
+		)
+		(instances
+			(project "DigitalOsciloscope"
+				(path "/553deb7b-4100-40fe-99d2-0c7b4b56aad2/c6e88111-c18e-4095-b1d8-9b944099aec3"
+					(reference "K3")
+					(unit 2)
 				)
 			)
 		)
