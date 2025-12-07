@@ -19781,6 +19781,10 @@
 		(uuid "14a1e140-5d55-43b0-96dd-4f0a6c95c683")
 	)
 	(no_connect
+		(at 308.61 190.5)
+		(uuid "152adcc7-7a13-43f3-9a08-b1db1d41cba6")
+	)
+	(no_connect
 		(at 308.61 143.51)
 		(uuid "1a21372f-2d65-44eb-ba26-affd7a557a4f")
 	)
@@ -19811,6 +19815,10 @@
 	(no_connect
 		(at 242.57 185.42)
 		(uuid "50a80f32-bec4-4d2f-84dc-59298c82b985")
+	)
+	(no_connect
+		(at 308.61 187.96)
+		(uuid "532c654e-f727-466c-9c27-6d72ec49867d")
 	)
 	(no_connect
 		(at 308.61 130.81)
@@ -20319,16 +20327,6 @@
 			(type default)
 		)
 		(uuid "4399c01b-24ed-4d6e-a518-2280467b6825")
-	)
-	(wire
-		(pts
-			(xy 308.61 190.5) (xy 350.52 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4494161d-e4cd-49eb-9881-79090e15a52e")
 	)
 	(wire
 		(pts
@@ -21252,16 +21250,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 187.96) (xy 350.52 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e250bbe1-5f9e-462b-8df7-a35fba637407")
-	)
-	(wire
-		(pts
 			(xy 270.51 243.84) (xy 270.51 242.57)
 		)
 		(stroke
@@ -22007,28 +21995,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_PB10"
-		(shape input)
-		(at 350.52 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5161050f-04b1-47fb-8b7c-d3eb948034e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.9071 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TRIGG_2_MCU"
 		(shape input)
 		(at 350.52 138.43 0)
@@ -22376,28 +22342,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_PA0"
-		(shape input)
-		(at 350.52 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91c5c019-f293-49fe-8ffd-fd9f2c483d94")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.5162 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
