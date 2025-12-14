@@ -1268,7 +1268,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 -30.48 180)
+					(at 22.86 -27.94 180)
 					(length 5.08)
 					(name "GPIO-0_GND"
 						(effects
@@ -2917,7 +2917,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 -30.48 180)
+					(at 22.86 -27.94 180)
 					(length 5.08)
 					(name "GPIO-0_GND"
 						(effects
@@ -4249,6 +4249,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64eabe30-f191-4424-a857-db5586775103")
+	)
+	(junction
+		(at 127 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977bd25c-0114-47eb-81b2-39432d9bf489")
 	)
 	(junction
 		(at 256.54 57.15)
@@ -5722,6 +5728,16 @@
 		)
 		(uuid "b0469d01-f286-4025-937d-5fc913ce6af5")
 	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ecd211-d657-418f-b1b6-445541372b1d")
+	)
 	(bus
 		(pts
 			(xy 181.61 116.84) (xy 181.61 114.3)
@@ -6051,6 +6067,16 @@
 			(type default)
 		)
 		(uuid "e8183ffc-6cdf-4e80-a49a-48bb2fb894f3")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d5f0c3-5f1c-404e-93ad-7aa0865e1269")
 	)
 	(wire
 		(pts
