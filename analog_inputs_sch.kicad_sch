@@ -4829,12 +4829,6 @@
 		(uuid "05647ac8-66ef-4cc6-8a36-eef6b541c531")
 	)
 	(junction
-		(at 299.72 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09d4662c-a4a5-4501-ac39-48b53fbd56bb")
-	)
-	(junction
 		(at 392.43 495.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4959,12 +4953,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d0b4fee-25fa-40e8-a7a4-7f7be3280e81")
-	)
-	(junction
-		(at 306.07 381)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "314a3183-b23e-4966-abbb-809604ac45d1")
 	)
 	(junction
 		(at 387.35 500.38)
@@ -6314,7 +6302,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 242.57) (xy 326.39 242.57)
+			(xy 292.1 242.57) (xy 326.39 242.57)
 		)
 		(stroke
 			(width 0)
@@ -9224,7 +9212,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 381) (xy 306.07 381)
+			(xy 295.91 381) (xy 318.77 381)
 		)
 		(stroke
 			(width 0)
@@ -9371,16 +9359,6 @@
 			(type default)
 		)
 		(uuid "c7f34438-22eb-45e2-8fa6-9012cc0fe530")
-	)
-	(wire
-		(pts
-			(xy 295.91 381) (xy 306.07 381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c90de057-f8b2-4041-9bb7-d691ebc57718")
 	)
 	(wire
 		(pts
@@ -10371,16 +10349,6 @@
 			(type default)
 		)
 		(uuid "fb7f1621-c8ad-4d37-a166-22b4a8082e6c")
-	)
-	(wire
-		(pts
-			(xy 292.1 242.57) (xy 299.72 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbb07364-11f4-4765-a8f4-a4b37b0180af")
 	)
 	(wire
 		(pts
@@ -16556,7 +16524,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 299.72 242.57 0)
+		(at 265.43 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16565,7 +16533,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d83c359-0fe4-4ae8-9c52-ea6aee475e94")
 		(property "Reference" "TP11"
-			(at 302.26 237.9979 0)
+			(at 267.97 237.9979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16574,7 +16542,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 302.26 240.5379 0)
+			(at 267.97 240.5379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16583,7 +16551,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 304.8 242.57 0)
+			(at 270.51 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16592,7 +16560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 304.8 242.57 0)
+			(at 270.51 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16601,7 +16569,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 299.72 242.57 0)
+			(at 265.43 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28519,7 +28487,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 306.07 381 0)
+		(at 266.7 381 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28528,7 +28496,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5877089-73d8-4177-bbf1-ee02f624cd7e")
 		(property "Reference" "TP12"
-			(at 308.61 376.4279 0)
+			(at 269.24 376.4279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28537,7 +28505,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 308.61 378.9679 0)
+			(at 269.24 378.9679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28546,7 +28514,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 311.15 381 0)
+			(at 271.78 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28555,7 +28523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 311.15 381 0)
+			(at 271.78 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28564,7 +28532,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 306.07 381 0)
+			(at 266.7 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)

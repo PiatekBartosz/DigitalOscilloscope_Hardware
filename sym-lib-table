@@ -3,4 +3,5 @@
   (lib (name "NUCLEO232ZG")(type "KiCad")(uri "${KIPRJMOD}/Components/NUCLEOH723ZG/NUCLEOH723ZG.kicad_sym")(options "")(descr ""))
   (lib (name "TX2SA-5V")(type "KiCad")(uri "/home/bartek/workspace/DigitalOscilloscope/DigitalOscilloscope_Hardware/Components/ul_TX2SA-5V/KiCADv6/2025-11-29_15-05-29.kicad_sym")(options "")(descr ""))
   (lib (name "BAV199_LOCAL")(type "KiCad")(uri "${KIPRJMOD}/Components/BAV199/Diode.kicad_sym")(options "")(descr ""))
+  (lib (name "AGQ200A4H")(type "KiCad")(uri "${KIPRJMOD}/Components/ul_AGQ200A4HZ/KiCADv6/2025-12-15_23-24-22.kicad_sym")(options "")(descr ""))
 )
