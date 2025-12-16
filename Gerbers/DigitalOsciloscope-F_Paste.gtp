@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6-9.0.6~ubuntu24.04.1*%
-%TF.CreationDate,2025-12-16T01:58:26+01:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
+%TF.CreationDate,2025-12-16T12:57:00+01:00*%
 %TF.ProjectId,DigitalOsciloscope,44696769-7461-46c4-9f73-63696c6f7363,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.6-9.0.6~ubuntu24.04.1) date 2025-12-16 01:58:26*
+G04 Created by KiCad (PCBNEW 9.0.0) date 2025-12-16 12:57:00*
 %MOMM*%
 %LPD*%
 G01*
@@ -171,8 +171,8 @@ X233300000Y-79250000D03*
 %TD*%
 D14*
 %TO.C,R18*%
-X154262500Y-57500000D03*
 X156087500Y-57500000D03*
+X154262500Y-57500000D03*
 %TD*%
 D11*
 %TO.C,C151*%
@@ -361,6 +361,10 @@ X173140000Y-84912500D03*
 %TO.C,C138*%
 X175150000Y-123350000D03*
 X175150000Y-125250000D03*
+%TD*%
+D26*
+%TO.C,TP11*%
+X149700000Y-115650000D03*
 %TD*%
 D23*
 %TO.C,R5*%
@@ -2206,9 +2210,5 @@ D12*
 %TO.C,R68*%
 X191200000Y-194187500D03*
 X191200000Y-196012500D03*
-%TD*%
-D26*
-%TO.C,TP11*%
-X149700000Y-115650000D03*
 %TD*%
 M02*
